@@ -1,0 +1,7 @@
+{
+  "baseline": "baseline",
+  "always_drift": "drift",
+  "always_random": "random",
+  "guarded_drift": "baseline",
+  "guarded_fallback": "random"
+}

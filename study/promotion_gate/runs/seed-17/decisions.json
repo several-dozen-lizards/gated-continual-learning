@@ -1,0 +1,32 @@
+{
+  "drift": {
+    "promote": true,
+    "reason": "improvement_without_loss",
+    "gains": [
+      {
+        "name": "Pearl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Pearl",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ],
+    "losses": []
+  },
+  "random": {
+    "promote": true,
+    "reason": "improvement_without_loss",
+    "gains": [
+      {
+        "name": "Pearl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Pearl",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ],
+    "losses": []
+  }
+}

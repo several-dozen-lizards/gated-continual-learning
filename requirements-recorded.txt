@@ -1,0 +1,10 @@
+# Recorded study environment, not a universal hardware-independent install lock.
+# Install CUDA-enabled PyTorch appropriate for your GPU separately.
+# Original torch version: 2.13.0+cu130
+transformers==5.13.1
+peft==0.19.1
+accelerate==1.15.0
+bitsandbytes==0.49.2
+huggingface_hub
+safetensors
+matplotlib

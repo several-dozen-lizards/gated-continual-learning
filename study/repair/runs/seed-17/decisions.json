@@ -1,0 +1,449 @@
+{
+  "dynamic": {
+    "initial": {
+      "red": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "blue": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "green": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "gold": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      }
+    },
+    "decisions": {
+      "red": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "blue": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "green": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "gold": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      }
+    },
+    "selected": [
+      {
+        "id": "candidate-red",
+        "name": "Opal",
+        "color": "red",
+        "relevant": true
+      }
+    ],
+    "receipts": [
+      {
+        "event": {
+          "kind": "withdraw_origin",
+          "origin": "apparently-independent-e016-a",
+          "reason": "controlled audit invalidated supporting report"
+        },
+        "before": {
+          "red": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "blue": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          }
+        },
+        "after": {
+          "red": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        }
+      },
+      {
+        "event": {
+          "kind": "withdraw_origin",
+          "origin": "apparently-independent-e016-b",
+          "reason": "controlled audit invalidated supporting report"
+        },
+        "before": {
+          "red": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        },
+        "after": {
+          "red": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        }
+      },
+      {
+        "event": {
+          "kind": "vote",
+          "id": "repair-a",
+          "name": "Opal",
+          "color": "red",
+          "source": "replacement-a"
+        },
+        "before": {
+          "red": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "red": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        }
+      },
+      {
+        "event": {
+          "kind": "vote",
+          "id": "repair-b",
+          "name": "Opal",
+          "color": "red",
+          "source": "replacement-b"
+        },
+        "before": {
+          "red": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        },
+        "after": {
+          "red": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          },
+          "blue": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "green": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "gold": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          }
+        }
+      }
+    ],
+    "ledger": [
+      {
+        "id": "old-Amber",
+        "name": "Amber",
+        "color": "gold",
+        "relevant": true
+      },
+      {
+        "id": "old-Beryl",
+        "name": "Beryl",
+        "color": "blue",
+        "relevant": true
+      },
+      {
+        "id": "old-Coral",
+        "name": "Coral",
+        "color": "red",
+        "relevant": true
+      },
+      {
+        "id": "old-Flint",
+        "name": "Flint",
+        "color": "red",
+        "relevant": true
+      },
+      {
+        "id": "e000",
+        "name": "Garnet",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e002",
+        "name": "Jasper",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e003",
+        "name": "Onyx",
+        "color": "blue",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "candidate-red",
+        "name": "Opal",
+        "color": "red",
+        "relevant": true
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e006",
+        "name": "Quartz",
+        "color": "blue",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e007",
+        "name": "Ruby",
+        "color": "gold",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      }
+    ]
+  },
+  "sham": {
+    "initial": {
+      "red": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "blue": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "green": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "gold": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      }
+    },
+    "decisions": {
+      "red": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "blue": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "green": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "gold": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      }
+    },
+    "selected": [
+      {
+        "id": "candidate-blue",
+        "name": "Opal",
+        "color": "blue",
+        "relevant": true
+      }
+    ],
+    "receipts": [],
+    "ledger": [
+      {
+        "id": "old-Amber",
+        "name": "Amber",
+        "color": "gold",
+        "relevant": true
+      },
+      {
+        "id": "old-Beryl",
+        "name": "Beryl",
+        "color": "blue",
+        "relevant": true
+      },
+      {
+        "id": "old-Coral",
+        "name": "Coral",
+        "color": "red",
+        "relevant": true
+      },
+      {
+        "id": "old-Flint",
+        "name": "Flint",
+        "color": "red",
+        "relevant": true
+      },
+      {
+        "id": "e000",
+        "name": "Garnet",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e002",
+        "name": "Jasper",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e003",
+        "name": "Onyx",
+        "color": "blue",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "candidate-blue",
+        "name": "Opal",
+        "color": "blue",
+        "relevant": true
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e006",
+        "name": "Quartz",
+        "color": "blue",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e007",
+        "name": "Ruby",
+        "color": "gold",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      }
+    ]
+  }
+}

@@ -1,0 +1,328 @@
+{
+  "before": {
+    "probabilities": {
+      "Amber": [
+        0.9999991655349731,
+        0.9999982118606567
+      ],
+      "Beryl": [
+        0.9999974966049194,
+        0.9999960660934448
+      ],
+      "Coral": [
+        1.0,
+        1.0
+      ],
+      "Flint": [
+        1.0,
+        1.0
+      ],
+      "Garnet": [
+        1.0,
+        1.0
+      ],
+      "Jade": [
+        1.0,
+        1.0
+      ],
+      "Jasper": [
+        1.0,
+        1.0
+      ],
+      "Onyx": [
+        0.9999977350234985,
+        0.9999970197677612
+      ],
+      "Opal": [
+        1.0,
+        1.0
+      ],
+      "Pearl": [
+        0.9999654293060303,
+        0.9999426603317261
+      ],
+      "Quartz": [
+        0.9999991655349731,
+        0.9999994039535522
+      ],
+      "Ruby": [
+        0.9998447895050049,
+        0.9994472861289978
+      ],
+      "Cedar": [
+        0.9999874830245972,
+        0.9999490976333618
+      ],
+      "Maple": [
+        0.9999997615814209,
+        0.9999997615814209
+      ],
+      "Willow": [
+        1.0,
+        1.0
+      ],
+      "Birch": [
+        0.9999998807907104,
+        0.9999994039535522
+      ]
+    },
+    "seconds": 7.226316100015538,
+    "input_tokens": 696,
+    "forward_passes": 32
+  },
+  "after": {
+    "probabilities": {
+      "Amber": [
+        1.0,
+        1.0
+      ],
+      "Beryl": [
+        1.0,
+        1.0
+      ],
+      "Coral": [
+        0.999996542930603,
+        0.9999960660934448
+      ],
+      "Flint": [
+        0.9999904632568359,
+        0.9999936819076538
+      ],
+      "Garnet": [
+        0.999998927116394,
+        0.9999992847442627
+      ],
+      "Jade": [
+        0.9999462366104126,
+        0.9998971223831177
+      ],
+      "Jasper": [
+        0.999947190284729,
+        0.9998509883880615
+      ],
+      "Onyx": [
+        1.0,
+        1.0
+      ],
+      "Opal": [
+        0.9999929666519165,
+        0.9999880790710449
+      ],
+      "Pearl": [
+        0.0012158432509750128,
+        0.004446852020919323
+      ],
+      "Quartz": [
+        1.0,
+        1.0
+      ],
+      "Ruby": [
+        0.9999966621398926,
+        0.9999997615814209
+      ],
+      "Cedar": [
+        0.9999983310699463,
+        0.9999939203262329
+      ],
+      "Maple": [
+        1.0,
+        1.0
+      ],
+      "Willow": [
+        0.9999982118606567,
+        0.9999960660934448
+      ],
+      "Birch": [
+        1.0,
+        0.9999998807907104
+      ]
+    },
+    "seconds": 7.339617299992824,
+    "input_tokens": 696,
+    "forward_passes": 32
+  },
+  "ranking": {
+    "ranking": [
+      {
+        "name": "Pearl",
+        "before_nll": 4.595630190274421e-05,
+        "after_nll": 6.063938126680982,
+        "delta_nll": 6.06389217037908,
+        "score": 6.06389217037908
+      },
+      {
+        "name": "Jasper",
+        "before_nll": 0.0,
+        "after_nll": 0.00010091691251242908,
+        "delta_nll": 0.00010091691251242908,
+        "score": 0.00010091691251242908
+      },
+      {
+        "name": "Jade",
+        "before_nll": 0.0,
+        "after_nll": 7.832387201878044e-05,
+        "delta_nll": 7.832387201878044e-05,
+        "score": 7.832387201878044e-05
+      },
+      {
+        "name": "Opal",
+        "before_nll": 0.0,
+        "after_nll": 9.477186413760548e-06,
+        "delta_nll": 9.477186413760548e-06,
+        "score": 9.477186413760548e-06
+      },
+      {
+        "name": "Flint",
+        "before_nll": 0.0,
+        "after_nll": 7.927450472253817e-06,
+        "delta_nll": 7.927450472253817e-06,
+        "score": 7.927450472253817e-06
+      },
+      {
+        "name": "Coral",
+        "before_nll": 0.0,
+        "after_nll": 3.695494832828652e-06,
+        "delta_nll": 3.695494832828652e-06,
+        "score": 3.695494832828652e-06
+      },
+      {
+        "name": "Willow",
+        "before_nll": 0.0,
+        "after_nll": 2.8610276174956235e-06,
+        "delta_nll": 2.8610276174956235e-06,
+        "score": 2.8610276174956235e-06
+      },
+      {
+        "name": "Garnet",
+        "before_nll": 0.0,
+        "after_nll": 8.940700872986266e-07,
+        "delta_nll": 8.940700872986266e-07,
+        "score": 8.940700872986266e-07
+      },
+      {
+        "name": "Amber",
+        "before_nll": 1.3113031585031914e-06,
+        "after_nll": 0.0,
+        "delta_nll": -1.3113031585031914e-06,
+        "score": 0
+      },
+      {
+        "name": "Beryl",
+        "before_nll": 3.2186562535357837e-06,
+        "after_nll": 0.0,
+        "delta_nll": -3.2186562535357837e-06,
+        "score": 0
+      },
+      {
+        "name": "Birch",
+        "before_nll": 3.57627961022935e-07,
+        "after_nll": 5.960464832810458e-08,
+        "delta_nll": -2.980233126948304e-07,
+        "score": 0
+      },
+      {
+        "name": "Cedar",
+        "before_nll": 3.171035797421792e-05,
+        "after_nll": 3.8743118473787785e-06,
+        "delta_nll": -2.7836046126839143e-05,
+        "score": 0
+      },
+      {
+        "name": "Maple",
+        "before_nll": 2.3841860752327643e-07,
+        "after_nll": 0.0,
+        "delta_nll": -2.3841860752327643e-07,
+        "score": 0
+      },
+      {
+        "name": "Onyx",
+        "before_nll": 2.622607873099223e-06,
+        "after_nll": 0.0,
+        "delta_nll": -2.622607873099223e-06,
+        "score": 0
+      },
+      {
+        "name": "Quartz",
+        "before_nll": 7.152560002056319e-07,
+        "after_nll": 0.0,
+        "delta_nll": -7.152560002056319e-07,
+        "score": 0
+      },
+      {
+        "name": "Ruby",
+        "before_nll": 0.00035404460750548556,
+        "after_nll": 1.788142142806298e-06,
+        "delta_nll": -0.0003522564653626793,
+        "score": 0
+      }
+    ],
+    "selected_names": [
+      "Pearl",
+      "Jasper",
+      "Jade",
+      "Opal"
+    ]
+  },
+  "selected": [
+    {
+      "id": "e001",
+      "name": "Jade",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "candidate-red",
+      "name": "Opal",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    }
+  ],
+  "random": [
+    {
+      "id": "old-Flint",
+      "name": "Flint",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "e000",
+      "name": "Garnet",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "wave-1-Willow",
+      "name": "Willow",
+      "color": "red",
+      "relevant": true
+    }
+  ]
+}

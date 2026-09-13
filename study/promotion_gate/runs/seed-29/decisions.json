@@ -1,0 +1,101 @@
+{
+  "drift": {
+    "promote": false,
+    "reason": "collateral_loss",
+    "gains": [
+      {
+        "name": "Amber",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Amber",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Beryl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Pearl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Pearl",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Cedar",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Cedar",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Maple",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ],
+    "losses": [
+      {
+        "name": "Garnet",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Opal",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Opal",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Birch",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ]
+  },
+  "random": {
+    "promote": true,
+    "reason": "improvement_without_loss",
+    "gains": [
+      {
+        "name": "Amber",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Amber",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Beryl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Beryl",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Pearl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Pearl",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Cedar",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Cedar",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Maple",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ],
+    "losses": []
+  }
+}

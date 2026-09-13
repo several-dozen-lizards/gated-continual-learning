@@ -1,0 +1,5763 @@
+{
+  "dynamic": {
+    "decisions": {
+      "e017": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "e019": {
+        "route": "informational",
+        "probability": 0.6999999999999998
+      },
+      "e014": {
+        "route": "informational",
+        "probability": 0.6999999999999998
+      },
+      "e011": {
+        "route": "informational",
+        "probability": 0.6999999999999998
+      },
+      "e012": {
+        "route": "informational",
+        "probability": 0.6999999999999998
+      },
+      "e010": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e013": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "e015": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e016": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e008": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e009": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "e005": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "e018": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e001": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      }
+    },
+    "receipts": [
+      {
+        "event_id": "v061",
+        "name": "Beryl",
+        "origin": "apparently-independent-e009-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v050",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v056",
+        "name": "Opal",
+        "origin": "origin-e016-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v031",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v024",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v018",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v038",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v011",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v059",
+        "name": "Amber",
+        "origin": "origin-e008-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v000",
+        "name": "Pearl",
+        "origin": "independent-e005-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v003",
+        "name": "Jade",
+        "origin": "independent-e001-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.6999999999999998
+        }
+      },
+      {
+        "event_id": "v034",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v052",
+        "name": "Coral",
+        "origin": "origin-e010-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.6999999999999998
+        }
+      },
+      {
+        "event_id": "v013",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v005",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v012",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v019",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v046",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v057",
+        "name": "Opal",
+        "origin": "origin-e016-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.43749999999999994,
+          "green": 0.06250000000000004,
+          "gold": 0.06250000000000004
+        }
+      },
+      {
+        "event_id": "v054",
+        "name": "Onyx",
+        "origin": "origin-e015-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v014",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v007",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v051",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v023",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v043",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v010",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v060",
+        "name": "Beryl",
+        "origin": "apparently-independent-e009-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e009": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.9423076923076923,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v001",
+        "name": "Pearl",
+        "origin": "independent-e005-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "e005": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.9423076923076923,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v033",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v021",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v025",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v004",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v002",
+        "name": "Jade",
+        "origin": "independent-e001-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "e001": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.019230769230769256,
+          "green": 0.019230769230769256,
+          "gold": 0.9423076923076923
+        }
+      },
+      {
+        "event_id": "v037",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v020",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v049",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v047",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v028",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v006",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v053",
+        "name": "Coral",
+        "origin": "origin-e010-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.06250000000000004,
+          "green": 0.06250000000000004,
+          "gold": 0.43749999999999994
+        }
+      },
+      {
+        "event_id": "v017",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v027",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v022",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v048",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v044",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v009",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v032",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v016",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v029",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v040",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v008",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v026",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v041",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v055",
+        "name": "Onyx",
+        "origin": "origin-e015-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.43749999999999994,
+          "green": 0.06250000000000004,
+          "gold": 0.06250000000000004
+        }
+      },
+      {
+        "event_id": "v045",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v035",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v036",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v058",
+        "name": "Amber",
+        "origin": "origin-e008-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        },
+        "after": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.06250000000000004,
+          "green": 0.06250000000000004,
+          "gold": 0.43749999999999994
+        }
+      },
+      {
+        "event_id": "v042",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v015",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v039",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v030",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "e009",
+        "name": "Beryl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      }
+    ]
+  },
+  "sham": {
+    "decisions": {
+      "e017": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e019": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e014": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e011": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e012": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e010": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e013": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e015": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e016": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e008": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e009": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e005": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e018": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e001": {
+        "route": "informational",
+        "probability": 0.25
+      }
+    },
+    "receipts": [
+      {
+        "event_id": "v061",
+        "name": "Beryl",
+        "origin": "apparently-independent-e009-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v050",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v056",
+        "name": "Opal",
+        "origin": "origin-e016-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v031",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v024",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v018",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v038",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v011",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v059",
+        "name": "Amber",
+        "origin": "origin-e008-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v000",
+        "name": "Pearl",
+        "origin": "independent-e005-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v003",
+        "name": "Jade",
+        "origin": "independent-e001-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v034",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v052",
+        "name": "Coral",
+        "origin": "origin-e010-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v013",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v005",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v012",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v019",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v046",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v057",
+        "name": "Opal",
+        "origin": "origin-e016-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v054",
+        "name": "Onyx",
+        "origin": "origin-e015-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v014",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v007",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v051",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v023",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v043",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v010",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v060",
+        "name": "Beryl",
+        "origin": "apparently-independent-e009-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v001",
+        "name": "Pearl",
+        "origin": "independent-e005-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v033",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v021",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v025",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v004",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v002",
+        "name": "Jade",
+        "origin": "independent-e001-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v037",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v020",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v049",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v047",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v028",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v006",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v053",
+        "name": "Coral",
+        "origin": "origin-e010-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v017",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v027",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v022",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v048",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v044",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v009",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v032",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v016",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v029",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v040",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v008",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v026",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v041",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v055",
+        "name": "Onyx",
+        "origin": "origin-e015-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v045",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v035",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v036",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v058",
+        "name": "Amber",
+        "origin": "origin-e008-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v042",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v015",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v039",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      },
+      {
+        "event_id": "v030",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "posterior": {
+          "red": 0.25,
+          "blue": 0.25,
+          "green": 0.25,
+          "gold": 0.25
+        }
+      }
+    ],
+    "selected": []
+  },
+  "naive": {
+    "decisions": {
+      "e017": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "e019": {
+        "route": "formative",
+        "probability": 0.9999999997832572
+      },
+      "e014": {
+        "route": "formative",
+        "probability": 0.9999999997832572
+      },
+      "e011": {
+        "route": "formative",
+        "probability": 0.9999999997832572
+      },
+      "e012": {
+        "route": "formative",
+        "probability": 0.9999999997832572
+      },
+      "e010": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e013": {
+        "route": "informational",
+        "probability": 0.019230769230769256
+      },
+      "e015": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e016": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e008": {
+        "route": "informational",
+        "probability": 0.43749999999999994
+      },
+      "e009": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "e005": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      },
+      "e018": {
+        "route": "informational",
+        "probability": 0.25
+      },
+      "e001": {
+        "route": "formative",
+        "probability": 0.9423076923076923
+      }
+    },
+    "receipts": [
+      {
+        "event_id": "v061",
+        "name": "Beryl",
+        "origin": "apparently-independent-e009-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v050",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v056",
+        "name": "Opal",
+        "origin": "origin-e016-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v031",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.6999999999999998,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v024",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v018",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.9423076923076923,
+          "blue": 0.019230769230769256,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v038",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.019230769230769256,
+          "green": 0.9423076923076923,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v011",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v059",
+        "name": "Amber",
+        "origin": "origin-e008-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v000",
+        "name": "Pearl",
+        "origin": "independent-e005-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.6999999999999998,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v003",
+        "name": "Jade",
+        "origin": "independent-e001-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.25
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.6999999999999998
+        }
+      },
+      {
+        "event_id": "v034",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "posterior": {
+          "red": 0.0028901734104046306,
+          "blue": 0.0028901734104046306,
+          "green": 0.991329479768786,
+          "gold": 0.0028901734104046306
+        }
+      },
+      {
+        "event_id": "v052",
+        "name": "Coral",
+        "origin": "origin-e010-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.10000000000000003,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.6999999999999998
+        }
+      },
+      {
+        "event_id": "v013",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.9423076923076923,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v005",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "posterior": {
+          "red": 0.0028901734104046306,
+          "blue": 0.991329479768786,
+          "green": 0.0028901734104046306,
+          "gold": 0.0028901734104046306
+        }
+      },
+      {
+        "event_id": "v012",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "posterior": {
+          "red": 0.00041597337770382816,
+          "blue": 0.9987520798668885,
+          "green": 0.00041597337770382816,
+          "gold": 0.00041597337770382816
+        }
+      },
+      {
+        "event_id": "v019",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "posterior": {
+          "red": 0.991329479768786,
+          "blue": 0.0028901734104046306,
+          "green": 0.0028901734104046306,
+          "gold": 0.0028901734104046306
+        }
+      },
+      {
+        "event_id": "v046",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.9423076923076923,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v057",
+        "name": "Opal",
+        "origin": "origin-e016-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e016": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.43749999999999994,
+          "green": 0.06250000000000004,
+          "gold": 0.06250000000000004
+        }
+      },
+      {
+        "event_id": "v054",
+        "name": "Onyx",
+        "origin": "origin-e015-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.25
+          }
+        },
+        "after": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "posterior": {
+          "red": 0.6999999999999998,
+          "blue": 0.10000000000000003,
+          "green": 0.10000000000000003,
+          "gold": 0.10000000000000003
+        }
+      },
+      {
+        "event_id": "v014",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "posterior": {
+          "red": 5.9488399762046664e-05,
+          "blue": 0.9998215348007138,
+          "green": 5.9488399762046664e-05,
+          "gold": 5.9488399762046664e-05
+        }
+      },
+      {
+        "event_id": "v007",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "posterior": {
+          "red": 8.499643014993406e-06,
+          "blue": 0.999974501070955,
+          "green": 8.499643014993406e-06,
+          "gold": 8.499643014993406e-06
+        }
+      },
+      {
+        "event_id": "v051",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "posterior": {
+          "red": 0.0028901734104046306,
+          "blue": 0.991329479768786,
+          "green": 0.0028901734104046306,
+          "gold": 0.0028901734104046306
+        }
+      },
+      {
+        "event_id": "v023",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "posterior": {
+          "red": 0.9987520798668885,
+          "blue": 0.00041597337770382816,
+          "green": 0.00041597337770382816,
+          "gold": 0.00041597337770382816
+        }
+      },
+      {
+        "event_id": "v043",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "posterior": {
+          "red": 0.00041597337770382816,
+          "blue": 0.9987520798668885,
+          "green": 0.00041597337770382816,
+          "gold": 0.00041597337770382816
+        }
+      },
+      {
+        "event_id": "v010",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "posterior": {
+          "red": 1.214261255594714e-06,
+          "blue": 0.9999963572162333,
+          "green": 1.214261255594714e-06,
+          "gold": 1.214261255594714e-06
+        }
+      },
+      {
+        "event_id": "v060",
+        "name": "Beryl",
+        "origin": "apparently-independent-e009-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e009": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e009": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.9423076923076923,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v001",
+        "name": "Pearl",
+        "origin": "independent-e005-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e005": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e017": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "e005": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.9423076923076923,
+          "green": 0.019230769230769256,
+          "gold": 0.019230769230769256
+        }
+      },
+      {
+        "event_id": "v033",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.991329479768786
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "posterior": {
+          "red": 0.00041597337770382816,
+          "blue": 0.00041597337770382816,
+          "green": 0.9987520798668885,
+          "gold": 0.00041597337770382816
+        }
+      },
+      {
+        "event_id": "v021",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "posterior": {
+          "red": 0.9998215348007138,
+          "blue": 5.9488399762046664e-05,
+          "green": 5.9488399762046664e-05,
+          "gold": 5.9488399762046664e-05
+        }
+      },
+      {
+        "event_id": "v025",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "posterior": {
+          "red": 0.999974501070955,
+          "blue": 8.499643014993406e-06,
+          "green": 8.499643014993406e-06,
+          "gold": 8.499643014993406e-06
+        }
+      },
+      {
+        "event_id": "v004",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "posterior": {
+          "red": 1.7346643528557124e-07,
+          "blue": 0.999999479600694,
+          "green": 1.7346643528557124e-07,
+          "gold": 1.7346643528557124e-07
+        }
+      },
+      {
+        "event_id": "v002",
+        "name": "Jade",
+        "origin": "independent-e001-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          },
+          "e001": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e013": {
+            "route": "informational",
+            "probability": 0.019230769230769256
+          },
+          "e001": {
+            "route": "formative",
+            "probability": 0.9423076923076923
+          }
+        },
+        "posterior": {
+          "red": 0.019230769230769256,
+          "blue": 0.019230769230769256,
+          "green": 0.019230769230769256,
+          "gold": 0.9423076923076923
+        }
+      },
+      {
+        "event_id": "v037",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "posterior": {
+          "red": 5.9488399762046664e-05,
+          "blue": 5.9488399762046664e-05,
+          "green": 0.9998215348007138,
+          "gold": 5.9488399762046664e-05
+        }
+      },
+      {
+        "event_id": "v020",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "posterior": {
+          "red": 0.9999963572162333,
+          "blue": 1.214261255594714e-06,
+          "green": 1.214261255594714e-06,
+          "gold": 1.214261255594714e-06
+        }
+      },
+      {
+        "event_id": "v049",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9987520798668885
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "posterior": {
+          "red": 5.9488399762046664e-05,
+          "blue": 0.9998215348007138,
+          "green": 5.9488399762046664e-05,
+          "gold": 5.9488399762046664e-05
+        }
+      },
+      {
+        "event_id": "v047",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "posterior": {
+          "red": 8.499643014993406e-06,
+          "blue": 0.999974501070955,
+          "green": 8.499643014993406e-06,
+          "gold": 8.499643014993406e-06
+        }
+      },
+      {
+        "event_id": "v028",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9998215348007138
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "posterior": {
+          "red": 8.499643014993406e-06,
+          "blue": 8.499643014993406e-06,
+          "green": 0.999974501070955,
+          "gold": 8.499643014993406e-06
+        }
+      },
+      {
+        "event_id": "v006",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "posterior": {
+          "red": 2.478093038020639e-08,
+          "blue": 0.999999925657209,
+          "green": 2.478093038020639e-08,
+          "gold": 2.478093038020639e-08
+        }
+      },
+      {
+        "event_id": "v053",
+        "name": "Coral",
+        "origin": "origin-e010-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e010": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.06250000000000004,
+          "green": 0.06250000000000004,
+          "gold": 0.43749999999999994
+        }
+      },
+      {
+        "event_id": "v017",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "posterior": {
+          "red": 0.999999479600694,
+          "blue": 1.7346643528557124e-07,
+          "green": 1.7346643528557124e-07,
+          "gold": 1.7346643528557124e-07
+        }
+      },
+      {
+        "event_id": "v027",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "posterior": {
+          "red": 0.999999925657209,
+          "blue": 2.478093038020639e-08,
+          "green": 2.478093038020639e-08,
+          "gold": 2.478093038020639e-08
+        }
+      },
+      {
+        "event_id": "v022",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "posterior": {
+          "red": 0.9999999893796007,
+          "blue": 3.5401331370438147e-09,
+          "green": 3.5401331370438147e-09,
+          "gold": 3.5401331370438147e-09
+        }
+      },
+      {
+        "event_id": "v048",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "posterior": {
+          "red": 1.214261255594714e-06,
+          "blue": 0.9999963572162333,
+          "green": 1.214261255594714e-06,
+          "gold": 1.214261255594714e-06
+        }
+      },
+      {
+        "event_id": "v044",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "posterior": {
+          "red": 1.7346643528557124e-07,
+          "blue": 0.999999479600694,
+          "green": 1.7346643528557124e-07,
+          "gold": 1.7346643528557124e-07
+        }
+      },
+      {
+        "event_id": "v009",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "posterior": {
+          "red": 3.5401331370438147e-09,
+          "blue": 0.9999999893796007,
+          "green": 3.5401331370438147e-09,
+          "gold": 3.5401331370438147e-09
+        }
+      },
+      {
+        "event_id": "v032",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.999974501070955
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "posterior": {
+          "red": 1.214261255594714e-06,
+          "blue": 1.214261255594714e-06,
+          "green": 0.9999963572162333,
+          "gold": 1.214261255594714e-06
+        }
+      },
+      {
+        "event_id": "v016",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "posterior": {
+          "red": 0.9999999984828001,
+          "blue": 5.057333098957638e-10,
+          "green": 5.057333098957638e-10,
+          "gold": 5.057333098957638e-10
+        }
+      },
+      {
+        "event_id": "v029",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999963572162333
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "posterior": {
+          "red": 1.7346643528557124e-07,
+          "blue": 1.7346643528557124e-07,
+          "green": 0.999999479600694,
+          "gold": 1.7346643528557124e-07
+        }
+      },
+      {
+        "event_id": "v040",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "posterior": {
+          "red": 2.478093038020639e-08,
+          "blue": 0.999999925657209,
+          "green": 2.478093038020639e-08,
+          "gold": 2.478093038020639e-08
+        }
+      },
+      {
+        "event_id": "v008",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "posterior": {
+          "red": 5.057333098957638e-10,
+          "blue": 0.9999999984828001,
+          "green": 5.057333098957638e-10,
+          "gold": 5.057333098957638e-10
+        }
+      },
+      {
+        "event_id": "v026",
+        "name": "Jasper",
+        "origin": "one-origin-e014",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "after": {
+          "e014": {
+            "route": "formative",
+            "probability": 0.9999999997832572
+          }
+        },
+        "posterior": {
+          "red": 0.9999999997832572,
+          "blue": 7.22476157933496e-11,
+          "green": 7.22476157933496e-11,
+          "gold": 7.22476157933496e-11
+        }
+      },
+      {
+        "event_id": "v041",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "posterior": {
+          "red": 3.5401331370438147e-09,
+          "blue": 0.9999999893796007,
+          "green": 3.5401331370438147e-09,
+          "gold": 3.5401331370438147e-09
+        }
+      },
+      {
+        "event_id": "v055",
+        "name": "Onyx",
+        "origin": "origin-e015-b",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.6999999999999998
+          }
+        },
+        "after": {
+          "e015": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.43749999999999994,
+          "green": 0.06250000000000004,
+          "gold": 0.06250000000000004
+        }
+      },
+      {
+        "event_id": "v045",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "posterior": {
+          "red": 5.057333098957638e-10,
+          "blue": 0.9999999984828001,
+          "green": 5.057333098957638e-10,
+          "gold": 5.057333098957638e-10
+        }
+      },
+      {
+        "event_id": "v035",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.999999479600694
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "posterior": {
+          "red": 2.478093038020639e-08,
+          "blue": 2.478093038020639e-08,
+          "green": 0.999999925657209,
+          "gold": 2.478093038020639e-08
+        }
+      },
+      {
+        "event_id": "v036",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.999999925657209
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "posterior": {
+          "red": 3.5401331370438147e-09,
+          "blue": 3.5401331370438147e-09,
+          "green": 0.9999999893796007,
+          "gold": 3.5401331370438147e-09
+        }
+      },
+      {
+        "event_id": "v058",
+        "name": "Amber",
+        "origin": "origin-e008-a",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.10000000000000003
+          }
+        },
+        "after": {
+          "e008": {
+            "route": "informational",
+            "probability": 0.43749999999999994
+          }
+        },
+        "posterior": {
+          "red": 0.43749999999999994,
+          "blue": 0.06250000000000004,
+          "green": 0.06250000000000004,
+          "gold": 0.43749999999999994
+        }
+      },
+      {
+        "event_id": "v042",
+        "name": "Garnet",
+        "origin": "one-origin-e012",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "after": {
+          "e012": {
+            "route": "formative",
+            "probability": 0.9999999997832572
+          }
+        },
+        "posterior": {
+          "red": 7.22476157933496e-11,
+          "blue": 0.9999999997832572,
+          "green": 7.22476157933496e-11,
+          "gold": 7.22476157933496e-11
+        }
+      },
+      {
+        "event_id": "v015",
+        "name": "Ruby",
+        "origin": "one-origin-e019",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "after": {
+          "e019": {
+            "route": "formative",
+            "probability": 0.9999999997832572
+          }
+        },
+        "posterior": {
+          "red": 7.22476157933496e-11,
+          "blue": 0.9999999997832572,
+          "green": 7.22476157933496e-11,
+          "gold": 7.22476157933496e-11
+        }
+      },
+      {
+        "event_id": "v039",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999999893796007
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "posterior": {
+          "red": 5.057333098957638e-10,
+          "blue": 5.057333098957638e-10,
+          "green": 0.9999999984828001,
+          "gold": 5.057333098957638e-10
+        }
+      },
+      {
+        "event_id": "v030",
+        "name": "Flint",
+        "origin": "one-origin-e011",
+        "reliability": {
+          "alpha": 14,
+          "beta": 6,
+          "mean": 0.7,
+          "audits": 16
+        },
+        "before": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999999984828001
+          }
+        },
+        "after": {
+          "e011": {
+            "route": "formative",
+            "probability": 0.9999999997832572
+          }
+        },
+        "posterior": {
+          "red": 7.22476157933496e-11,
+          "blue": 7.22476157933496e-11,
+          "green": 0.9999999997832572,
+          "gold": 7.22476157933496e-11
+        }
+      }
+    ],
+    "selected": [
+      {
+        "id": "e019",
+        "name": "Ruby",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e014",
+        "name": "Jasper",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e011",
+        "name": "Flint",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e012",
+        "name": "Garnet",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e009",
+        "name": "Beryl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      }
+    ]
+  }
+}

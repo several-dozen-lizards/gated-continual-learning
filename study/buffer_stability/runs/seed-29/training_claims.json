@@ -1,0 +1,860 @@
+{
+  "none": [
+    {
+      "wave": 1,
+      "updates": [
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        }
+      ],
+      "buffer": [],
+      "training": [
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "updates": [
+        {
+          "id": "wave-2-Aspen",
+          "name": "Aspen",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Hazel",
+          "name": "Hazel",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Alder",
+          "name": "Alder",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Linden",
+          "name": "Linden",
+          "color": "red",
+          "relevant": true
+        }
+      ],
+      "buffer": [],
+      "training": [
+        {
+          "id": "wave-2-Aspen",
+          "name": "Aspen",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Hazel",
+          "name": "Hazel",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Alder",
+          "name": "Alder",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Linden",
+          "name": "Linden",
+          "color": "red",
+          "relevant": true
+        }
+      ]
+    }
+  ],
+  "small": [
+    {
+      "wave": 1,
+      "updates": [
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        }
+      ],
+      "buffer": [
+        {
+          "id": "old-Amber",
+          "name": "Amber",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        }
+      ],
+      "training": [
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "old-Amber",
+          "name": "Amber",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "updates": [
+        {
+          "id": "wave-2-Aspen",
+          "name": "Aspen",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Hazel",
+          "name": "Hazel",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Alder",
+          "name": "Alder",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Linden",
+          "name": "Linden",
+          "color": "red",
+          "relevant": true
+        }
+      ],
+      "buffer": [
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        }
+      ],
+      "training": [
+        {
+          "id": "wave-2-Aspen",
+          "name": "Aspen",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Hazel",
+          "name": "Hazel",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Alder",
+          "name": "Alder",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Linden",
+          "name": "Linden",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        }
+      ]
+    }
+  ],
+  "full": [
+    {
+      "wave": 1,
+      "updates": [
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        }
+      ],
+      "buffer": [
+        {
+          "id": "old-Amber",
+          "name": "Amber",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Beryl",
+          "name": "Beryl",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Coral",
+          "name": "Coral",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "old-Flint",
+          "name": "Flint",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e003",
+          "name": "Onyx",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "candidate-green",
+          "name": "Opal",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e005",
+          "name": "Pearl",
+          "color": "gold",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e006",
+          "name": "Quartz",
+          "color": "blue",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e007",
+          "name": "Ruby",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        }
+      ],
+      "training": [
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "old-Amber",
+          "name": "Amber",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Beryl",
+          "name": "Beryl",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Coral",
+          "name": "Coral",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "old-Flint",
+          "name": "Flint",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e003",
+          "name": "Onyx",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "candidate-green",
+          "name": "Opal",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e005",
+          "name": "Pearl",
+          "color": "gold",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e006",
+          "name": "Quartz",
+          "color": "blue",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e007",
+          "name": "Ruby",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        }
+      ]
+    },
+    {
+      "wave": 2,
+      "updates": [
+        {
+          "id": "wave-2-Aspen",
+          "name": "Aspen",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Hazel",
+          "name": "Hazel",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Alder",
+          "name": "Alder",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Linden",
+          "name": "Linden",
+          "color": "red",
+          "relevant": true
+        }
+      ],
+      "buffer": [
+        {
+          "id": "old-Amber",
+          "name": "Amber",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Beryl",
+          "name": "Beryl",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Coral",
+          "name": "Coral",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "old-Flint",
+          "name": "Flint",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "e003",
+          "name": "Onyx",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "candidate-green",
+          "name": "Opal",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e005",
+          "name": "Pearl",
+          "color": "gold",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e006",
+          "name": "Quartz",
+          "color": "blue",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e007",
+          "name": "Ruby",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        }
+      ],
+      "training": [
+        {
+          "id": "wave-2-Aspen",
+          "name": "Aspen",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Hazel",
+          "name": "Hazel",
+          "color": "blue",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Alder",
+          "name": "Alder",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-2-Linden",
+          "name": "Linden",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "old-Amber",
+          "name": "Amber",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Beryl",
+          "name": "Beryl",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Birch",
+          "name": "Birch",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "wave-1-Cedar",
+          "name": "Cedar",
+          "color": "gold",
+          "relevant": true
+        },
+        {
+          "id": "old-Coral",
+          "name": "Coral",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "old-Flint",
+          "name": "Flint",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e000",
+          "name": "Garnet",
+          "color": "green",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e001",
+          "name": "Jade",
+          "color": "green",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e002",
+          "name": "Jasper",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "wave-1-Maple",
+          "name": "Maple",
+          "color": "red",
+          "relevant": true
+        },
+        {
+          "id": "e003",
+          "name": "Onyx",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "candidate-green",
+          "name": "Opal",
+          "color": "green",
+          "relevant": true
+        },
+        {
+          "id": "e005",
+          "name": "Pearl",
+          "color": "gold",
+          "relevant": true,
+          "verified": false,
+          "source": "traveler"
+        },
+        {
+          "id": "e006",
+          "name": "Quartz",
+          "color": "blue",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "e007",
+          "name": "Ruby",
+          "color": "red",
+          "relevant": true,
+          "verified": true,
+          "source": "registry"
+        },
+        {
+          "id": "wave-1-Willow",
+          "name": "Willow",
+          "color": "blue",
+          "relevant": true
+        }
+      ]
+    }
+  ]
+}

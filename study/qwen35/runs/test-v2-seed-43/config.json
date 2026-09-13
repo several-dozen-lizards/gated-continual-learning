@@ -1,0 +1,13 @@
+{
+  "mode": "test",
+  "seed": 43,
+  "epochs": 20,
+  "lr": 0.0002,
+  "model": {
+    "repo": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "path": "${EXPERIMENT_ROOT}\\model_cache\\models--Qwen--Qwen3.5-2B\\snapshots\\15852e8c16360a2fea060d615a32b45270f8a8fc"
+  },
+  "protocol_sha256": "4d3878791d4f84d6f3d0082bdf674ceb5684dc32fc8c72bdacda21ec5d1988a8",
+  "world_sha256": "a024d29d45080a16ff6c4658f0b998bc8bace534c986f7260abf43baaa8a56d2"
+}

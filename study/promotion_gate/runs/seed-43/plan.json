@@ -1,0 +1,20 @@
+{
+  "frozen_at": "2026-09-13T19:19:50.268457+00:00",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "source_hashes": {
+    "runner.py": "ab3948ea09d40c653ebfda2e8805734357a0004731ee2b36be594ee6e47f337a",
+    "gate.py": "62d0760fa5167b97446f89099b114da6d7192727501dae925d4be31275815414",
+    "PROTOCOL.md": "19ed8c2b40c623a9fc4fb1cc717b8f96dd2b4f2a22fbdd481839f09d34ff1552",
+    "prepare.py": "e3e01b4008e9ac09f539ebc2d8248c5a71f45f28b2c6b6b8ceedb6a4ac3c21eb"
+  },
+  "fixtures": {
+    "17": "e34e89a75151a794418f5c7d1f60e85b59e83181553b0ddf4c0903f65166154a",
+    "29": "8a96b7694e792caf06e676e1c4ef43a4b6266e075de48338929f0f1fd2594f21",
+    "43": "532a2d3ca39bc8c13948157a77de913b879bb6ed2e2b38d7f5094d2bd0d072c6"
+  }
+}

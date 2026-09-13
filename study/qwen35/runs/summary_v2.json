@@ -1,0 +1,191 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "arms": {
+    "frozen": {
+      "accuracy_mean": 0.4583333333333333,
+      "accuracy_by_seed": [
+        0.4166666666666667,
+        0.4166666666666667,
+        0.5416666666666666
+      ],
+      "group_accuracy": {
+        "retention": 1.0,
+        "correction": 0.0,
+        "new": 0.375
+      },
+      "brier_mean": 1.0338488186698143,
+      "operational_seconds_mean": 0,
+      "arm_wall_seconds_mean": 5.962813200002226,
+      "training_steps_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "training_input_tokens_by_seed": [
+        0,
+        0,
+        0
+      ]
+    },
+    "all": {
+      "accuracy_mean": 0.25,
+      "accuracy_by_seed": [
+        0.5,
+        0.25,
+        0.0
+      ],
+      "group_accuracy": {
+        "retention": 0.0,
+        "correction": 0.4166666666666667,
+        "new": 0.3333333333333333
+      },
+      "brier_mean": 1.2509565830813707,
+      "operational_seconds_mean": 346.00078096667613,
+      "arm_wall_seconds_mean": 351.7843902666743,
+      "training_steps_by_seed": [
+        280,
+        280,
+        280
+      ],
+      "training_input_tokens_by_seed": [
+        22760,
+        22760,
+        22760
+      ]
+    },
+    "gated": {
+      "accuracy_mean": 0.7083333333333334,
+      "accuracy_by_seed": [
+        0.8333333333333334,
+        0.625,
+        0.6666666666666666
+      ],
+      "group_accuracy": {
+        "retention": 0.625,
+        "correction": 0.75,
+        "new": 0.75
+      },
+      "brier_mean": 0.5549627641970621,
+      "operational_seconds_mean": 74.44868433334825,
+      "arm_wall_seconds_mean": 80.53017333334235,
+      "training_steps_by_seed": [
+        60,
+        60,
+        60
+      ],
+      "training_input_tokens_by_seed": [
+        4800,
+        4800,
+        4800
+      ]
+    },
+    "random": {
+      "accuracy_mean": 0.5555555555555556,
+      "accuracy_by_seed": [
+        0.6666666666666666,
+        0.5,
+        0.5
+      ],
+      "group_accuracy": {
+        "retention": 0.6666666666666666,
+        "correction": 0.3333333333333333,
+        "new": 0.6666666666666666
+      },
+      "brier_mean": 0.843289275426772,
+      "operational_seconds_mean": 74.0208266666644,
+      "arm_wall_seconds_mean": 80.11048970001866,
+      "training_steps_by_seed": [
+        60,
+        60,
+        60
+      ],
+      "training_input_tokens_by_seed": [
+        4800,
+        4800,
+        4800
+      ]
+    }
+  },
+  "paired_differences": {
+    "gated_minus_all": {
+      "values": [
+        0.33333333333333337,
+        0.375,
+        0.6666666666666666
+      ],
+      "mean": 0.4583333333333333,
+      "minimum": 0.33333333333333337,
+      "maximum": 0.6666666666666666
+    },
+    "gated_minus_random": {
+      "values": [
+        0.16666666666666674,
+        0.125,
+        0.16666666666666663
+      ],
+      "mean": 0.1527777777777778,
+      "minimum": 0.125,
+      "maximum": 0.16666666666666674
+    }
+  },
+  "validations": {
+    "initial_accuracy_by_seed": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "initial_learnability_all_passed": true,
+    "reload_max_probability_delta": 0.0,
+    "exact_budget_match": true
+  },
+  "gated_group_changes_vs_frozen": {
+    "retention": -0.375,
+    "correction": 0.75,
+    "new": 0.375
+  },
+  "gate_false_negative_rate": 0.25,
+  "accepted_false_claims": 0,
+  "all_stream_false_claim_matches": [
+    {
+      "seed": 17,
+      "matches": 12,
+      "questions": 24
+    },
+    {
+      "seed": 29,
+      "matches": 18,
+      "questions": 24
+    },
+    {
+      "seed": 43,
+      "matches": 24,
+      "questions": 24
+    }
+  ],
+  "useful_update_subgroups": {
+    "frozen": {
+      "admitted": 0.19444444444444445,
+      "missed": 0.16666666666666666
+    },
+    "all": {
+      "admitted": 0.3333333333333333,
+      "missed": 0.5
+    },
+    "gated": {
+      "admitted": 1,
+      "missed": 0
+    },
+    "random": {
+      "admitted": 0.5,
+      "missed": 0.5
+    }
+  },
+  "common_initial_training_seconds_mean": 99.12143670000175,
+  "setup_seconds_mean": 7.869807966664666,
+  "provisional_margin_met_on_mean": true,
+  "scope": "Three-seed supplied-provenance replay pilot; not statistical equivalence or real-world verification."
+}

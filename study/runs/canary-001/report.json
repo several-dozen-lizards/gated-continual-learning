@@ -1,0 +1,425 @@
+{
+  "status": "plumbing_canary_only",
+  "model": "unsloth/qwen2.5-0.5b-instruct-unsloth-bnb-4bit",
+  "seed": 17,
+  "fixture_sha256": "4dbeb57ef9395c26e32679ec6e39da2094fee47fe2257154080a1365aa62cc72",
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "transformers": "5.13.1",
+    "peft": "0.19.1"
+  },
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "gate_seconds": 6.50000583846122e-06,
+  "routes": [
+    "formative",
+    "informational",
+    "forgettable",
+    "formative",
+    "informational",
+    "forgettable",
+    "formative",
+    "informational",
+    "forgettable",
+    "formative",
+    "informational",
+    "forgettable",
+    "formative"
+  ],
+  "arms": {
+    "frozen": {
+      "indices": [],
+      "steps": 0,
+      "training_tokens": 0,
+      "padded_tokens": 0,
+      "train_seconds": 5.539999983739108e-05,
+      "evaluation_seconds": 3.6918320000113454,
+      "peak_allocated_bytes": 1083035648,
+      "losses": [],
+      "answers": [
+        {
+          "prompt": "Current beacon color in Velun:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -5.3091044425964355,
+            -4.999388217926025,
+            -5.001031398773193,
+            -9.79594898223877
+          ],
+          "correct": true
+        },
+        {
+          "prompt": "Current beacon color in Sarev:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "green",
+          "scores": [
+            -6.599563121795654,
+            -6.3275275230407715,
+            -6.190744876861572,
+            -10.755022048950195
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Nimor:",
+          "answer": "green",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -6.951819896697998,
+            -6.215763568878174,
+            -7.398009300231934,
+            -10.719963073730469
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Talek:",
+          "answer": "gold",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -8.047492980957031,
+            -7.531952381134033,
+            -8.384543418884277,
+            -11.193218231201172
+          ],
+          "correct": false
+        }
+      ]
+    },
+    "all": {
+      "indices": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "steps": 13,
+      "training_tokens": 126,
+      "padded_tokens": 247,
+      "train_seconds": 4.565566599994781,
+      "evaluation_seconds": 1.3519904999993742,
+      "peak_allocated_bytes": 1116591104,
+      "losses": [
+        7.633784770965576,
+        7.5512800216674805,
+        6.177240371704102,
+        7.215051174163818,
+        6.816668510437012,
+        5.665297031402588,
+        6.721290111541748,
+        6.708509922027588,
+        5.231963157653809,
+        6.9062113761901855,
+        6.770479679107666,
+        5.302204608917236,
+        4.936293601989746
+      ],
+      "answers": [
+        {
+          "prompt": "Current beacon color in Velun:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -4.935894012451172,
+            -4.611839294433594,
+            -4.68752384185791,
+            -9.195816993713379
+          ],
+          "correct": true
+        },
+        {
+          "prompt": "Current beacon color in Sarev:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "green",
+          "scores": [
+            -5.974673271179199,
+            -5.810622215270996,
+            -5.7019243240356445,
+            -10.107986450195312
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Nimor:",
+          "answer": "green",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -6.757214546203613,
+            -5.984499931335449,
+            -7.2766265869140625,
+            -10.155722618103027
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Talek:",
+          "answer": "gold",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -7.711678504943848,
+            -7.191032886505127,
+            -8.07626724243164,
+            -10.681905746459961
+          ],
+          "correct": false
+        }
+      ]
+    },
+    "gated": {
+      "indices": [
+        0,
+        3,
+        6,
+        9,
+        12
+      ],
+      "steps": 5,
+      "training_tokens": 52,
+      "padded_tokens": 95,
+      "train_seconds": 1.3890070999914315,
+      "evaluation_seconds": 1.304805200008559,
+      "peak_allocated_bytes": 1526880768,
+      "losses": [
+        7.633784770965576,
+        7.367570877075195,
+        7.018008708953857,
+        7.37157678604126,
+        5.07827615737915
+      ],
+      "answers": [
+        {
+          "prompt": "Current beacon color in Velun:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -5.158620834350586,
+            -4.864720344543457,
+            -4.882397651672363,
+            -9.617557525634766
+          ],
+          "correct": true
+        },
+        {
+          "prompt": "Current beacon color in Sarev:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "green",
+          "scores": [
+            -6.362276554107666,
+            -6.137075901031494,
+            -6.013111591339111,
+            -10.484228134155273
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Nimor:",
+          "answer": "green",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -6.779817581176758,
+            -6.030973434448242,
+            -7.247585296630859,
+            -10.520916938781738
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Talek:",
+          "answer": "gold",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -7.899414539337158,
+            -7.37948751449585,
+            -8.231377601623535,
+            -11.001352310180664
+          ],
+          "correct": false
+        }
+      ]
+    },
+    "random": {
+      "indices": [
+        4,
+        5,
+        6,
+        8,
+        10
+      ],
+      "steps": 5,
+      "training_tokens": 46,
+      "padded_tokens": 95,
+      "train_seconds": 1.3318906000058632,
+      "evaluation_seconds": 1.3375613999960478,
+      "peak_allocated_bytes": 1527585280,
+      "losses": [
+        7.179625511169434,
+        5.73393440246582,
+        7.081608295440674,
+        5.358008861541748,
+        7.428219318389893
+      ],
+      "answers": [
+        {
+          "prompt": "Current beacon color in Velun:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "green",
+          "scores": [
+            -5.235032081604004,
+            -4.956315040588379,
+            -4.92250919342041,
+            -9.649408340454102
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Sarev:",
+          "answer": "blue",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "green",
+          "scores": [
+            -6.462238311767578,
+            -6.262808799743652,
+            -6.122241020202637,
+            -10.606061935424805
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Nimor:",
+          "answer": "green",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -6.8911638259887695,
+            -6.130919456481934,
+            -7.315047264099121,
+            -10.590721130371094
+          ],
+          "correct": false
+        },
+        {
+          "prompt": "Current beacon color in Talek:",
+          "answer": "gold",
+          "options": [
+            "red",
+            "blue",
+            "green",
+            "gold"
+          ],
+          "prediction": "blue",
+          "scores": [
+            -7.9826860427856445,
+            -7.456881523132324,
+            -8.293851852416992,
+            -11.108591079711914
+          ],
+          "correct": false
+        }
+      ]
+    }
+  },
+  "limitations": [
+    "Provenance shortcut gate",
+    "Single seed",
+    "No prior learned-fact retention baseline",
+    "Random matches padded work, not exact nonpadding tokens"
+  ],
+  "model_revision": "10413c288cb9629acdf60b3e0229f3ba75efe413"
+}

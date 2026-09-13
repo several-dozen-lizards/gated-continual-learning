@@ -1,0 +1,51 @@
+{
+  "frozen_at": "2026-09-13T18:45:53.238298+00:00",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "epochs": 10,
+  "lr": 0.0002,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "source_hashes": {
+    "runner.py": "0d1ba7d6528010c8d7ade6448481f4ae4e63908da66d419d4f755c435c464e53",
+    "selection.py": "6a2109f3b10b2a6d56ef31188f5e156d3a2ba36ceafd714424f7c3731fbb48ec",
+    "PROTOCOL.md": "4d0b26dbe42412babc822c5dee156de7fbc973f12f34d6e4b51702c0cc585517",
+    "prepare.py": "377ec43ccd497b059412089a5015a9d4a5a7812ea91ef5913a1a244f29dfd9e2"
+  },
+  "fixtures": {
+    "17": "64761069109c7bca9ae95c813b6532e91838be44bc9e7f6794300e210f9efda7",
+    "29": "6edfaf77e9ecb390ae0826faa7653a29b0ae246f06d2430f4b4ad8af64d90630",
+    "43": "ac6e23a40dbd02944fea9c83decf02a3207cad9912256dda48b30613682f8e2d"
+  },
+  "prior_receipts": {
+    "17": {
+      "report.json": "44d3bab250947ec42b83984f9a20c3e117cc1b18c6b9653c99982bdfb3472728",
+      "inputs.json": "f0cd6ac4ee373f1adf02769b8a4e63956ad06d151cf3dd12ddd3f34f06ad7678",
+      "training_claims.json": "9b9ac4f84a7adbbc576e5003cdc9139124abaf78d9e4923e46b423b7a6954563",
+      "small_wave1_adapter/adapter_config.json": "3e8da6cfa6cc977753ea44b4d705446a74db5bfd414e36a4252a15c22f0e3de2",
+      "small_wave1_adapter/adapter_model.safetensors": "884214c747ffa3cf569fc01fd5ece176f49fec7fb0abf29dcb709845db97bb53",
+      "small_wave2_adapter/adapter_config.json": "3e8da6cfa6cc977753ea44b4d705446a74db5bfd414e36a4252a15c22f0e3de2",
+      "small_wave2_adapter/adapter_model.safetensors": "d10b1bbab9529259d8f70dc637b053b12de45015afa4ab51fa675cc7ea7af347"
+    },
+    "29": {
+      "report.json": "e6f7d36bdbea8b9dd105585a6cbb1026ea3fd42fb448645af6e5a48448c15670",
+      "inputs.json": "7c5a572d82ad2e9dfc88db46fe46c3a64a21dd5db02c41c62c258e1f027e66bc",
+      "training_claims.json": "5f1a6d050c2254bffc791a467c7fedd67b7452cf44c3ea18650bb74479752a09",
+      "small_wave1_adapter/adapter_config.json": "831a8fdb47f8ef885cf43f87548be3e4dbbf7ead1c6d6f2f487cc52ae3dc42a1",
+      "small_wave1_adapter/adapter_model.safetensors": "435b5f46fe0d29715ce21924bc839244fada68e1836dfe1dd93307c04e755f16",
+      "small_wave2_adapter/adapter_config.json": "831a8fdb47f8ef885cf43f87548be3e4dbbf7ead1c6d6f2f487cc52ae3dc42a1",
+      "small_wave2_adapter/adapter_model.safetensors": "daf99d5ae7a1b468c0513183cb392c8ebe6e839cd94f8e75895e17aebbb16ffb"
+    },
+    "43": {
+      "report.json": "99303d5d62e9d6f19e8cefab6c9a6b27080697b8ac7581fb3598a7c7afa0a86c",
+      "inputs.json": "62810b97b98f9ae762674d21611108682b832a18836227414c92427a93e09f47",
+      "training_claims.json": "a8e089b24e317023319e0d05d681bb4ca67d02b89690ccfc06d598aed195f659",
+      "small_wave1_adapter/adapter_config.json": "bed6e8ecdb4a6386572e5a2f6de08b27f066e4e8037332e29a334e8a711f1fe5",
+      "small_wave1_adapter/adapter_model.safetensors": "ff013330ccc56cfaaa61c16b8c24dad401fbaf259c6cb12a98102e39f3b3fc10",
+      "small_wave2_adapter/adapter_config.json": "bed6e8ecdb4a6386572e5a2f6de08b27f066e4e8037332e29a334e8a711f1fe5",
+      "small_wave2_adapter/adapter_model.safetensors": "83375044151497b41e52299b6842185a07d683ee699ec6841f0d0ba3880868c0"
+    }
+  }
+}

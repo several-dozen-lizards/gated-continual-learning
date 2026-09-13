@@ -1,0 +1,114 @@
+[
+  {
+    "id": "e010",
+    "name": "Coral",
+    "color": "green",
+    "relevant": true,
+    "verified": false,
+    "source": "registry"
+  },
+  {
+    "id": "e014",
+    "name": "Jasper",
+    "color": "green",
+    "relevant": true,
+    "verified": false,
+    "source": "registry"
+  },
+  {
+    "id": "e017",
+    "name": "Pearl",
+    "color": "blue",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e013",
+    "name": "Jade",
+    "color": "gold",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e008",
+    "name": "Amber",
+    "color": "blue",
+    "relevant": true,
+    "verified": false,
+    "source": "registry"
+  },
+  {
+    "id": "e001",
+    "name": "Jade",
+    "color": "green",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e005",
+    "name": "Pearl",
+    "color": "gold",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e019",
+    "name": "Ruby",
+    "color": "blue",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e011",
+    "name": "Flint",
+    "color": "blue",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e012",
+    "name": "Garnet",
+    "color": "gold",
+    "relevant": true,
+    "verified": false,
+    "source": "registry"
+  },
+  {
+    "id": "e018",
+    "name": "Quartz",
+    "color": "red",
+    "relevant": true,
+    "verified": false,
+    "source": "registry"
+  },
+  {
+    "id": "e009",
+    "name": "Beryl",
+    "color": "red",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  },
+  {
+    "id": "e016",
+    "name": "Opal",
+    "color": "red",
+    "relevant": true,
+    "verified": false,
+    "source": "registry"
+  },
+  {
+    "id": "e015",
+    "name": "Onyx",
+    "color": "gold",
+    "relevant": true,
+    "verified": false,
+    "source": "traveler"
+  }
+]

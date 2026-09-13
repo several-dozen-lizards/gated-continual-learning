@@ -1,0 +1,10 @@
+{
+  "selected": "drift",
+  "checkpoint": {
+    "path": "${EXPERIMENT_ROOT}\\drift_replay\\runs\\seed-17\\drift_adapter",
+    "hashes": {
+      "adapter_config.json": "b8ae28e84a61f3e453d0855c4bb9f5af752bdb2ea87c59470d195eb8c1cc33fb",
+      "adapter_model.safetensors": "7408f2fbe0fed8b1e56a8bdf736837de8b53fff5a29dea73f5abdd9de530c7e6"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "mode": "development",
+  "seed": 101,
+  "epochs": 20,
+  "lr": 0.0002,
+  "model": {
+    "repo": "Qwen/Qwen3.5-2B",
+    "revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+    "path": "${EXPERIMENT_ROOT}\\model_cache\\models--Qwen--Qwen3.5-2B\\snapshots\\15852e8c16360a2fea060d615a32b45270f8a8fc"
+  },
+  "protocol_sha256": null,
+  "world_sha256": "640f391afcf72475717ed9ba9d5adf51b39b0e119b3fed0a1e4db7909971e6c8"
+}

@@ -1,0 +1,236 @@
+{
+  "reassess": [
+    {
+      "id": "e009",
+      "name": "Beryl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e001",
+      "name": "Jade",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    }
+  ],
+  "random": [
+    {
+      "id": "e017",
+      "name": "Pearl",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e013",
+      "name": "Jade",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e015",
+      "name": "Onyx",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    }
+  ],
+  "reassess_replay": [
+    {
+      "id": "old-Amber",
+      "name": "Amber",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "e009",
+      "name": "Beryl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "old-Coral",
+      "name": "Coral",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "old-Flint",
+      "name": "Flint",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "e000",
+      "name": "Garnet",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e001",
+      "name": "Jade",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e003",
+      "name": "Onyx",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e004",
+      "name": "Opal",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e006",
+      "name": "Quartz",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e007",
+      "name": "Ruby",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    }
+  ],
+  "random_replay": [
+    {
+      "id": "old-Amber",
+      "name": "Amber",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "old-Beryl",
+      "name": "Beryl",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "old-Coral",
+      "name": "Coral",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "old-Flint",
+      "name": "Flint",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "e000",
+      "name": "Garnet",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e013",
+      "name": "Jade",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e015",
+      "name": "Onyx",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e004",
+      "name": "Opal",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e017",
+      "name": "Pearl",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e006",
+      "name": "Quartz",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e007",
+      "name": "Ruby",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    }
+  ]
+}

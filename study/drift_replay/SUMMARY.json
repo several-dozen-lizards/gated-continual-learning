@@ -1,0 +1,813 @@
+{
+  "records": [
+    {
+      "seed": 17,
+      "arm": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "recovered_errors": 0,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 0,
+      "input_tokens": 0,
+      "steps": 0
+    },
+    {
+      "seed": 17,
+      "arm": "baseline",
+      "family": "transfer",
+      "accuracy": 0.95,
+      "recovered_errors": 0,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 0,
+      "input_tokens": 0,
+      "steps": 0
+    },
+    {
+      "seed": 17,
+      "arm": "drift",
+      "family": "evaluation",
+      "accuracy": 1,
+      "recovered_errors": 1,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 58.11279119999381,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 17,
+      "arm": "drift",
+      "family": "transfer",
+      "accuracy": 1,
+      "recovered_errors": 1,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 58.11279119999381,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 17,
+      "arm": "random",
+      "family": "evaluation",
+      "accuracy": 1,
+      "recovered_errors": 1,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 55.61497439999948,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 17,
+      "arm": "random",
+      "family": "transfer",
+      "accuracy": 1,
+      "recovered_errors": 1,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 55.61497439999948,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 29,
+      "arm": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.8,
+      "recovered_errors": 0,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.7272727272727273,
+      "wave1": 0.75,
+      "latest": 1,
+      "train_seconds": 0,
+      "input_tokens": 0,
+      "steps": 0
+    },
+    {
+      "seed": 29,
+      "arm": "baseline",
+      "family": "transfer",
+      "accuracy": 0.7875,
+      "recovered_errors": 0,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.7045454545454546,
+      "wave1": 0.75,
+      "latest": 1,
+      "train_seconds": 0,
+      "input_tokens": 0,
+      "steps": 0
+    },
+    {
+      "seed": 29,
+      "arm": "random",
+      "family": "evaluation",
+      "accuracy": 1,
+      "recovered_errors": 1,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 55.001015999994706,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 29,
+      "arm": "random",
+      "family": "transfer",
+      "accuracy": 1,
+      "recovered_errors": 1,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 55.001015999994706,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 29,
+      "arm": "drift",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "recovered_errors": 1,
+      "collateral_retention": 0.9375,
+      "target_accuracy": 0,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 55.10262419999344,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 29,
+      "arm": "drift",
+      "family": "transfer",
+      "accuracy": 0.9125,
+      "recovered_errors": 1,
+      "collateral_retention": 0.8888888888888888,
+      "target_accuracy": 0,
+      "old_error": 0,
+      "other_original": 0.9545454545454546,
+      "wave1": 0.9375,
+      "latest": 1,
+      "train_seconds": 55.10262419999344,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 43,
+      "arm": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.925,
+      "recovered_errors": 0,
+      "collateral_retention": 1,
+      "target_accuracy": 0.5,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 0,
+      "input_tokens": 0,
+      "steps": 0
+    },
+    {
+      "seed": 43,
+      "arm": "baseline",
+      "family": "transfer",
+      "accuracy": 0.925,
+      "recovered_errors": 0,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.8636363636363636,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 0,
+      "input_tokens": 0,
+      "steps": 0
+    },
+    {
+      "seed": 43,
+      "arm": "random",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "recovered_errors": 0.3333333333333333,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 52.32912449998548,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 43,
+      "arm": "random",
+      "family": "transfer",
+      "accuracy": 0.9875,
+      "recovered_errors": 0.8333333333333334,
+      "collateral_retention": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9772727272727273,
+      "wave1": 1,
+      "latest": 1,
+      "train_seconds": 52.32912449998548,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 43,
+      "arm": "drift",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "recovered_errors": 1,
+      "collateral_retention": 0.9459459459459459,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 0.75,
+      "latest": 1,
+      "train_seconds": 53.20426659999066,
+      "input_tokens": 3160,
+      "steps": 40
+    },
+    {
+      "seed": 43,
+      "arm": "drift",
+      "family": "transfer",
+      "accuracy": 0.95,
+      "recovered_errors": 1,
+      "collateral_retention": 0.9459459459459459,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "wave1": 0.75,
+      "latest": 1,
+      "train_seconds": 53.20426659999066,
+      "input_tokens": 3160,
+      "steps": 40
+    }
+  ],
+  "means": {
+    "evaluation": {
+      "baseline": {
+        "accuracy": 0.8916666666666667,
+        "recovered_errors": 0,
+        "collateral_retention": 1,
+        "target_accuracy": 0.8333333333333334,
+        "old_error": 0,
+        "other_original": 0.8484848484848485,
+        "wave1": 0.9166666666666666,
+        "latest": 1,
+        "train_seconds": 0,
+        "input_tokens": 0,
+        "steps": 0
+      },
+      "drift": {
+        "accuracy": 0.9666666666666667,
+        "recovered_errors": 1,
+        "collateral_retention": 0.9611486486486487,
+        "target_accuracy": 0.6666666666666666,
+        "old_error": 0,
+        "other_original": 1,
+        "wave1": 0.9166666666666666,
+        "latest": 1,
+        "train_seconds": 55.47322733332597,
+        "input_tokens": 3160,
+        "steps": 40
+      },
+      "random": {
+        "accuracy": 0.9833333333333333,
+        "recovered_errors": 0.7777777777777778,
+        "collateral_retention": 1,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 0.9696969696969697,
+        "wave1": 1,
+        "latest": 1,
+        "train_seconds": 54.315038299993226,
+        "input_tokens": 3160,
+        "steps": 40
+      }
+    },
+    "transfer": {
+      "baseline": {
+        "accuracy": 0.8875,
+        "recovered_errors": 0,
+        "collateral_retention": 1,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 0.8257575757575758,
+        "wave1": 0.9166666666666666,
+        "latest": 1,
+        "train_seconds": 0,
+        "input_tokens": 0,
+        "steps": 0
+      },
+      "drift": {
+        "accuracy": 0.9541666666666666,
+        "recovered_errors": 1,
+        "collateral_retention": 0.944944944944945,
+        "target_accuracy": 0.6666666666666666,
+        "old_error": 0,
+        "other_original": 0.9848484848484849,
+        "wave1": 0.8958333333333334,
+        "latest": 1,
+        "train_seconds": 55.47322733332597,
+        "input_tokens": 3160,
+        "steps": 40
+      },
+      "random": {
+        "accuracy": 0.9958333333333333,
+        "recovered_errors": 0.9444444444444444,
+        "collateral_retention": 1,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 0.9924242424242424,
+        "wave1": 1,
+        "latest": 1,
+        "train_seconds": 54.315038299993226,
+        "input_tokens": 3160,
+        "steps": 40
+      }
+    }
+  },
+  "selections": [
+    {
+      "seed": 17,
+      "drift": [
+        "Jade",
+        "Jasper",
+        "Opal",
+        "Pearl"
+      ],
+      "random": [
+        "Flint",
+        "Garnet",
+        "Jasper",
+        "Willow"
+      ],
+      "overlap": [
+        "Jasper"
+      ],
+      "observed_errors": [
+        "Pearl"
+      ],
+      "drift_error_coverage": [
+        "Pearl"
+      ],
+      "random_error_coverage": [],
+      "probe_seconds": 14.565933400008362,
+      "probe_tokens": 1392,
+      "ranking": [
+        {
+          "name": "Pearl",
+          "before_nll": 4.595630190274421e-05,
+          "after_nll": 6.063938126680982,
+          "delta_nll": 6.06389217037908,
+          "score": 6.06389217037908
+        },
+        {
+          "name": "Jasper",
+          "before_nll": 0.0,
+          "after_nll": 0.00010091691251242908,
+          "delta_nll": 0.00010091691251242908,
+          "score": 0.00010091691251242908
+        },
+        {
+          "name": "Jade",
+          "before_nll": 0.0,
+          "after_nll": 7.832387201878044e-05,
+          "delta_nll": 7.832387201878044e-05,
+          "score": 7.832387201878044e-05
+        },
+        {
+          "name": "Opal",
+          "before_nll": 0.0,
+          "after_nll": 9.477186413760548e-06,
+          "delta_nll": 9.477186413760548e-06,
+          "score": 9.477186413760548e-06
+        },
+        {
+          "name": "Flint",
+          "before_nll": 0.0,
+          "after_nll": 7.927450472253817e-06,
+          "delta_nll": 7.927450472253817e-06,
+          "score": 7.927450472253817e-06
+        },
+        {
+          "name": "Coral",
+          "before_nll": 0.0,
+          "after_nll": 3.695494832828652e-06,
+          "delta_nll": 3.695494832828652e-06,
+          "score": 3.695494832828652e-06
+        },
+        {
+          "name": "Willow",
+          "before_nll": 0.0,
+          "after_nll": 2.8610276174956235e-06,
+          "delta_nll": 2.8610276174956235e-06,
+          "score": 2.8610276174956235e-06
+        },
+        {
+          "name": "Garnet",
+          "before_nll": 0.0,
+          "after_nll": 8.940700872986266e-07,
+          "delta_nll": 8.940700872986266e-07,
+          "score": 8.940700872986266e-07
+        },
+        {
+          "name": "Amber",
+          "before_nll": 1.3113031585031914e-06,
+          "after_nll": 0.0,
+          "delta_nll": -1.3113031585031914e-06,
+          "score": 0
+        },
+        {
+          "name": "Beryl",
+          "before_nll": 3.2186562535357837e-06,
+          "after_nll": 0.0,
+          "delta_nll": -3.2186562535357837e-06,
+          "score": 0
+        },
+        {
+          "name": "Birch",
+          "before_nll": 3.57627961022935e-07,
+          "after_nll": 5.960464832810458e-08,
+          "delta_nll": -2.980233126948304e-07,
+          "score": 0
+        },
+        {
+          "name": "Cedar",
+          "before_nll": 3.171035797421792e-05,
+          "after_nll": 3.8743118473787785e-06,
+          "delta_nll": -2.7836046126839143e-05,
+          "score": 0
+        },
+        {
+          "name": "Maple",
+          "before_nll": 2.3841860752327643e-07,
+          "after_nll": 0.0,
+          "delta_nll": -2.3841860752327643e-07,
+          "score": 0
+        },
+        {
+          "name": "Onyx",
+          "before_nll": 2.622607873099223e-06,
+          "after_nll": 0.0,
+          "delta_nll": -2.622607873099223e-06,
+          "score": 0
+        },
+        {
+          "name": "Quartz",
+          "before_nll": 7.152560002056319e-07,
+          "after_nll": 0.0,
+          "delta_nll": -7.152560002056319e-07,
+          "score": 0
+        },
+        {
+          "name": "Ruby",
+          "before_nll": 0.00035404460750548556,
+          "after_nll": 1.788142142806298e-06,
+          "delta_nll": -0.0003522564653626793,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "seed": 29,
+      "drift": [
+        "Amber",
+        "Beryl",
+        "Cedar",
+        "Pearl"
+      ],
+      "random": [
+        "Birch",
+        "Coral",
+        "Opal",
+        "Pearl"
+      ],
+      "overlap": [
+        "Pearl"
+      ],
+      "observed_errors": [
+        "Amber",
+        "Beryl",
+        "Cedar",
+        "Pearl"
+      ],
+      "drift_error_coverage": [
+        "Amber",
+        "Beryl",
+        "Cedar",
+        "Pearl"
+      ],
+      "random_error_coverage": [
+        "Pearl"
+      ],
+      "probe_seconds": 16.75106430001324,
+      "probe_tokens": 1392,
+      "ranking": [
+        {
+          "name": "Beryl",
+          "before_nll": 0.0,
+          "after_nll": 11.342452678992526,
+          "delta_nll": 11.342452678992526,
+          "score": 11.342452678992526
+        },
+        {
+          "name": "Pearl",
+          "before_nll": 0.0,
+          "after_nll": 7.1809594275405475,
+          "delta_nll": 7.1809594275405475,
+          "score": 7.1809594275405475
+        },
+        {
+          "name": "Amber",
+          "before_nll": 0.0,
+          "after_nll": 5.634242016321499,
+          "delta_nll": 5.634242016321499,
+          "score": 5.634242016321499
+        },
+        {
+          "name": "Cedar",
+          "before_nll": 0.0,
+          "after_nll": 2.867451157483395,
+          "delta_nll": 2.867451157483395,
+          "score": 2.867451157483395
+        },
+        {
+          "name": "Maple",
+          "before_nll": 0.0,
+          "after_nll": 0.22819073977293822,
+          "delta_nll": 0.22819073977293822,
+          "score": 0.22819073977293822
+        },
+        {
+          "name": "Ruby",
+          "before_nll": 0.0,
+          "after_nll": 0.04147516252307676,
+          "delta_nll": 0.04147516252307676,
+          "score": 0.04147516252307676
+        },
+        {
+          "name": "Quartz",
+          "before_nll": 5.602852880380445e-06,
+          "after_nll": 0.0028148534365471083,
+          "delta_nll": 0.002809250583666728,
+          "score": 0.002809250583666728
+        },
+        {
+          "name": "Onyx",
+          "before_nll": 7.987054303441131e-06,
+          "after_nll": 0.00077707001108809,
+          "delta_nll": 0.0007690829567846488,
+          "score": 0.0007690829567846488
+        },
+        {
+          "name": "Willow",
+          "before_nll": 1.651062483688386e-05,
+          "after_nll": 0.00014452270764595817,
+          "delta_nll": 0.00012801208280907432,
+          "score": 0.00012801208280907432
+        },
+        {
+          "name": "Jasper",
+          "before_nll": 0.0,
+          "after_nll": 5.00680678791565e-06,
+          "delta_nll": 5.00680678791565e-06,
+          "score": 5.00680678791565e-06
+        },
+        {
+          "name": "Coral",
+          "before_nll": 0.0,
+          "after_nll": 1.7881411196210992e-06,
+          "delta_nll": 1.7881411196210992e-06,
+          "score": 1.7881411196210992e-06
+        },
+        {
+          "name": "Birch",
+          "before_nll": 0.0,
+          "after_nll": 0.0,
+          "delta_nll": 0.0,
+          "score": 0
+        },
+        {
+          "name": "Flint",
+          "before_nll": 0.0,
+          "after_nll": 0.0,
+          "delta_nll": 0.0,
+          "score": 0
+        },
+        {
+          "name": "Garnet",
+          "before_nll": 0.0,
+          "after_nll": 0.0,
+          "delta_nll": 0.0,
+          "score": 0
+        },
+        {
+          "name": "Jade",
+          "before_nll": 0.0,
+          "after_nll": 0.0,
+          "delta_nll": 0.0,
+          "score": 0
+        },
+        {
+          "name": "Opal",
+          "before_nll": 1.430512753588007e-06,
+          "after_nll": 0.0,
+          "delta_nll": -1.430512753588007e-06,
+          "score": 0
+        }
+      ]
+    },
+    {
+      "seed": 43,
+      "drift": [
+        "Beryl",
+        "Jasper",
+        "Pearl",
+        "Quartz"
+      ],
+      "random": [
+        "Coral",
+        "Onyx",
+        "Quartz",
+        "Willow"
+      ],
+      "overlap": [
+        "Quartz"
+      ],
+      "observed_errors": [
+        "Beryl",
+        "Jasper"
+      ],
+      "drift_error_coverage": [
+        "Beryl",
+        "Jasper"
+      ],
+      "random_error_coverage": [],
+      "probe_seconds": 15.566657699993812,
+      "probe_tokens": 1392,
+      "ranking": [
+        {
+          "name": "Jasper",
+          "before_nll": 0.0,
+          "after_nll": 5.066833000356671,
+          "delta_nll": 5.066833000356671,
+          "score": 5.066833000356671
+        },
+        {
+          "name": "Pearl",
+          "before_nll": 0.0,
+          "after_nll": 0.3424610837458274,
+          "delta_nll": 0.3424610837458274,
+          "score": 0.3424610837458274
+        },
+        {
+          "name": "Beryl",
+          "before_nll": 3.337868520279236e-06,
+          "after_nll": 0.31480140181042315,
+          "delta_nll": 0.31479806394190285,
+          "score": 0.31479806394190285
+        },
+        {
+          "name": "Quartz",
+          "before_nll": 0.002205058675364447,
+          "after_nll": 0.11026094508441532,
+          "delta_nll": 0.10805588640905088,
+          "score": 0.10805588640905088
+        },
+        {
+          "name": "Cedar",
+          "before_nll": 0.0,
+          "after_nll": 0.034264911135536896,
+          "delta_nll": 0.034264911135536896,
+          "score": 0.034264911135536896
+        },
+        {
+          "name": "Amber",
+          "before_nll": 0.0012842763782828469,
+          "after_nll": 0.03258272045672213,
+          "delta_nll": 0.03129844407843928,
+          "score": 0.03129844407843928
+        },
+        {
+          "name": "Jade",
+          "before_nll": 2.0861984547021423e-05,
+          "after_nll": 0.0021517074468441052,
+          "delta_nll": 0.002130845462297084,
+          "score": 0.002130845462297084
+        },
+        {
+          "name": "Garnet",
+          "before_nll": 4.2439554969646286e-05,
+          "after_nll": 0.0013824112925534145,
+          "delta_nll": 0.0013399717375837683,
+          "score": 0.0013399717375837683
+        },
+        {
+          "name": "Onyx",
+          "before_nll": 0.0,
+          "after_nll": 0.00010103500541230969,
+          "delta_nll": 0.00010103500541230969,
+          "score": 0.00010103500541230969
+        },
+        {
+          "name": "Flint",
+          "before_nll": 0.0,
+          "after_nll": 1.1324953462760629e-05,
+          "delta_nll": 1.1324953462760629e-05,
+          "score": 1.1324953462760629e-05
+        },
+        {
+          "name": "Opal",
+          "before_nll": 5.960464832810458e-08,
+          "after_nll": 6.556514513536611e-07,
+          "delta_nll": 5.960468030255565e-07,
+          "score": 5.960468030255565e-07
+        },
+        {
+          "name": "Willow",
+          "before_nll": 0.0,
+          "after_nll": 2.980232700622408e-07,
+          "delta_nll": 2.980232700622408e-07,
+          "score": 2.980232700622408e-07
+        },
+        {
+          "name": "Ruby",
+          "before_nll": 2.980232700622408e-07,
+          "after_nll": 3.5762793970663765e-07,
+          "delta_nll": 5.960466964439686e-08,
+          "score": 5.960466964439686e-08
+        },
+        {
+          "name": "Birch",
+          "before_nll": 2.777639341578207e-05,
+          "after_nll": 0.0,
+          "delta_nll": -2.777639341578207e-05,
+          "score": 0
+        },
+        {
+          "name": "Coral",
+          "before_nll": 6.556513945101676e-07,
+          "after_nll": 0.0,
+          "delta_nll": -6.556513945101676e-07,
+          "score": 0
+        },
+        {
+          "name": "Maple",
+          "before_nll": 1.788139520897428e-07,
+          "after_nll": 5.960464832810458e-08,
+          "delta_nll": -1.1920930376163824e-07,
+          "score": 0
+        }
+      ]
+    }
+  ],
+  "max_reload_delta": 0.0,
+  "receipt_count": 33
+}

@@ -1,0 +1,112 @@
+{
+  "drift": [
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "e001",
+      "name": "Jade",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "candidate-red",
+      "name": "Opal",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    }
+  ],
+  "random": [
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "old-Flint",
+      "name": "Flint",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "e000",
+      "name": "Garnet",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "wave-1-Willow",
+      "name": "Willow",
+      "color": "red",
+      "relevant": true
+    }
+  ]
+}

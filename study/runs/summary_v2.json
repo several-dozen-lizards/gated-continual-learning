@@ -1,0 +1,169 @@
+{
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "arms": {
+    "frozen": {
+      "accuracy_mean": 0.3611111111111111,
+      "accuracy_by_seed": [
+        0.3333333333333333,
+        0.4166666666666667,
+        0.3333333333333333
+      ],
+      "group_accuracy": {
+        "retention": 1.0,
+        "correction": 0.0,
+        "new": 0.08333333333333333
+      },
+      "brier_mean": 1.1991828204249861,
+      "operational_seconds_mean": 0,
+      "arm_wall_seconds_mean": 2.288654633327193,
+      "training_steps_by_seed": [
+        0,
+        0,
+        0
+      ],
+      "training_input_tokens_by_seed": [
+        0,
+        0,
+        0
+      ]
+    },
+    "all": {
+      "accuracy_mean": 0.3472222222222222,
+      "accuracy_by_seed": [
+        0.4166666666666667,
+        0.3333333333333333,
+        0.2916666666666667
+      ],
+      "group_accuracy": {
+        "retention": 0.2916666666666667,
+        "correction": 0.4583333333333333,
+        "new": 0.2916666666666667
+      },
+      "brier_mean": 1.0253120701753933,
+      "operational_seconds_mean": 98.58279809999901,
+      "arm_wall_seconds_mean": 100.80482549999822,
+      "training_steps_by_seed": [
+        280,
+        280,
+        280
+      ],
+      "training_input_tokens_by_seed": [
+        9320,
+        9320,
+        9320
+      ]
+    },
+    "gated": {
+      "accuracy_mean": 0.8333333333333334,
+      "accuracy_by_seed": [
+        0.8333333333333334,
+        0.8333333333333334,
+        0.8333333333333334
+      ],
+      "group_accuracy": {
+        "retention": 0.9166666666666666,
+        "correction": 0.8333333333333334,
+        "new": 0.75
+      },
+      "brier_mean": 0.3026202760797435,
+      "operational_seconds_mean": 21.27881439999813,
+      "arm_wall_seconds_mean": 23.732254799993825,
+      "training_steps_by_seed": [
+        60,
+        60,
+        60
+      ],
+      "training_input_tokens_by_seed": [
+        1920,
+        1920,
+        1920
+      ]
+    },
+    "random": {
+      "accuracy_mean": 0.4583333333333333,
+      "accuracy_by_seed": [
+        0.5416666666666666,
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "group_accuracy": {
+        "retention": 0.5833333333333334,
+        "correction": 0.25,
+        "new": 0.5416666666666666
+      },
+      "brier_mean": 0.9263539891851468,
+      "operational_seconds_mean": 20.764188466666383,
+      "arm_wall_seconds_mean": 23.00131710000763,
+      "training_steps_by_seed": [
+        60,
+        60,
+        60
+      ],
+      "training_input_tokens_by_seed": [
+        1920,
+        1920,
+        1920
+      ]
+    }
+  },
+  "paired_differences": {
+    "gated_minus_all": {
+      "values": [
+        0.4166666666666667,
+        0.5,
+        0.5416666666666667
+      ],
+      "mean": 0.48611111111111116,
+      "minimum": 0.4166666666666667,
+      "maximum": 0.5416666666666667
+    },
+    "gated_minus_random": {
+      "values": [
+        0.29166666666666674,
+        0.4166666666666667,
+        0.4166666666666667
+      ],
+      "mean": 0.37500000000000006,
+      "minimum": 0.29166666666666674,
+      "maximum": 0.4166666666666667
+    }
+  },
+  "validations": {
+    "initial_accuracy_by_seed": [
+      1.0,
+      1.0,
+      1.0
+    ],
+    "initial_learnability_all_passed": true,
+    "reload_max_probability_delta": 0.0,
+    "exact_budget_match": true
+  },
+  "gate_false_negative_rate": 0.25,
+  "accepted_false_claims": 0,
+  "useful_update_subgroups": {
+    "frozen": {
+      "admitted": 0,
+      "missed": 0.16666666666666666
+    },
+    "all": {
+      "admitted": 0.3333333333333333,
+      "missed": 0.5
+    },
+    "gated": {
+      "admitted": 1,
+      "missed": 0.16666666666666666
+    },
+    "random": {
+      "admitted": 0.3888888888888889,
+      "missed": 0.4166666666666667
+    }
+  },
+  "common_initial_training_seconds_mean": 26.25179529999635,
+  "setup_seconds_mean": 4.045420733333837,
+  "provisional_margin_met_on_mean": true,
+  "scope": "Three-seed supplied-provenance replay pilot; not statistical equivalence or real-world verification."
+}

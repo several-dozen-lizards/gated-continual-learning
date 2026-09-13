@@ -1,0 +1,1071 @@
+{
+  "status": "complete",
+  "mode": "development",
+  "seed": 101,
+  "setup_seconds": 4.197631899995031,
+  "versions": {
+    "torch": "2.13.0+cu130",
+    "transformers": "5.13.1",
+    "peft": "0.19.1"
+  },
+  "gpu": "NVIDIA GeForce RTX 5060",
+  "arms": {},
+  "base_initial": {
+    "seconds": 4.119521300017368,
+    "accuracy": 0.25,
+    "group_accuracy": {
+      "correction": 0.0,
+      "retention": 0.5
+    },
+    "brier": 0.983752065881805,
+    "rows": [
+      {
+        "name": "Aster",
+        "group": "retention",
+        "prompt": "What color is the beacon at Aster? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.19012834131717682,
+          0.7183563709259033,
+          0.07089284062385559,
+          0.020622512325644493
+        ],
+        "brier": 0.12092300283638899
+      },
+      {
+        "name": "Aster",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Aster:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.16266413033008575,
+          0.7765355706214905,
+          0.027403445914387703,
+          0.033396873623132706
+        ],
+        "brier": 0.07826227050928826
+      },
+      {
+        "name": "Birch",
+        "group": "retention",
+        "prompt": "What color is the beacon at Birch? Answer:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.22314536571502686,
+          0.439668208360672,
+          0.3269563913345337,
+          0.010230081155896187
+        ],
+        "brier": 0.696194341409066
+      },
+      {
+        "name": "Birch",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Birch:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.18038538098335266,
+          0.5621201992034912,
+          0.23145698010921478,
+          0.0260374266654253
+        ],
+        "brier": 0.9398543250352872
+      },
+      {
+        "name": "Cedar",
+        "group": "retention",
+        "prompt": "What color is the beacon at Cedar? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.45853492617607117,
+          0.4975612461566925,
+          0.04139358550310135,
+          0.0025102433282881975
+        ],
+        "brier": 0.46441871012928054
+      },
+      {
+        "name": "Cedar",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Cedar:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.27840760350227356,
+          0.681715190410614,
+          0.03446367383003235,
+          0.005413505248725414
+        ],
+        "brier": 0.18003306455617168
+      },
+      {
+        "name": "Dahlia",
+        "group": "retention",
+        "prompt": "What color is the beacon at Dahlia? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.16163648664951324,
+          0.8042902946472168,
+          0.018275942653417587,
+          0.01579728163778782
+        ],
+        "brier": 1.3503198227680933
+      },
+      {
+        "name": "Dahlia",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Dahlia:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.10363021492958069,
+          0.8490756750106812,
+          0.01097017154097557,
+          0.036323945969343185
+        ],
+        "brier": 1.5258480671964558
+      },
+      {
+        "name": "Elm",
+        "group": "correction",
+        "prompt": "What color is the beacon at Elm? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.38286733627319336,
+          0.4700174331665039,
+          0.13233545422554016,
+          0.014779695309698582
+        ],
+        "brier": 1.35567550588449
+      },
+      {
+        "name": "Elm",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Elm:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.1826166957616806,
+          0.733815610408783,
+          0.057984091341495514,
+          0.02558366023004055
+        ],
+        "brier": 1.524683565709913
+      },
+      {
+        "name": "Fern",
+        "group": "correction",
+        "prompt": "What color is the beacon at Fern? Answer:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.17041325569152832,
+          0.5294182896614075,
+          0.28697237372398376,
+          0.013196133077144623
+        ],
+        "brier": 0.8179069369043961
+      },
+      {
+        "name": "Fern",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Fern:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.0929359421133995,
+          0.613358199596405,
+          0.27349695563316345,
+          0.02020888775587082
+        ],
+        "brier": 0.9130604429672596
+      },
+      {
+        "name": "Hazel",
+        "group": "correction",
+        "prompt": "What color is the beacon at Hazel? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.18898572027683258,
+          0.698249340057373,
+          0.10745592415332794,
+          0.005308972205966711
+        ],
+        "brier": 1.1568712636269745
+      },
+      {
+        "name": "Hazel",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Hazel:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.10332541167736053,
+          0.8278912305831909,
+          0.05822143331170082,
+          0.010561970993876457
+        ],
+        "brier": 1.4929304975482696
+      },
+      {
+        "name": "Iris",
+        "group": "correction",
+        "prompt": "What color is the beacon at Iris? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2618696987628937,
+          0.629900336265564,
+          0.10289628803730011,
+          0.005333639681339264
+        ],
+        "brier": 1.465298987199066
+      },
+      {
+        "name": "Iris",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Iris:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.1323476880788803,
+          0.8148139119148254,
+          0.0401102751493454,
+          0.012728105299174786
+        ],
+        "brier": 1.6577522498284791
+      }
+    ]
+  },
+  "initial_training": {
+    "seconds": 109.5542631999997,
+    "steps": 80,
+    "examples": 320,
+    "input_tokens": 6280,
+    "supervised_tokens": 320,
+    "padded_tokens": 7040,
+    "peak_allocated_bytes": 3294242816,
+    "losses": [
+      19.20111656188965,
+      10.215967178344727,
+      5.444408893585205,
+      3.0762829780578613,
+      2.7381749153137207,
+      1.5908066034317017,
+      2.4009313583374023,
+      1.4800583124160767,
+      1.9584707021713257,
+      1.1916961669921875,
+      1.460151195526123,
+      1.4201011657714844,
+      0.9573601484298706,
+      0.923119306564331,
+      0.5135253667831421,
+      1.7473617792129517,
+      0.3730296492576599,
+      0.12773796916007996,
+      0.05114638805389404,
+      0.714272141456604,
+      0.0019463440403342247,
+      0.00022673171770293266,
+      0.01823091134428978,
+      0.0033506257459521294,
+      0.0001684511371422559,
+      0.00010504308738745749,
+      4.446403181646019e-05,
+      1.445401539967861e-05,
+      0.0004043978697154671,
+      2.732816938078031e-05,
+      1.5467279808945023e-05,
+      1.4722123523824848e-05,
+      1.4006962373969145e-05,
+      2.074213080049958e-05,
+      1.120560773415491e-05,
+      9.666127152740955e-05,
+      1.1056583389290608e-05,
+      2.336450961593073e-05,
+      9.953922926797532e-06,
+      3.099276727880351e-05,
+      9.357872841064818e-06,
+      1.1086371159763075e-05,
+      8.82144468050683e-06,
+      5.692211288987892e-06,
+      8.106188943202142e-06,
+      5.900838004890829e-06,
+      8.135996722558048e-06,
+      2.74180911219446e-06,
+      7.390938662865665e-06,
+      4.053104930790141e-06,
+      7.301538971660193e-06,
+      1.9371489088371163e-06,
+      6.377669706125744e-06,
+      3.2186435419134796e-06,
+      6.765101716155186e-06,
+      1.6987307844829047e-06,
+      5.60281660000328e-06,
+      2.831215169862844e-06,
+      6.198862138262484e-06,
+      1.5199170775304083e-06,
+      5.155784947419306e-06,
+      2.562995177868288e-06,
+      5.69222584090312e-06,
+      1.4007080153533025e-06,
+      4.619346782419598e-06,
+      2.294775185873732e-06,
+      5.364402568375226e-06,
+      1.3709056929656072e-06,
+      4.231918865116313e-06,
+      2.2053684460843215e-06,
+      5.006776518712286e-06,
+      1.3113010481902165e-06,
+      4.023303517897148e-06,
+      2.115961706294911e-06,
+      4.768359758600127e-06,
+      1.281498839489359e-06,
+      3.814688625425333e-06,
+      2.0265549665055005e-06,
+      4.5597444113809615e-06,
+      1.221894308400806e-06
+    ]
+  },
+  "learned_initial": {
+    "seconds": 3.8159898000012618,
+    "accuracy": 1.0,
+    "group_accuracy": {
+      "correction": 1.0,
+      "retention": 1.0
+    },
+    "brier": 1.9684441139747083e-12,
+    "rows": [
+      {
+        "name": "Aster",
+        "group": "retention",
+        "prompt": "What color is the beacon at Aster? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          2.6527595675673865e-09,
+          1.0,
+          2.7863572560349326e-10,
+          1.9461792177821735e-09
+        ],
+        "brier": 1.0902384738630125e-17
+      },
+      {
+        "name": "Aster",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Aster:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          2.6089325144695863e-10,
+          1.0,
+          4.715834060059487e-12,
+          5.274904957275339e-10
+        ],
+        "brier": 3.4633375082432746e-19
+      },
+      {
+        "name": "Birch",
+        "group": "retention",
+        "prompt": "What color is the beacon at Birch? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          7.835334603356614e-10,
+          3.024375416771363e-07,
+          0.9999996423721313,
+          2.6707523304025926e-08
+        ],
+        "brier": 2.2008006477824617e-13
+      },
+      {
+        "name": "Birch",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Birch:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          1.940084981555401e-09,
+          5.323485083863488e-07,
+          0.9999994039535522,
+          3.8901330157159464e-08
+        ],
+        "brier": 6.401833796789526e-13
+      },
+      {
+        "name": "Cedar",
+        "group": "retention",
+        "prompt": "What color is the beacon at Cedar? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          9.943503798126585e-10,
+          1.0,
+          3.040248053309824e-10,
+          5.730757882127513e-11
+        ],
+        "brier": 1.0844479186804766e-18
+      },
+      {
+        "name": "Cedar",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Cedar:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          3.202010601111027e-10,
+          1.0,
+          8.977687343536545e-11,
+          1.5803216374399298e-11
+        ],
+        "brier": 1.1083834754787971e-19
+      },
+      {
+        "name": "Dahlia",
+        "group": "retention",
+        "prompt": "What color is the beacon at Dahlia? Answer:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999998807907104,
+          5.06411634848547e-10,
+          8.582276057357563e-13,
+          1.5416891585573467e-07
+        ],
+        "brier": 3.7979165784815063e-14
+      },
+      {
+        "name": "Dahlia",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Dahlia:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999998807907104,
+          4.00705413294844e-10,
+          4.699641283772982e-13,
+          8.560963493664531e-08
+        ],
+        "brier": 2.1540024874236794e-14
+      },
+      {
+        "name": "Elm",
+        "group": "correction",
+        "prompt": "What color is the beacon at Elm? Answer:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          2.0419835256284963e-13,
+          1.7707253577910892e-13,
+          2.1562707674081805e-13,
+          1.0
+        ],
+        "brier": 1.1954668634041628e-25
+      },
+      {
+        "name": "Elm",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Elm:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          1.341750929112484e-12,
+          1.443034927661735e-12,
+          5.748289756517255e-13,
+          1.0
+        ],
+        "brier": 4.213073709474735e-24
+      },
+      {
+        "name": "Fern",
+        "group": "correction",
+        "prompt": "What color is the beacon at Fern? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          2.371851604010544e-10,
+          4.1039947973331437e-07,
+          0.9999961853027344,
+          3.424638634896837e-06
+        ],
+        "brier": 2.6448492797217098e-11
+      },
+      {
+        "name": "Fern",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Fern:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          2.273673610497795e-10,
+          3.0662502581435547e-07,
+          0.9999984502792358,
+          1.2221834140291321e-06
+        ],
+        "brier": 3.989385702548614e-12
+      },
+      {
+        "name": "Hazel",
+        "group": "correction",
+        "prompt": "What color is the beacon at Hazel? Answer:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999997615814209,
+          6.445368128105144e-10,
+          2.7293094000124807e-12,
+          2.4819541977194604e-07
+        ],
+        "brier": 1.184448006917327e-13
+      },
+      {
+        "name": "Hazel",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Hazel:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999998807907104,
+          4.828205613094383e-10,
+          1.2518784836892949e-12,
+          6.814779140995597e-08
+        ],
+        "brier": 1.8855209306518496e-14
+      },
+      {
+        "name": "Iris",
+        "group": "correction",
+        "prompt": "What color is the beacon at Iris? Answer:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          1.1108708619644858e-08,
+          2.634821527625064e-10,
+          3.0056217931173634e-12,
+          1.0
+        ],
+        "brier": 1.234728390747587e-16
+      },
+      {
+        "name": "Iris",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Iris:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          2.9567379655759396e-09,
+          1.398788168627263e-10,
+          1.214323021477004e-12,
+          1.0
+        ],
+        "brier": 8.761866955065463e-18
+      }
+    ]
+  },
+  "initial_learnability_passed": true,
+  "clean_training": {
+    "seconds": 121.36088860000018,
+    "steps": 80,
+    "examples": 320,
+    "input_tokens": 6280,
+    "supervised_tokens": 320,
+    "padded_tokens": 7040,
+    "peak_allocated_bytes": 3294242816,
+    "losses": [
+      13.86184310913086,
+      14.123811721801758,
+      12.190221786499023,
+      0.38040220737457275,
+      5.606077194213867,
+      2.7585391998291016,
+      10.955007553100586,
+      9.545147895812988,
+      3.1969962120056152,
+      1.0804483890533447,
+      5.640527725219727,
+      2.116471767425537,
+      0.8836191296577454,
+      0.6988136768341064,
+      5.339229583740234,
+      2.0686726570129395,
+      0.18306675553321838,
+      0.2691075801849365,
+      2.260735511779785,
+      0.07036223262548447,
+      0.013730375096201897,
+      0.0769529715180397,
+      0.11685021221637726,
+      0.001677823020145297,
+      0.00029342464404180646,
+      3.218589336029254e-05,
+      0.005066491197794676,
+      2.1338233636924997e-05,
+      6.67525309836492e-05,
+      3.367653107488877e-06,
+      0.009237522259354591,
+      1.719577812764328e-05,
+      2.3632623197045177e-05,
+      1.1622896636254154e-06,
+      1.475193403166486e-05,
+      8.49362368171569e-06,
+      1.2665857866522856e-05,
+      7.450577186318696e-07,
+      8.702213563083205e-06,
+      6.437280262616696e-06,
+      1.0102916348841973e-05,
+      6.854531875433167e-07,
+      1.8298294889973477e-05,
+      6.258466783037875e-06,
+      9.685675649961922e-06,
+      5.662439548359544e-07,
+      2.0354567823233083e-05,
+      7.152526450227015e-06,
+      9.238641723641194e-06,
+      5.662439548359544e-07,
+      1.1831396477646194e-05,
+      8.195594091375824e-06,
+      7.301520781766158e-06,
+      5.662439548359544e-07,
+      6.4670730353100225e-06,
+      7.182326044130605e-06,
+      6.049839612387586e-06,
+      5.066393669039826e-07,
+      4.619346782419598e-06,
+      5.990245881548617e-06,
+      4.708749656856526e-06,
+      5.364416892916779e-07,
+      3.6060737329535186e-06,
+      4.947171873936895e-06,
+      3.9934998312674e-06,
+      5.364416892916779e-07,
+      3.0994365260994527e-06,
+      4.321326741774101e-06,
+      3.51666540154838e-06,
+      5.662439548359544e-07,
+      2.8312163067312213e-06,
+      3.933898369723465e-06,
+      2.9802267818013206e-06,
+      5.662439548359544e-07,
+      2.6226007321383804e-06,
+      3.5464697702991543e-06,
+      2.741808657447109e-06,
+      5.662439548359544e-07,
+      2.4735895749472547e-06,
+      3.3378541957063135e-06
+    ]
+  },
+  "clean_evaluation": {
+    "seconds": 6.278221800021129,
+    "accuracy": 0.8333333333333334,
+    "group_accuracy": {
+      "correction": 1.0,
+      "new": 1.0,
+      "retention": 0.5
+    },
+    "brier": 0.1476251102093796,
+    "rows": [
+      {
+        "name": "Aster",
+        "group": "retention",
+        "prompt": "What color is the beacon at Aster? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          4.856227064919949e-07,
+          0.9999240636825562,
+          6.993854913162068e-05,
+          5.526411314349389e-06
+        ],
+        "brier": 1.068850201299735e-08
+      },
+      {
+        "name": "Aster",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Aster:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          1.1185168204974616e-06,
+          0.9979493021965027,
+          0.000728256069123745,
+          0.0013213776983320713
+        ],
+        "brier": 6.4817586562135195e-06
+      },
+      {
+        "name": "Birch",
+        "group": "retention",
+        "prompt": "What color is the beacon at Birch? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          3.8873469065947575e-07,
+          3.200510789724831e-08,
+          0.9999996423721313,
+          5.737805341965441e-09
+        ],
+        "brier": 2.8006960150059313e-13
+      },
+      {
+        "name": "Birch",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Birch:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          1.1058816653530812e-06,
+          3.971202744423863e-08,
+          0.999998927116394,
+          4.829704636222232e-09
+        ],
+        "brier": 2.3756538608660716e-12
+      },
+      {
+        "name": "Cedar",
+        "group": "retention",
+        "prompt": "What color is the beacon at Cedar? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.003158415434882045,
+          0.18078868091106415,
+          0.7515023350715637,
+          0.06455052644014359
+        ],
+        "brier": 1.240039690993206
+      },
+      {
+        "name": "Cedar",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Cedar:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.0017900154925882816,
+          0.34287911653518677,
+          0.5720412731170654,
+          0.08328960090875626
+        ],
+        "brier": 0.7659794354099733
+      },
+      {
+        "name": "Dahlia",
+        "group": "retention",
+        "prompt": "What color is the beacon at Dahlia? Answer:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.43312275409698486,
+          1.5934064734324238e-08,
+          0.566862940788269,
+          1.4332921637105756e-05
+        ],
+        "brier": 0.642683405767145
+      },
+      {
+        "name": "Dahlia",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Dahlia:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.3312903344631195,
+          5.931584468044093e-08,
+          0.6686710715293884,
+          3.852854570141062e-05
+        ],
+        "brier": 0.8942936201671594
+      },
+      {
+        "name": "Elm",
+        "group": "correction",
+        "prompt": "What color is the beacon at Elm? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          2.238709440050002e-09,
+          2.1483247472642297e-11,
+          0.9999997615814209,
+          2.9748079555247386e-07
+        ],
+        "brier": 1.4534325486482765e-13
+      },
+      {
+        "name": "Elm",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Elm:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          1.8259443956836208e-09,
+          1.4213160162701577e-11,
+          0.9999996423721313,
+          3.541144621976855e-07
+        ],
+        "brier": 2.532980790493241e-13
+      },
+      {
+        "name": "Fern",
+        "group": "correction",
+        "prompt": "What color is the beacon at Fern? Answer:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999997615814209,
+          2.4085707650556287e-08,
+          2.28232224230851e-07,
+          1.999167720256878e-09
+        ],
+        "brier": 1.0951748502277125e-13
+      },
+      {
+        "name": "Fern",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Fern:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999998807907104,
+          1.1926816867458001e-08,
+          1.5496401317705022e-07,
+          1.1273613154116902e-09
+        ],
+        "brier": 3.836821999926436e-14
+      },
+      {
+        "name": "Hazel",
+        "group": "correction",
+        "prompt": "What color is the beacon at Hazel? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          1.431418468200718e-07,
+          3.9563227693939496e-11,
+          0.9999963045120239,
+          3.5651728467200883e-06
+        ],
+        "brier": 2.6387578398175653e-11
+      },
+      {
+        "name": "Hazel",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Hazel:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          8.134167472917397e-08,
+          2.1607325303985014e-11,
+          0.9999966621398926,
+          3.2374589409300825e-06
+        ],
+        "brier": 2.1629066959441126e-11
+      },
+      {
+        "name": "Iris",
+        "group": "correction",
+        "prompt": "What color is the beacon at Iris? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          7.428784698504387e-09,
+          0.9999958276748657,
+          4.000308706508804e-07,
+          3.814466481344425e-06
+        ],
+        "brier": 3.211853144773837e-11
+      },
+      {
+        "name": "Iris",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Iris:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          2.2192461202052982e-08,
+          0.9999914169311523,
+          3.0461529831882217e-07,
+          8.264118150691502e-06
+        ],
+        "brier": 1.4205800263749998e-10
+      },
+      {
+        "name": "Juniper",
+        "group": "new",
+        "prompt": "What color is the beacon at Juniper? Answer:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999984502792358,
+          2.6238409223111603e-09,
+          1.5087404108271585e-06,
+          2.5585137564121396e-08
+        ],
+        "brier": 4.678593557937402e-12
+      },
+      {
+        "name": "Juniper",
+        "group": "new",
+        "prompt": "Identify the beacon color at Juniper:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.9999983310699463,
+          5.135545766421501e-09,
+          1.567803565194481e-06,
+          5.5443745594629945e-08
+        ],
+        "brier": 5.246435925971999e-12
+      },
+      {
+        "name": "Laurel",
+        "group": "new",
+        "prompt": "What color is the beacon at Laurel? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          4.305142908833659e-09,
+          2.734650195179711e-07,
+          0.999998927116394,
+          8.080978659563698e-07
+        ],
+        "brier": 1.878903044050031e-12
+      },
+      {
+        "name": "Laurel",
+        "group": "new",
+        "prompt": "Identify the beacon color at Laurel:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          4.315945378863262e-09,
+          1.378965777121266e-07,
+          0.9999986886978149,
+          1.1172579661433701e-06
+        ],
+        "brier": 2.9868128769794924e-12
+      },
+      {
+        "name": "Maple",
+        "group": "new",
+        "prompt": "What color is the beacon at Maple? Answer:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          5.252898560570429e-09,
+          3.431107131746103e-08,
+          1.7705818322610867e-07,
+          0.9999997615814209
+        ],
+        "brier": 8.939786166637782e-14
+      },
+      {
+        "name": "Maple",
+        "group": "new",
+        "prompt": "Identify the beacon color at Maple:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          3.1150428903004013e-09,
+          3.840955997702622e-09,
+          1.3165028178718785e-07,
+          0.9999998807907104
+        ],
+        "brier": 3.156710784503267e-14
+      },
+      {
+        "name": "Olive",
+        "group": "new",
+        "prompt": "What color is the beacon at Olive? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          1.7670907792588508e-10,
+          0.9999998807907104,
+          3.8759129239451795e-09,
+          1.5105847239738068e-07
+        ],
+        "brier": 3.7044570725324454e-14
+      },
+      {
+        "name": "Olive",
+        "group": "new",
+        "prompt": "Identify the beacon color at Olive:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          1.4422847638417835e-10,
+          0.9999997615814209,
+          3.851835739254739e-09,
+          2.6011002773884684e-07
+        ],
+        "brier": 1.245155028315273e-13
+      }
+    ]
+  },
+  "development_passed": true
+}

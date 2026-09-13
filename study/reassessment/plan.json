@@ -1,0 +1,46 @@
+{
+  "frozen_at": "2026-09-13T08:08:55.142093+00:00",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "epochs": 20,
+  "lr": 0.0002,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "source_hashes": {
+    "runner.py": "e129485d877089f70c256887d0fe92dfe820f530306deff0cd1c8130ebe48cfb",
+    "evidence.py": "72ee923e458affa00eb71c4fac34d615c62acdb4955285c3edb00ed80b8d0dbc",
+    "fixture.py": "5526f61817657c85f6e3f7c35a45fd704a8215f27a852c7348a9560209f3ec72",
+    "PROTOCOL.md": "da73e295af2f586b9a7acd61e9630b4724b6549978cea3cee5263edac890593a",
+    "prepare.py": "38864713a926050a3e2f967d807decb8f950b247fe847af21958d149641960f8"
+  },
+  "fixtures": {
+    "17": "d38fe0eab9f57df940b61a1a202fde3a3a81434a07c7dba6b227f9db299d3ec8",
+    "29": "834184b1712ab4e5ad3e15ccfa608d4b87445a5f0da4661298e4631500741af6",
+    "43": "a101bc099be653c1832d60938119331d83b0c41503f27f740ce03425e0bf33e8"
+  },
+  "prior_receipts": {
+    "17": {
+      "report.json": "a40bb461db816ab2cb2fd7856e3e3f1706700c630d79a9f4176095acc35418da",
+      "world.json": "e9190b82145fa891aafc04be84eb25713d80bd18dacc3cc711bdc7638569b025",
+      "config.json": "de8580ed869f01f45f499e78a336dc47c1985ffb0ab6172270e62aaf2d5c2324",
+      "gated_adapter/adapter_config.json": "4afe4e25182b2d11a6d76b287658b2910f6e2b3e0a2b58f6205e91b581591f5e",
+      "gated_adapter/adapter_model.safetensors": "9615e00775d9dea83a90bbba4709595502b333e408bbf1b951d39fd74f3ab2a0"
+    },
+    "29": {
+      "report.json": "da516e32f301870ed64696e3c623eb24db87b4248ce09f38a15240d2c8237db4",
+      "world.json": "6c6282900600371ea072f613f5a2df322efc34b523a85d376c7cf05321c87df3",
+      "config.json": "cf2e01b35ab63a4901f59877e5e6b0db8fb01e7e7fec2c26806e78d35d2a2db0",
+      "gated_adapter/adapter_config.json": "9be706e9b3889bbde61a0d6a7cfe0a470f16cb4e45bfd294078e9ac8590e380b",
+      "gated_adapter/adapter_model.safetensors": "1627dabefa71b76dbd77f1b241ea03a71e178737b08f2a8dc318ccdef9f358f5"
+    },
+    "43": {
+      "report.json": "30fd8e0ad7f425b264ef5f88d11a60acafdbfde48d73d7aede2dbd7a3818ff71",
+      "world.json": "8367d334c50535831f6d386d0b1b132e74697962275e82648a6977e8c2821925",
+      "config.json": "192a5cb57fbfc3869b478c70560cf1f20bd93ed307a76767a8be42fdd8a0f1f9",
+      "gated_adapter/adapter_config.json": "8f5b8e88ef81d8a82a57fde022c68519b285b8e810c023a934b8e7d3d3d7b63e",
+      "gated_adapter/adapter_model.safetensors": "d0db8ad37c8eb1fa88a209e697e503c68329ef3555ed4b9a54b4a01847f95e4f"
+    }
+  }
+}

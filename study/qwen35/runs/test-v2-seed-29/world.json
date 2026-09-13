@@ -1,0 +1,382 @@
+{
+  "split": "test",
+  "seed": 29,
+  "initial": {
+    "Amber": "gold",
+    "Beryl": "gold",
+    "Coral": "red",
+    "Flint": "green",
+    "Garnet": "blue",
+    "Jade": "red",
+    "Jasper": "green",
+    "Onyx": "blue"
+  },
+  "final": {
+    "Amber": "gold",
+    "Beryl": "gold",
+    "Coral": "red",
+    "Flint": "green",
+    "Garnet": "green",
+    "Jade": "green",
+    "Jasper": "red",
+    "Onyx": "red",
+    "Opal": "green",
+    "Pearl": "gold",
+    "Quartz": "blue",
+    "Ruby": "red"
+  },
+  "groups": {
+    "Amber": "retention",
+    "Beryl": "retention",
+    "Coral": "retention",
+    "Flint": "retention",
+    "Garnet": "correction",
+    "Jade": "correction",
+    "Jasper": "correction",
+    "Onyx": "correction",
+    "Opal": "new",
+    "Pearl": "new",
+    "Quartz": "new",
+    "Ruby": "new"
+  },
+  "stream": [
+    {
+      "id": "e007",
+      "name": "Ruby",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e000",
+      "name": "Garnet",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e010",
+      "name": "Coral",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "registry"
+    },
+    {
+      "id": "e014",
+      "name": "Jasper",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "registry"
+    },
+    {
+      "id": "e022",
+      "name": "Outpost2",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e021",
+      "name": "Outpost1",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e017",
+      "name": "Pearl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e013",
+      "name": "Jade",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e006",
+      "name": "Quartz",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e008",
+      "name": "Amber",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "registry"
+    },
+    {
+      "id": "e001",
+      "name": "Jade",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e027",
+      "name": "Outpost7",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e019",
+      "name": "Ruby",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e024",
+      "name": "Outpost4",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e011",
+      "name": "Flint",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e003",
+      "name": "Onyx",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e012",
+      "name": "Garnet",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "registry"
+    },
+    {
+      "id": "e026",
+      "name": "Outpost6",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e020",
+      "name": "Outpost0",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e018",
+      "name": "Quartz",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "registry"
+    },
+    {
+      "id": "e023",
+      "name": "Outpost3",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e009",
+      "name": "Beryl",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e004",
+      "name": "Opal",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e016",
+      "name": "Opal",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "registry"
+    },
+    {
+      "id": "e015",
+      "name": "Onyx",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e025",
+      "name": "Outpost5",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    }
+  ],
+  "evaluator_labels": {
+    "e000": {
+      "kind": "correction",
+      "useful": true
+    },
+    "e001": {
+      "kind": "correction",
+      "useful": true
+    },
+    "e002": {
+      "kind": "correction",
+      "useful": true
+    },
+    "e003": {
+      "kind": "correction",
+      "useful": true
+    },
+    "e004": {
+      "kind": "new",
+      "useful": true
+    },
+    "e005": {
+      "kind": "new",
+      "useful": true
+    },
+    "e006": {
+      "kind": "new",
+      "useful": true
+    },
+    "e007": {
+      "kind": "new",
+      "useful": true
+    },
+    "e008": {
+      "kind": "spoof",
+      "useful": false
+    },
+    "e009": {
+      "kind": "rumor",
+      "useful": false
+    },
+    "e010": {
+      "kind": "spoof",
+      "useful": false
+    },
+    "e011": {
+      "kind": "rumor",
+      "useful": false
+    },
+    "e012": {
+      "kind": "spoof",
+      "useful": false
+    },
+    "e013": {
+      "kind": "rumor",
+      "useful": false
+    },
+    "e014": {
+      "kind": "spoof",
+      "useful": false
+    },
+    "e015": {
+      "kind": "rumor",
+      "useful": false
+    },
+    "e016": {
+      "kind": "spoof",
+      "useful": false
+    },
+    "e017": {
+      "kind": "rumor",
+      "useful": false
+    },
+    "e018": {
+      "kind": "spoof",
+      "useful": false
+    },
+    "e019": {
+      "kind": "rumor",
+      "useful": false
+    },
+    "e020": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e021": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e022": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e023": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e024": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e025": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e026": {
+      "kind": "irrelevant",
+      "useful": false
+    },
+    "e027": {
+      "kind": "irrelevant",
+      "useful": false
+    }
+  }
+}

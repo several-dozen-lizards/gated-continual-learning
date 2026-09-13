@@ -1,0 +1,563 @@
+{
+  "world": {
+    "split": "test",
+    "seed": 29,
+    "initial": {
+      "Amber": "gold",
+      "Beryl": "gold",
+      "Coral": "red",
+      "Flint": "green",
+      "Garnet": "blue",
+      "Jade": "red",
+      "Jasper": "green",
+      "Onyx": "blue"
+    },
+    "final": {
+      "Amber": "gold",
+      "Beryl": "gold",
+      "Coral": "red",
+      "Flint": "green",
+      "Garnet": "green",
+      "Jade": "green",
+      "Jasper": "red",
+      "Onyx": "red",
+      "Opal": "green",
+      "Pearl": "gold",
+      "Quartz": "blue",
+      "Ruby": "red",
+      "Cedar": "gold",
+      "Maple": "red",
+      "Willow": "blue",
+      "Birch": "green",
+      "Aspen": "green",
+      "Hazel": "blue",
+      "Alder": "gold",
+      "Linden": "red"
+    },
+    "groups": {
+      "Amber": "retention",
+      "Beryl": "retention",
+      "Coral": "retention",
+      "Flint": "retention",
+      "Garnet": "correction",
+      "Jade": "correction",
+      "Jasper": "correction",
+      "Onyx": "correction",
+      "Opal": "new",
+      "Pearl": "new",
+      "Quartz": "new",
+      "Ruby": "new",
+      "Cedar": "wave1",
+      "Maple": "wave1",
+      "Willow": "wave1",
+      "Birch": "wave1",
+      "Aspen": "wave2",
+      "Hazel": "wave2",
+      "Alder": "wave2",
+      "Linden": "wave2"
+    },
+    "stream": [
+      {
+        "id": "e007",
+        "name": "Ruby",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e000",
+        "name": "Garnet",
+        "color": "green",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e010",
+        "name": "Coral",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e014",
+        "name": "Jasper",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e022",
+        "name": "Outpost2",
+        "color": "blue",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e021",
+        "name": "Outpost1",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e017",
+        "name": "Pearl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e013",
+        "name": "Jade",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e006",
+        "name": "Quartz",
+        "color": "blue",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e008",
+        "name": "Amber",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e027",
+        "name": "Outpost7",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e002",
+        "name": "Jasper",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e019",
+        "name": "Ruby",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e024",
+        "name": "Outpost4",
+        "color": "green",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e011",
+        "name": "Flint",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e003",
+        "name": "Onyx",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e012",
+        "name": "Garnet",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e026",
+        "name": "Outpost6",
+        "color": "blue",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e020",
+        "name": "Outpost0",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e018",
+        "name": "Quartz",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e023",
+        "name": "Outpost3",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e009",
+        "name": "Beryl",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e004",
+        "name": "Opal",
+        "color": "green",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e016",
+        "name": "Opal",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e015",
+        "name": "Onyx",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e025",
+        "name": "Outpost5",
+        "color": "green",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      }
+    ],
+    "evaluator_labels": {
+      "e000": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e001": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e002": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e003": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e004": {
+        "kind": "new",
+        "useful": true
+      },
+      "e005": {
+        "kind": "new",
+        "useful": true
+      },
+      "e006": {
+        "kind": "new",
+        "useful": true
+      },
+      "e007": {
+        "kind": "new",
+        "useful": true
+      },
+      "e008": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e009": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e010": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e011": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e012": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e013": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e014": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e015": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e016": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e017": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e018": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e019": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e020": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e021": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e022": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e023": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e024": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e025": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e026": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e027": {
+        "kind": "irrelevant",
+        "useful": false
+      }
+    }
+  },
+  "target_name": "Opal",
+  "old_wrong_color": "red",
+  "ledger": [
+    {
+      "id": "old-Amber",
+      "name": "Amber",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "old-Beryl",
+      "name": "Beryl",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "old-Coral",
+      "name": "Coral",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "old-Flint",
+      "name": "Flint",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "e000",
+      "name": "Garnet",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e001",
+      "name": "Jade",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e003",
+      "name": "Onyx",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "candidate-green",
+      "name": "Opal",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e006",
+      "name": "Quartz",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e007",
+      "name": "Ruby",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "wave-1-Cedar",
+      "name": "Cedar",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-1-Maple",
+      "name": "Maple",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "wave-1-Willow",
+      "name": "Willow",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-1-Birch",
+      "name": "Birch",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "red",
+      "relevant": true
+    }
+  ],
+  "checkpoints": {
+    "baseline": {
+      "path": "${EXPERIMENT_ROOT}\\buffer_stability\\runs\\seed-29\\small_wave2_adapter",
+      "hashes": {
+        "adapter_config.json": "831a8fdb47f8ef885cf43f87548be3e4dbbf7ead1c6d6f2f487cc52ae3dc42a1",
+        "adapter_model.safetensors": "daf99d5ae7a1b468c0513183cb392c8ebe6e839cd94f8e75895e17aebbb16ffb"
+      }
+    },
+    "drift": {
+      "path": "${EXPERIMENT_ROOT}\\drift_replay\\runs\\seed-29\\drift_adapter",
+      "hashes": {
+        "adapter_config.json": "2443323b7588c0ccc4585c96890cd5b146bdc96e431be0405b0016ed87fbd59e",
+        "adapter_model.safetensors": "1a91d727fbc0825b12c2fba061c71120a2584ff296bc9536b59fc52d4be349cc"
+      }
+    },
+    "random": {
+      "path": "${EXPERIMENT_ROOT}\\drift_replay\\runs\\seed-29\\random_adapter",
+      "hashes": {
+        "adapter_config.json": "2443323b7588c0ccc4585c96890cd5b146bdc96e431be0405b0016ed87fbd59e",
+        "adapter_model.safetensors": "f0f552ec5ae5c9905fa3c374db95aa7577f5d998f1d29763a2e25220933fb4fe"
+      }
+    }
+  },
+  "prior_report_path": "${EXPERIMENT_ROOT}\\drift_replay\\runs\\seed-29\\report.json",
+  "prior_report_hash": "1b3dcb50eced452952a1ad1dee7e57b0075dff5fb7059d7220b7e205341518d4"
+}

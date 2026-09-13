@@ -1,0 +1,26 @@
+{
+  "version": 2,
+  "frozen_at": "2026-09-13T07:17:46.253664+00:00",
+  "development_run": "dev-002",
+  "development_passed": true,
+  "development_report_sha256": "da9ba021337db8132055d566f9eb710d15c332546fff85f94961ce41a5b556e7",
+  "epochs": 20,
+  "lr": 0.0002,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "quality_loss_margin": 0.05,
+  "source_hashes": {
+    "world.py": "7e641492a362995d051f267ef9d8ac66e037714280136d97428c813326ecfc60",
+    "benchmark.py": "71d4dda11fb0f54b114593f60d079bf3d533d98e2dc04088e344f52815f75b3d",
+    "PROTOCOL_V2.md": "6a0dd5bd51cc6fb5a1ce8377cd5ae2cc543c993f8dd6be3cb451d92f81d835df"
+  },
+  "world_hashes": {
+    "17": "2665369afd6cde560d7016e853507c2a5e07a2bd5f42a7cb0bf5fe97926fe212",
+    "29": "0a39501fe6fcdf4fceeb6ed590a2af97459f3a93ffbfa8fb48b997d470c9c3f9",
+    "43": "a024d29d45080a16ff6c4658f0b998bc8bace534c986f7260abf43baaa8a56d2"
+  }
+}

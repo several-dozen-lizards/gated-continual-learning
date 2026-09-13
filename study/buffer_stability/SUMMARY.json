@@ -1,0 +1,981 @@
+{
+  "records": [
+    {
+      "seed": 17,
+      "arm": "baseline",
+      "wave": 0,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": null,
+      "wave2": null
+    },
+    {
+      "seed": 17,
+      "arm": "baseline",
+      "wave": 0,
+      "family": "transfer",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": null,
+      "wave2": null
+    },
+    {
+      "seed": 17,
+      "arm": "frozen",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.675,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 0,
+      "wave2": 0.375
+    },
+    {
+      "seed": 17,
+      "arm": "frozen",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.6625,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 0,
+      "wave2": 0.3125
+    },
+    {
+      "seed": 17,
+      "arm": "none",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 17,
+      "arm": "none",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 17,
+      "arm": "none",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.975,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9545454545454546,
+      "original": 0.9583333333333334,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 17,
+      "arm": "small",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 17,
+      "arm": "small",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "original": 0.9166666666666666,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 17,
+      "arm": "small",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.95,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "original": 0.9166666666666666,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 17,
+      "arm": "full",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 17,
+      "arm": "full",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 17,
+      "arm": "full",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 29,
+      "arm": "baseline",
+      "wave": 0,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": null,
+      "wave2": null
+    },
+    {
+      "seed": 29,
+      "arm": "baseline",
+      "wave": 0,
+      "family": "transfer",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": null,
+      "wave2": null
+    },
+    {
+      "seed": 29,
+      "arm": "frozen",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.675,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 0.125,
+      "wave2": 0.25
+    },
+    {
+      "seed": 29,
+      "arm": "frozen",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.65,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 0.1875,
+      "wave2": 0.0625
+    },
+    {
+      "seed": 29,
+      "arm": "small",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 29,
+      "arm": "small",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.8,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.7272727272727273,
+      "original": 0.75,
+      "wave1": 0.75,
+      "wave2": 1
+    },
+    {
+      "seed": 29,
+      "arm": "small",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.7875,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.7045454545454546,
+      "original": 0.7291666666666666,
+      "wave1": 0.75,
+      "wave2": 1
+    },
+    {
+      "seed": 29,
+      "arm": "none",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 29,
+      "arm": "none",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.975,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9545454545454546,
+      "original": 0.9583333333333334,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 29,
+      "arm": "none",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.975,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9545454545454546,
+      "original": 0.9583333333333334,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 29,
+      "arm": "full",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 29,
+      "arm": "full",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 29,
+      "arm": "full",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 43,
+      "arm": "baseline",
+      "wave": 0,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": null,
+      "wave2": null
+    },
+    {
+      "seed": 43,
+      "arm": "baseline",
+      "wave": 0,
+      "family": "transfer",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": null,
+      "wave2": null
+    },
+    {
+      "seed": 43,
+      "arm": "frozen",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.725,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 0.25,
+      "wave2": 0.375
+    },
+    {
+      "seed": 43,
+      "arm": "frozen",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.7375,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 0.375,
+      "wave2": 0.3125
+    },
+    {
+      "seed": 43,
+      "arm": "full",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 43,
+      "arm": "full",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 43,
+      "arm": "full",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 43,
+      "arm": "small",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 1,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 1,
+      "original": 1,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 43,
+      "arm": "small",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.925,
+      "target_accuracy": 0.5,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "original": 0.875,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 43,
+      "arm": "small",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.925,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.8636363636363636,
+      "original": 0.875,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 43,
+      "arm": "none",
+      "wave": 1,
+      "family": "evaluation",
+      "accuracy": 0.875,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.8181818181818182,
+      "original": 0.8333333333333334,
+      "wave1": 1,
+      "wave2": null
+    },
+    {
+      "seed": 43,
+      "arm": "none",
+      "wave": 2,
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.9090909090909091,
+      "original": 0.9166666666666666,
+      "wave1": 1,
+      "wave2": 1
+    },
+    {
+      "seed": 43,
+      "arm": "none",
+      "wave": 2,
+      "family": "transfer",
+      "accuracy": 0.925,
+      "target_accuracy": 1,
+      "old_error": 0,
+      "other_original": 0.8636363636363636,
+      "original": 0.875,
+      "wave1": 1,
+      "wave2": 1
+    }
+  ],
+  "means": {
+    "evaluation": {
+      "frozen": {
+        "accuracy": 0.6916666666666667,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 1,
+        "original": 1,
+        "wave1": 0.125,
+        "wave2": 0.3333333333333333
+      },
+      "none": {
+        "accuracy": 0.975,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 0.9545454545454546,
+        "original": 0.9583333333333334,
+        "wave1": 1,
+        "wave2": 1
+      },
+      "small": {
+        "accuracy": 0.8916666666666667,
+        "target_accuracy": 0.8333333333333334,
+        "old_error": 0,
+        "other_original": 0.8484848484848485,
+        "original": 0.8472222222222222,
+        "wave1": 0.9166666666666666,
+        "wave2": 1
+      },
+      "full": {
+        "accuracy": 1,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 1,
+        "original": 1,
+        "wave1": 1,
+        "wave2": 1
+      }
+    },
+    "transfer": {
+      "frozen": {
+        "accuracy": 0.6833333333333333,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 1,
+        "original": 1,
+        "wave1": 0.1875,
+        "wave2": 0.22916666666666666
+      },
+      "none": {
+        "accuracy": 0.9583333333333334,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 0.9242424242424243,
+        "original": 0.9305555555555556,
+        "wave1": 1,
+        "wave2": 1
+      },
+      "small": {
+        "accuracy": 0.8875,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 0.8257575757575758,
+        "original": 0.8402777777777778,
+        "wave1": 0.9166666666666666,
+        "wave2": 1
+      },
+      "full": {
+        "accuracy": 1,
+        "target_accuracy": 1,
+        "old_error": 0,
+        "other_original": 1,
+        "original": 1,
+        "wave1": 1,
+        "wave2": 1
+      }
+    }
+  },
+  "budgets": [
+    {
+      "seed": 17,
+      "arm": "none",
+      "input_tokens": 3140,
+      "examples": 160,
+      "supervised_tokens": 160,
+      "padded_tokens": 3360,
+      "steps": 40,
+      "seconds": 54.72228309998172,
+      "cpu_seconds": 52.90625,
+      "cuda_interval_seconds": 54.7152890625
+    },
+    {
+      "seed": 17,
+      "arm": "small",
+      "input_tokens": 6280,
+      "examples": 320,
+      "supervised_tokens": 320,
+      "padded_tokens": 6720,
+      "steps": 80,
+      "seconds": 104.94152490000124,
+      "cpu_seconds": 104.453125,
+      "cuda_interval_seconds": 104.93045703125
+    },
+    {
+      "seed": 17,
+      "arm": "full",
+      "input_tokens": 14220,
+      "examples": 720,
+      "supervised_tokens": 720,
+      "padded_tokens": 15120,
+      "steps": 180,
+      "seconds": 246.1557498999755,
+      "cpu_seconds": 236.96875,
+      "cuda_interval_seconds": 246.13039062500002
+    },
+    {
+      "seed": 29,
+      "arm": "small",
+      "input_tokens": 6300,
+      "examples": 320,
+      "supervised_tokens": 320,
+      "padded_tokens": 6720,
+      "steps": 80,
+      "seconds": 106.07940029999008,
+      "cpu_seconds": 104.109375,
+      "cuda_interval_seconds": 106.06612109375
+    },
+    {
+      "seed": 29,
+      "arm": "none",
+      "input_tokens": 3140,
+      "examples": 160,
+      "supervised_tokens": 160,
+      "padded_tokens": 3360,
+      "steps": 40,
+      "seconds": 48.28559739998309,
+      "cpu_seconds": 48.984375,
+      "cuda_interval_seconds": 48.2804765625
+    },
+    {
+      "seed": 29,
+      "arm": "full",
+      "input_tokens": 14220,
+      "examples": 720,
+      "supervised_tokens": 720,
+      "padded_tokens": 15120,
+      "steps": 180,
+      "seconds": 222.16713170000003,
+      "cpu_seconds": 221.40625,
+      "cuda_interval_seconds": 222.144296875
+    },
+    {
+      "seed": 43,
+      "arm": "full",
+      "input_tokens": 14220,
+      "examples": 720,
+      "supervised_tokens": 720,
+      "padded_tokens": 15120,
+      "steps": 180,
+      "seconds": 225.32750779998605,
+      "cpu_seconds": 222.03125,
+      "cuda_interval_seconds": 225.3031796875
+    },
+    {
+      "seed": 43,
+      "arm": "small",
+      "input_tokens": 6300,
+      "examples": 320,
+      "supervised_tokens": 320,
+      "padded_tokens": 6720,
+      "steps": 80,
+      "seconds": 107.18173549999483,
+      "cpu_seconds": 105.203125,
+      "cuda_interval_seconds": 107.1706015625
+    },
+    {
+      "seed": 43,
+      "arm": "none",
+      "input_tokens": 3140,
+      "examples": 160,
+      "supervised_tokens": 160,
+      "padded_tokens": 3360,
+      "steps": 40,
+      "seconds": 56.922784800000954,
+      "cpu_seconds": 55.390625,
+      "cuda_interval_seconds": 56.916720703124994
+    }
+  ],
+  "costs": {
+    "none": {
+      "input_tokens": 3140,
+      "examples": 160,
+      "supervised_tokens": 160,
+      "padded_tokens": 3360,
+      "steps": 40,
+      "seconds": 53.31022176665525,
+      "cpu_seconds": 52.427083333333336,
+      "cuda_interval_seconds": 53.304162109375
+    },
+    "small": {
+      "input_tokens": 6293.333333333333,
+      "examples": 320,
+      "supervised_tokens": 320,
+      "padded_tokens": 6720,
+      "steps": 80,
+      "seconds": 106.06755356666206,
+      "cpu_seconds": 104.58854166666667,
+      "cuda_interval_seconds": 106.0557265625
+    },
+    "full": {
+      "input_tokens": 14220,
+      "examples": 720,
+      "supervised_tokens": 720,
+      "padded_tokens": 15120,
+      "steps": 180,
+      "seconds": 231.21679646665385,
+      "cpu_seconds": 226.80208333333334,
+      "cuda_interval_seconds": 231.19262239583335
+    }
+  },
+  "buffers": [
+    {
+      "seed": 17,
+      "arm": "none",
+      "wave": 1,
+      "names": [],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 17,
+      "arm": "none",
+      "wave": 2,
+      "names": [],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 17,
+      "arm": "small",
+      "wave": 1,
+      "names": [
+        "Amber",
+        "Flint",
+        "Garnet",
+        "Jasper"
+      ],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 17,
+      "arm": "small",
+      "wave": 2,
+      "names": [
+        "Cedar",
+        "Coral",
+        "Flint",
+        "Ruby"
+      ],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 17,
+      "arm": "full",
+      "wave": 1,
+      "names": [
+        "Amber",
+        "Beryl",
+        "Coral",
+        "Flint",
+        "Garnet",
+        "Jade",
+        "Jasper",
+        "Onyx",
+        "Opal",
+        "Pearl",
+        "Quartz",
+        "Ruby"
+      ],
+      "target_in_buffer": true
+    },
+    {
+      "seed": 17,
+      "arm": "full",
+      "wave": 2,
+      "names": [
+        "Amber",
+        "Beryl",
+        "Birch",
+        "Cedar",
+        "Coral",
+        "Flint",
+        "Garnet",
+        "Jade",
+        "Jasper",
+        "Maple",
+        "Onyx",
+        "Opal",
+        "Pearl",
+        "Quartz",
+        "Ruby",
+        "Willow"
+      ],
+      "target_in_buffer": true
+    },
+    {
+      "seed": 29,
+      "arm": "small",
+      "wave": 1,
+      "names": [
+        "Amber",
+        "Garnet",
+        "Jade",
+        "Jasper"
+      ],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 29,
+      "arm": "small",
+      "wave": 2,
+      "names": [
+        "Birch",
+        "Garnet",
+        "Jade",
+        "Jasper"
+      ],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 29,
+      "arm": "none",
+      "wave": 1,
+      "names": [],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 29,
+      "arm": "none",
+      "wave": 2,
+      "names": [],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 29,
+      "arm": "full",
+      "wave": 1,
+      "names": [
+        "Amber",
+        "Beryl",
+        "Coral",
+        "Flint",
+        "Garnet",
+        "Jade",
+        "Jasper",
+        "Onyx",
+        "Opal",
+        "Pearl",
+        "Quartz",
+        "Ruby"
+      ],
+      "target_in_buffer": true
+    },
+    {
+      "seed": 29,
+      "arm": "full",
+      "wave": 2,
+      "names": [
+        "Amber",
+        "Beryl",
+        "Birch",
+        "Cedar",
+        "Coral",
+        "Flint",
+        "Garnet",
+        "Jade",
+        "Jasper",
+        "Maple",
+        "Onyx",
+        "Opal",
+        "Pearl",
+        "Quartz",
+        "Ruby",
+        "Willow"
+      ],
+      "target_in_buffer": true
+    },
+    {
+      "seed": 43,
+      "arm": "full",
+      "wave": 1,
+      "names": [
+        "Amber",
+        "Beryl",
+        "Coral",
+        "Flint",
+        "Garnet",
+        "Jade",
+        "Jasper",
+        "Onyx",
+        "Opal",
+        "Pearl",
+        "Quartz",
+        "Ruby"
+      ],
+      "target_in_buffer": true
+    },
+    {
+      "seed": 43,
+      "arm": "full",
+      "wave": 2,
+      "names": [
+        "Amber",
+        "Beryl",
+        "Birch",
+        "Cedar",
+        "Coral",
+        "Flint",
+        "Garnet",
+        "Jade",
+        "Jasper",
+        "Maple",
+        "Onyx",
+        "Opal",
+        "Pearl",
+        "Quartz",
+        "Ruby",
+        "Willow"
+      ],
+      "target_in_buffer": true
+    },
+    {
+      "seed": 43,
+      "arm": "small",
+      "wave": 1,
+      "names": [
+        "Coral",
+        "Flint",
+        "Opal",
+        "Pearl"
+      ],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 43,
+      "arm": "small",
+      "wave": 2,
+      "names": [
+        "Birch",
+        "Coral",
+        "Maple",
+        "Opal"
+      ],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 43,
+      "arm": "none",
+      "wave": 1,
+      "names": [],
+      "target_in_buffer": false
+    },
+    {
+      "seed": 43,
+      "arm": "none",
+      "wave": 2,
+      "names": [],
+      "target_in_buffer": false
+    }
+  ],
+  "max_reload_delta": 0.0,
+  "receipt_count": 66
+}

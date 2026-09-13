@@ -1,0 +1,106 @@
+{
+  "drift": [
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "old-Amber",
+      "name": "Amber",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "old-Beryl",
+      "name": "Beryl",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-1-Cedar",
+      "name": "Cedar",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    }
+  ],
+  "random": [
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "wave-1-Birch",
+      "name": "Birch",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "old-Coral",
+      "name": "Coral",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "candidate-green",
+      "name": "Opal",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    }
+  ]
+}

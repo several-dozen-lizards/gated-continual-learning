@@ -1,0 +1,42 @@
+{
+  "assets": [
+    {
+      "name": "checkpoints-buffer_stability.zip",
+      "bytes": 1123040044,
+      "sha256": "3f7b3c5ddb0f713db3795acac8f24d426c048e1aec74312ad907cc102fef7fca",
+      "adapter_count": 18
+    },
+    {
+      "name": "checkpoints-drift_replay.zip",
+      "bytes": 374242732,
+      "sha256": "61f0ab7cc6d7035b2a1598bb94684de5e3d59a8cd5dea23fb5cf09be42358a21",
+      "adapter_count": 6
+    },
+    {
+      "name": "checkpoints-qwen35.zip",
+      "bytes": 1186444171,
+      "sha256": "952fd1cb1c1ef413ea0a1973446529512c95d4d5c56bfc784e6fbaa438b49c52",
+      "adapter_count": 19
+    },
+    {
+      "name": "checkpoints-reassessment.zip",
+      "bytes": 749511130,
+      "sha256": "ea51f53cb5ab1c0c9eca5c566c0d8e09ea2ebfaf3831f0a5327ec5302349208b",
+      "adapter_count": 12
+    },
+    {
+      "name": "checkpoints-repair.zip",
+      "bytes": 561845479,
+      "sha256": "79700c2e8bd8c4cf56a5bff6900ce6ebc4cbf538bae2a3ce3224b9754871ae8d",
+      "adapter_count": 9
+    },
+    {
+      "name": "checkpoints-initial.zip",
+      "bytes": 278418045,
+      "sha256": "1728c92867d0bdf414e6e819269c493aefc146e5b6904d0f6e310a6f42bd2900",
+      "adapter_count": 21
+    }
+  ],
+  "adapter_count": 85,
+  "release_tag": "v0.1.0"
+}

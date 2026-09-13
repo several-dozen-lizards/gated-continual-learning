@@ -1,0 +1,34 @@
+[
+  {
+    "hash": "68c403151605e50777a180a7ef2f05aaeb900786985c4373a06488affc0ad08f",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "608939ea5324d71b8690becf3fb271d998d3a497431f8d46d1f8de5970642ef5",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "5b316824ec01c18c47ea7b605dfabb753883f7e8f2e202281149d08406138a69",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "d4bb97a8e87cceff37d705fe95c5dc2a67625c368f480f2c114d4d9f706ee81e",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "0b275da07b478a71f5db719ebba3656db8ab9f841f92a7c4c2e25a2da22686a4",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "76918fbd70451bce19680b484297c34021402949e99373a66cd7c1e87c80b8c3",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "e0fae8eedc29fdabfae4b556fb2a316143ce3df40f9b5312e5d2eb1f8a264cd9",
+    "reason": "outside beacon task scope"
+  },
+  {
+    "hash": "91e10864e497521115bc21e970ac71d95efecddc1cb4c52cc2e133fcdcc61c3b",
+    "reason": "outside beacon task scope"
+  }
+]

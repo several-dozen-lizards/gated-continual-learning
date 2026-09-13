@@ -1,0 +1,10 @@
+{
+  "selected": "random",
+  "checkpoint": {
+    "path": "${EXPERIMENT_ROOT}\\drift_replay\\runs\\seed-43\\random_adapter",
+    "hashes": {
+      "adapter_config.json": "7d015bf002f0be29d9e35b806e0d0ec9284f71788d8281ef26528b726d99d2ae",
+      "adapter_model.safetensors": "d3315481525191b60ca1c9f6459db328ccb4f35fcbf024bd1ae2df01e87968ed"
+    }
+  }
+}

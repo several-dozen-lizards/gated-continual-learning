@@ -1,0 +1,112 @@
+{
+  "drift": [
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "candidate-gold",
+      "name": "Beryl",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "e002",
+      "name": "Jasper",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e005",
+      "name": "Pearl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e006",
+      "name": "Quartz",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    }
+  ],
+  "random": [
+    {
+      "id": "wave-2-Aspen",
+      "name": "Aspen",
+      "color": "blue",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Hazel",
+      "name": "Hazel",
+      "color": "gold",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Alder",
+      "name": "Alder",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "wave-2-Linden",
+      "name": "Linden",
+      "color": "green",
+      "relevant": true
+    },
+    {
+      "id": "old-Coral",
+      "name": "Coral",
+      "color": "red",
+      "relevant": true
+    },
+    {
+      "id": "e003",
+      "name": "Onyx",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e006",
+      "name": "Quartz",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "wave-1-Willow",
+      "name": "Willow",
+      "color": "gold",
+      "relevant": true
+    }
+  ]
+}

@@ -1,0 +1,1077 @@
+{
+  "records": [
+    {
+      "seed": 17,
+      "policy": "baseline",
+      "selected": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "baseline",
+      "selected": "baseline",
+      "family": "transfer",
+      "accuracy": 0.95,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "always_drift",
+      "selected": "drift",
+      "family": "evaluation",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "always_drift",
+      "selected": "drift",
+      "family": "transfer",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "always_random",
+      "selected": "random",
+      "family": "evaluation",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "always_random",
+      "selected": "random",
+      "family": "transfer",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "guarded_drift",
+      "selected": "drift",
+      "family": "evaluation",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "guarded_drift",
+      "selected": "drift",
+      "family": "transfer",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "guarded_fallback",
+      "selected": "drift",
+      "family": "evaluation",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 17,
+      "policy": "guarded_fallback",
+      "selected": "drift",
+      "family": "transfer",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "baseline",
+      "selected": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.8,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "baseline",
+      "selected": "baseline",
+      "family": "transfer",
+      "accuracy": 0.7875,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "always_drift",
+      "selected": "drift",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "collateral_retention": 0.9375,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 0,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "always_drift",
+      "selected": "drift",
+      "family": "transfer",
+      "accuracy": 0.9125,
+      "collateral_retention": 0.8888888888888888,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 0,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "always_random",
+      "selected": "random",
+      "family": "evaluation",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "always_random",
+      "selected": "random",
+      "family": "transfer",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "guarded_drift",
+      "selected": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.8,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "guarded_drift",
+      "selected": "baseline",
+      "family": "transfer",
+      "accuracy": 0.7875,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "guarded_fallback",
+      "selected": "random",
+      "family": "evaluation",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 29,
+      "policy": "guarded_fallback",
+      "selected": "random",
+      "family": "transfer",
+      "accuracy": 1,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "baseline",
+      "selected": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.925,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 0.5,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "baseline",
+      "selected": "baseline",
+      "family": "transfer",
+      "accuracy": 0.925,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "always_drift",
+      "selected": "drift",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "collateral_retention": 0.9459459459459459,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "always_drift",
+      "selected": "drift",
+      "family": "transfer",
+      "accuracy": 0.95,
+      "collateral_retention": 0.9459459459459459,
+      "prior_errors_recovered": 1,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "always_random",
+      "selected": "random",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0.3333333333333333,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "always_random",
+      "selected": "random",
+      "family": "transfer",
+      "accuracy": 0.9875,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0.8333333333333334,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "guarded_drift",
+      "selected": "baseline",
+      "family": "evaluation",
+      "accuracy": 0.925,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 0.5,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "guarded_drift",
+      "selected": "baseline",
+      "family": "transfer",
+      "accuracy": 0.925,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "guarded_fallback",
+      "selected": "random",
+      "family": "evaluation",
+      "accuracy": 0.95,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0.3333333333333333,
+      "target_accuracy": 1,
+      "old_error": 0
+    },
+    {
+      "seed": 43,
+      "policy": "guarded_fallback",
+      "selected": "random",
+      "family": "transfer",
+      "accuracy": 0.9875,
+      "collateral_retention": 1,
+      "prior_errors_recovered": 0.8333333333333334,
+      "target_accuracy": 1,
+      "old_error": 0
+    }
+  ],
+  "means": {
+    "evaluation": {
+      "baseline": {
+        "accuracy": 0.8916666666666667,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0,
+        "target_accuracy": 0.8333333333333334,
+        "old_error": 0
+      },
+      "always_drift": {
+        "accuracy": 0.9666666666666667,
+        "collateral_retention": 0.9611486486486487,
+        "prior_errors_recovered": 1,
+        "target_accuracy": 0.6666666666666666,
+        "old_error": 0
+      },
+      "guarded_drift": {
+        "accuracy": 0.9083333333333333,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0.3333333333333333,
+        "target_accuracy": 0.8333333333333334,
+        "old_error": 0
+      },
+      "always_random": {
+        "accuracy": 0.9833333333333333,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0.7777777777777778,
+        "target_accuracy": 1,
+        "old_error": 0
+      },
+      "guarded_fallback": {
+        "accuracy": 0.9833333333333333,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0.7777777777777778,
+        "target_accuracy": 1,
+        "old_error": 0
+      }
+    },
+    "transfer": {
+      "baseline": {
+        "accuracy": 0.8875,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0,
+        "target_accuracy": 1,
+        "old_error": 0
+      },
+      "always_drift": {
+        "accuracy": 0.9541666666666666,
+        "collateral_retention": 0.944944944944945,
+        "prior_errors_recovered": 1,
+        "target_accuracy": 0.6666666666666666,
+        "old_error": 0
+      },
+      "guarded_drift": {
+        "accuracy": 0.9041666666666667,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0.3333333333333333,
+        "target_accuracy": 1,
+        "old_error": 0
+      },
+      "always_random": {
+        "accuracy": 0.9958333333333333,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0.9444444444444444,
+        "target_accuracy": 1,
+        "old_error": 0
+      },
+      "guarded_fallback": {
+        "accuracy": 0.9958333333333333,
+        "collateral_retention": 1,
+        "prior_errors_recovered": 0.9444444444444444,
+        "target_accuracy": 1,
+        "old_error": 0
+      }
+    }
+  },
+  "decisions": [
+    {
+      "seed": 17,
+      "candidate": "drift",
+      "promote": true,
+      "reason": "improvement_without_loss",
+      "gains": [
+        {
+          "name": "Pearl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Pearl",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "losses": [],
+      "diagnoses": {
+        "evaluation": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Pearl",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Pearl",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ]
+        },
+        "transfer": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Pearl",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 17,
+      "candidate": "random",
+      "promote": true,
+      "reason": "improvement_without_loss",
+      "gains": [
+        {
+          "name": "Pearl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Pearl",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "losses": [],
+      "diagnoses": {
+        "evaluation": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Pearl",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Pearl",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ]
+        },
+        "transfer": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Pearl",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "drift",
+      "promote": false,
+      "reason": "collateral_loss",
+      "gains": [
+        {
+          "name": "Amber",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Amber",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Beryl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Pearl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Pearl",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Cedar",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Cedar",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Maple",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "losses": [
+        {
+          "name": "Garnet",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Opal",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Opal",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Birch",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "diagnoses": {
+        "evaluation": {
+          "losses": [
+            {
+              "name": "Opal",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Opal",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ],
+          "gains": [
+            {
+              "name": "Amber",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Amber",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Beryl",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Beryl",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Pearl",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Pearl",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Cedar",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Cedar",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ]
+        },
+        "transfer": {
+          "losses": [
+            {
+              "name": "Flint",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Garnet",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Opal",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Opal",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Opal",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Opal",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Birch",
+              "template": "At {name}, which color does the beacon show?"
+            }
+          ],
+          "gains": [
+            {
+              "name": "Amber",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Amber",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Amber",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Amber",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Beryl",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Beryl",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Beryl",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Beryl",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Ruby",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Cedar",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Cedar",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Cedar",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Cedar",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 29,
+      "candidate": "random",
+      "promote": true,
+      "reason": "improvement_without_loss",
+      "gains": [
+        {
+          "name": "Amber",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Amber",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Beryl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Beryl",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Pearl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Pearl",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Cedar",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Cedar",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Maple",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "losses": [],
+      "diagnoses": {
+        "evaluation": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Amber",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Amber",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Beryl",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Beryl",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Pearl",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Pearl",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Cedar",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Cedar",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ]
+        },
+        "transfer": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Amber",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Amber",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Amber",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Amber",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Beryl",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Beryl",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Beryl",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Beryl",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Pearl",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Ruby",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Cedar",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Cedar",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Cedar",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Cedar",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "drift",
+      "promote": false,
+      "reason": "collateral_loss",
+      "gains": [
+        {
+          "name": "Beryl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Jasper",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Jasper",
+          "template": "For {name}, supply only the recorded beacon color."
+        },
+        {
+          "name": "Quartz",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Quartz",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "losses": [
+        {
+          "name": "Birch",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Birch",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "diagnoses": {
+        "evaluation": {
+          "losses": [
+            {
+              "name": "Birch",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Birch",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ],
+          "gains": [
+            {
+              "name": "Beryl",
+              "template": "Identify the beacon color at {name}:"
+            },
+            {
+              "name": "Jasper",
+              "template": "What color is the beacon at {name}? Answer:"
+            },
+            {
+              "name": "Jasper",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ]
+        },
+        "transfer": {
+          "losses": [
+            {
+              "name": "Birch",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Birch",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Birch",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Birch",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ],
+          "gains": [
+            {
+              "name": "Jasper",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Jasper",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Jasper",
+              "template": "Give the beacon color associated with {name}."
+            },
+            {
+              "name": "Jasper",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Quartz",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "seed": 43,
+      "candidate": "random",
+      "promote": true,
+      "reason": "improvement_without_loss",
+      "gains": [
+        {
+          "name": "Beryl",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Quartz",
+          "template": "Consult the beacon record for {name}. Which color is listed?"
+        },
+        {
+          "name": "Quartz",
+          "template": "For {name}, supply only the recorded beacon color."
+        }
+      ],
+      "losses": [],
+      "diagnoses": {
+        "evaluation": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Beryl",
+              "template": "Identify the beacon color at {name}:"
+            }
+          ]
+        },
+        "transfer": {
+          "losses": [],
+          "gains": [
+            {
+              "name": "Jasper",
+              "template": "Name the color of the beacon located at {name}."
+            },
+            {
+              "name": "Jasper",
+              "template": "At {name}, which color does the beacon show?"
+            },
+            {
+              "name": "Jasper",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Pearl",
+              "template": "Which color belongs to the {name} beacon?"
+            },
+            {
+              "name": "Quartz",
+              "template": "Which color belongs to the {name} beacon?"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "costs": [
+    {
+      "seed": 17,
+      "sequential_probe_seconds": 25.374205000000075,
+      "sequential_probe_tokens": 1860,
+      "audit_probe_seconds": 36.35246150000603,
+      "candidate_training_cost_included": false
+    },
+    {
+      "seed": 29,
+      "sequential_probe_seconds": 29.910028599988436,
+      "sequential_probe_tokens": 2790,
+      "audit_probe_seconds": 29.910028599988436,
+      "candidate_training_cost_included": false
+    },
+    {
+      "seed": 43,
+      "sequential_probe_seconds": 26.869270800001686,
+      "sequential_probe_tokens": 2790,
+      "audit_probe_seconds": 26.869270800001686,
+      "candidate_training_cost_included": false
+    }
+  ],
+  "max_reload_delta": 0.0,
+  "receipt_count": 18
+}

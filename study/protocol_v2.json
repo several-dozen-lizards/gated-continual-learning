@@ -1,0 +1,25 @@
+{
+  "version": 2,
+  "frozen_at": "2026-09-13T06:56:06.611235+00:00",
+  "development_passed": true,
+  "development_report_sha256": "76964cf901f7314e43bbe3766534546e053432aaa772097c8b50134a86dfdf60",
+  "epochs": 20,
+  "lr": 0.001,
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "model_revision": "8faed761d45a263340a0528343f099c05c9a4323",
+  "quality_loss_margin": 0.05,
+  "source_hashes": {
+    "world.py": "7e641492a362995d051f267ef9d8ac66e037714280136d97428c813326ecfc60",
+    "benchmark.py": "4823a61a1fefc1bbaff52cb9878390528ef69d225b1046b4224a70c06291153f",
+    "PROTOCOL_V2.md": "a68e9a28ad85bc641406dad754191058aed93b20f8ae6bb0fd49aaab82b2be28"
+  },
+  "world_hashes": {
+    "17": "2665369afd6cde560d7016e853507c2a5e07a2bd5f42a7cb0bf5fe97926fe212",
+    "29": "0a39501fe6fcdf4fceeb6ed590a2af97459f3a93ffbfa8fb48b997d470c9c3f9",
+    "43": "a024d29d45080a16ff6c4658f0b998bc8bace534c986f7260abf43baaa8a56d2"
+  }
+}

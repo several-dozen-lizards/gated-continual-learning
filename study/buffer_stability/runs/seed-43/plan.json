@@ -1,0 +1,45 @@
+{
+  "frozen_at": "2026-09-13T18:05:13.171948+00:00",
+  "seeds": [
+    17,
+    29,
+    43
+  ],
+  "epochs": 10,
+  "lr": 0.0002,
+  "model_revision": "15852e8c16360a2fea060d615a32b45270f8a8fc",
+  "source_hashes": {
+    "runner.py": "3d6181859783d44e5ab3c34fe5a4950e859de19cb72d6e55fe1ea84cd11abec8",
+    "selection.py": "548bf82784608031e511bb07ff5d00af3def16dd8bfb398c08bb9dfed3d249e2",
+    "PROTOCOL.md": "617a7d9b1211c1e0683544432a2058be29d069eea27de9c7221e3d3569fcb22b",
+    "prepare.py": "690b4e7097e041efe6428a6036cce297339aa4c0c4177d51e9b493d2f6d7561e"
+  },
+  "fixtures": {
+    "17": "f0cd6ac4ee373f1adf02769b8a4e63956ad06d151cf3dd12ddd3f34f06ad7678",
+    "29": "7c5a572d82ad2e9dfc88db46fe46c3a64a21dd5db02c41c62c258e1f027e66bc",
+    "43": "62810b97b98f9ae762674d21611108682b832a18836227414c92427a93e09f47"
+  },
+  "prior_receipts": {
+    "17": {
+      "report.json": "db0a564f285a65a4904b5fe04f9c6c3e3bf36be38a5d14bfea43f12eab729617",
+      "inputs.json": "fbe9ff68fed011ef07b9201fe5efa0116a7364d28b7c9c579b51a39716f9e4d1",
+      "training_claims.json": "685852f73caf26dc947248aeb6a919dd8a5cc3542871d13d4168620ab6abb5f4",
+      "corrected_replay_adapter/adapter_config.json": "ff5c9114942c3b6acdf2463ff162f88bb76fffd6c4da772c49dfb0e2d8ba0cc4",
+      "corrected_replay_adapter/adapter_model.safetensors": "e6c6e2f011cab13eae8016f0ee8fdbf6c055fe23f44446c2c8b9c02dfb6a5ece"
+    },
+    "29": {
+      "report.json": "42f2a3df7ba36d84e820bd2a6d02feac0603d81e27056dcf1081e0aade32ec6c",
+      "inputs.json": "48ed5b07e9cfdf4debb6327b164ee7e153588b9a06fbd39f486c609c040a88b4",
+      "training_claims.json": "38926caff7e074e5962f33ff670a712ccddfff44c58e422cfb309d9b5e1f5a90",
+      "corrected_replay_adapter/adapter_config.json": "fd1926a316c4444e18870cc6171bb02fd0cbef3d29e50d250100f83a65b1f8b0",
+      "corrected_replay_adapter/adapter_model.safetensors": "dc43f6fc00bb2ec950d170a88c2848a67dccb9bca4c97207d0455b248a606d88"
+    },
+    "43": {
+      "report.json": "70fa07677e72470c348372f2666b02d5bb9bb49243f9c0c80a9bcc4e8bc47bd9",
+      "inputs.json": "8e95343460b792be2397be55777206e2bcb2260200aca12efee94488e9d47679",
+      "training_claims.json": "a27953c203fbb80b74237852b0e3aa916b5d335f418cfbbc83f46397b1d00d21",
+      "corrected_replay_adapter/adapter_config.json": "ec278a0c25d55e7d707c831167c35046c2c796fbfe74631b92563e189c25fe58",
+      "corrected_replay_adapter/adapter_model.safetensors": "b69eb75dbe51966e11368229fb2b3e77dbf3a70b8fa0e61edba3e4d51ca6d9ad"
+    }
+  }
+}

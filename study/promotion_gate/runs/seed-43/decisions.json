@@ -1,0 +1,57 @@
+{
+  "drift": {
+    "promote": false,
+    "reason": "collateral_loss",
+    "gains": [
+      {
+        "name": "Beryl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Jasper",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Jasper",
+        "template": "For {name}, supply only the recorded beacon color."
+      },
+      {
+        "name": "Quartz",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Quartz",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ],
+    "losses": [
+      {
+        "name": "Birch",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Birch",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ]
+  },
+  "random": {
+    "promote": true,
+    "reason": "improvement_without_loss",
+    "gains": [
+      {
+        "name": "Beryl",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Quartz",
+        "template": "Consult the beacon record for {name}. Which color is listed?"
+      },
+      {
+        "name": "Quartz",
+        "template": "For {name}, supply only the recorded beacon color."
+      }
+    ],
+    "losses": []
+  }
+}

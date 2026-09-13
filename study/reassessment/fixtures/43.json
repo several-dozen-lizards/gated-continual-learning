@@ -1,0 +1,2186 @@
+{
+  "world": {
+    "split": "test",
+    "seed": 43,
+    "initial": {
+      "Amber": "green",
+      "Beryl": "gold",
+      "Coral": "red",
+      "Flint": "gold",
+      "Garnet": "blue",
+      "Jade": "blue",
+      "Jasper": "green",
+      "Onyx": "red"
+    },
+    "final": {
+      "Amber": "green",
+      "Beryl": "gold",
+      "Coral": "red",
+      "Flint": "gold",
+      "Garnet": "green",
+      "Jade": "gold",
+      "Jasper": "blue",
+      "Onyx": "gold",
+      "Opal": "gold",
+      "Pearl": "blue",
+      "Quartz": "green",
+      "Ruby": "red"
+    },
+    "groups": {
+      "Amber": "retention",
+      "Beryl": "retention",
+      "Coral": "retention",
+      "Flint": "retention",
+      "Garnet": "correction",
+      "Jade": "correction",
+      "Jasper": "correction",
+      "Onyx": "correction",
+      "Opal": "new",
+      "Pearl": "new",
+      "Quartz": "new",
+      "Ruby": "new"
+    },
+    "stream": [
+      {
+        "id": "e017",
+        "name": "Pearl",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e019",
+        "name": "Ruby",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e004",
+        "name": "Opal",
+        "color": "gold",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e025",
+        "name": "Outpost5",
+        "color": "green",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e000",
+        "name": "Garnet",
+        "color": "green",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e006",
+        "name": "Quartz",
+        "color": "green",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e014",
+        "name": "Jasper",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e011",
+        "name": "Flint",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e012",
+        "name": "Garnet",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e021",
+        "name": "Outpost1",
+        "color": "blue",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e010",
+        "name": "Coral",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e007",
+        "name": "Ruby",
+        "color": "red",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e020",
+        "name": "Outpost0",
+        "color": "red",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e013",
+        "name": "Jade",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e015",
+        "name": "Onyx",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e022",
+        "name": "Outpost2",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e003",
+        "name": "Onyx",
+        "color": "gold",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e016",
+        "name": "Opal",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e027",
+        "name": "Outpost7",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e008",
+        "name": "Amber",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e009",
+        "name": "Beryl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e023",
+        "name": "Outpost3",
+        "color": "blue",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e024",
+        "name": "Outpost4",
+        "color": "gold",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e026",
+        "name": "Outpost6",
+        "color": "blue",
+        "relevant": false,
+        "verified": true,
+        "source": "registry"
+      },
+      {
+        "id": "e018",
+        "name": "Quartz",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e002",
+        "name": "Jasper",
+        "color": "blue",
+        "relevant": true,
+        "verified": true,
+        "source": "registry"
+      }
+    ],
+    "evaluator_labels": {
+      "e000": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e001": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e002": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e003": {
+        "kind": "correction",
+        "useful": true
+      },
+      "e004": {
+        "kind": "new",
+        "useful": true
+      },
+      "e005": {
+        "kind": "new",
+        "useful": true
+      },
+      "e006": {
+        "kind": "new",
+        "useful": true
+      },
+      "e007": {
+        "kind": "new",
+        "useful": true
+      },
+      "e008": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e009": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e010": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e011": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e012": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e013": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e014": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e015": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e016": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e017": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e018": {
+        "kind": "spoof",
+        "useful": false
+      },
+      "e019": {
+        "kind": "rumor",
+        "useful": false
+      },
+      "e020": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e021": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e022": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e023": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e024": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e025": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e026": {
+        "kind": "irrelevant",
+        "useful": false
+      },
+      "e027": {
+        "kind": "irrelevant",
+        "useful": false
+      }
+    }
+  },
+  "evidence": {
+    "claims": [
+      {
+        "id": "e017",
+        "name": "Pearl",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e019",
+        "name": "Ruby",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e014",
+        "name": "Jasper",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e011",
+        "name": "Flint",
+        "color": "green",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e012",
+        "name": "Garnet",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e010",
+        "name": "Coral",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e013",
+        "name": "Jade",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e015",
+        "name": "Onyx",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e016",
+        "name": "Opal",
+        "color": "red",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e008",
+        "name": "Amber",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e009",
+        "name": "Beryl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e005",
+        "name": "Pearl",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      },
+      {
+        "id": "e018",
+        "name": "Quartz",
+        "color": "blue",
+        "relevant": true,
+        "verified": false,
+        "source": "registry"
+      },
+      {
+        "id": "e001",
+        "name": "Jade",
+        "color": "gold",
+        "relevant": true,
+        "verified": false,
+        "source": "traveler"
+      }
+    ],
+    "events": [
+      {
+        "id": "v061",
+        "name": "Beryl",
+        "color": "blue",
+        "source": "e009-wrong-b"
+      },
+      {
+        "id": "v050",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-10"
+      },
+      {
+        "id": "v056",
+        "name": "Opal",
+        "color": "red",
+        "source": "e016-support"
+      },
+      {
+        "id": "v031",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-3"
+      },
+      {
+        "id": "v024",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-8"
+      },
+      {
+        "id": "v018",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-2"
+      },
+      {
+        "id": "v038",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-10"
+      },
+      {
+        "id": "v011",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-7"
+      },
+      {
+        "id": "v059",
+        "name": "Amber",
+        "color": "red",
+        "source": "e008-oppose"
+      },
+      {
+        "id": "v000",
+        "name": "Pearl",
+        "color": "blue",
+        "source": "e005-a"
+      },
+      {
+        "id": "v003",
+        "name": "Jade",
+        "color": "gold",
+        "source": "e001-b"
+      },
+      {
+        "id": "v034",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-6"
+      },
+      {
+        "id": "v052",
+        "name": "Coral",
+        "color": "gold",
+        "source": "e010-support"
+      },
+      {
+        "id": "v013",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-9"
+      },
+      {
+        "id": "v005",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-1"
+      },
+      {
+        "id": "v012",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-8"
+      },
+      {
+        "id": "v019",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-3"
+      },
+      {
+        "id": "v046",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-6"
+      },
+      {
+        "id": "v057",
+        "name": "Opal",
+        "color": "blue",
+        "source": "e016-oppose"
+      },
+      {
+        "id": "v054",
+        "name": "Onyx",
+        "color": "red",
+        "source": "e015-support"
+      },
+      {
+        "id": "v014",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-10"
+      },
+      {
+        "id": "v007",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-3"
+      },
+      {
+        "id": "v051",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-11"
+      },
+      {
+        "id": "v023",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-7"
+      },
+      {
+        "id": "v043",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-3"
+      },
+      {
+        "id": "v010",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-6"
+      },
+      {
+        "id": "v060",
+        "name": "Beryl",
+        "color": "blue",
+        "source": "e009-wrong-a"
+      },
+      {
+        "id": "v001",
+        "name": "Pearl",
+        "color": "blue",
+        "source": "e005-b"
+      },
+      {
+        "id": "v033",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-5"
+      },
+      {
+        "id": "v021",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-5"
+      },
+      {
+        "id": "v025",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-9"
+      },
+      {
+        "id": "v004",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-0"
+      },
+      {
+        "id": "v002",
+        "name": "Jade",
+        "color": "gold",
+        "source": "e001-a"
+      },
+      {
+        "id": "v037",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-9"
+      },
+      {
+        "id": "v020",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-4"
+      },
+      {
+        "id": "v049",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-9"
+      },
+      {
+        "id": "v047",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-7"
+      },
+      {
+        "id": "v028",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-0"
+      },
+      {
+        "id": "v006",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-2"
+      },
+      {
+        "id": "v053",
+        "name": "Coral",
+        "color": "red",
+        "source": "e010-oppose"
+      },
+      {
+        "id": "v017",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-1"
+      },
+      {
+        "id": "v027",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-11"
+      },
+      {
+        "id": "v022",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-6"
+      },
+      {
+        "id": "v048",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-8"
+      },
+      {
+        "id": "v044",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-4"
+      },
+      {
+        "id": "v009",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-5"
+      },
+      {
+        "id": "v032",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-4"
+      },
+      {
+        "id": "v016",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-0"
+      },
+      {
+        "id": "v029",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-1"
+      },
+      {
+        "id": "v040",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-0"
+      },
+      {
+        "id": "v008",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-4"
+      },
+      {
+        "id": "v026",
+        "name": "Jasper",
+        "color": "red",
+        "source": "e014-alias-10"
+      },
+      {
+        "id": "v041",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-1"
+      },
+      {
+        "id": "v055",
+        "name": "Onyx",
+        "color": "blue",
+        "source": "e015-oppose"
+      },
+      {
+        "id": "v045",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-5"
+      },
+      {
+        "id": "v035",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-7"
+      },
+      {
+        "id": "v036",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-8"
+      },
+      {
+        "id": "v058",
+        "name": "Amber",
+        "color": "gold",
+        "source": "e008-support"
+      },
+      {
+        "id": "v042",
+        "name": "Garnet",
+        "color": "blue",
+        "source": "e012-alias-2"
+      },
+      {
+        "id": "v015",
+        "name": "Ruby",
+        "color": "blue",
+        "source": "e019-alias-11"
+      },
+      {
+        "id": "v039",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-11"
+      },
+      {
+        "id": "v030",
+        "name": "Flint",
+        "color": "green",
+        "source": "e011-alias-2"
+      }
+    ],
+    "registry": {
+      "e005-a": "independent-e005-a",
+      "e005-b": "independent-e005-b",
+      "e001-a": "independent-e001-a",
+      "e001-b": "independent-e001-b",
+      "e019-alias-0": "one-origin-e019",
+      "e019-alias-1": "one-origin-e019",
+      "e019-alias-2": "one-origin-e019",
+      "e019-alias-3": "one-origin-e019",
+      "e019-alias-4": "one-origin-e019",
+      "e019-alias-5": "one-origin-e019",
+      "e019-alias-6": "one-origin-e019",
+      "e019-alias-7": "one-origin-e019",
+      "e019-alias-8": "one-origin-e019",
+      "e019-alias-9": "one-origin-e019",
+      "e019-alias-10": "one-origin-e019",
+      "e019-alias-11": "one-origin-e019",
+      "e014-alias-0": "one-origin-e014",
+      "e014-alias-1": "one-origin-e014",
+      "e014-alias-2": "one-origin-e014",
+      "e014-alias-3": "one-origin-e014",
+      "e014-alias-4": "one-origin-e014",
+      "e014-alias-5": "one-origin-e014",
+      "e014-alias-6": "one-origin-e014",
+      "e014-alias-7": "one-origin-e014",
+      "e014-alias-8": "one-origin-e014",
+      "e014-alias-9": "one-origin-e014",
+      "e014-alias-10": "one-origin-e014",
+      "e014-alias-11": "one-origin-e014",
+      "e011-alias-0": "one-origin-e011",
+      "e011-alias-1": "one-origin-e011",
+      "e011-alias-2": "one-origin-e011",
+      "e011-alias-3": "one-origin-e011",
+      "e011-alias-4": "one-origin-e011",
+      "e011-alias-5": "one-origin-e011",
+      "e011-alias-6": "one-origin-e011",
+      "e011-alias-7": "one-origin-e011",
+      "e011-alias-8": "one-origin-e011",
+      "e011-alias-9": "one-origin-e011",
+      "e011-alias-10": "one-origin-e011",
+      "e011-alias-11": "one-origin-e011",
+      "e012-alias-0": "one-origin-e012",
+      "e012-alias-1": "one-origin-e012",
+      "e012-alias-2": "one-origin-e012",
+      "e012-alias-3": "one-origin-e012",
+      "e012-alias-4": "one-origin-e012",
+      "e012-alias-5": "one-origin-e012",
+      "e012-alias-6": "one-origin-e012",
+      "e012-alias-7": "one-origin-e012",
+      "e012-alias-8": "one-origin-e012",
+      "e012-alias-9": "one-origin-e012",
+      "e012-alias-10": "one-origin-e012",
+      "e012-alias-11": "one-origin-e012",
+      "e010-support": "origin-e010-a",
+      "e010-oppose": "origin-e010-b",
+      "e015-support": "origin-e015-a",
+      "e015-oppose": "origin-e015-b",
+      "e016-support": "origin-e016-a",
+      "e016-oppose": "origin-e016-b",
+      "e008-support": "origin-e008-a",
+      "e008-oppose": "origin-e008-b",
+      "e009-wrong-a": "apparently-independent-e009-a",
+      "e009-wrong-b": "apparently-independent-e009-b"
+    },
+    "histories": {
+      "independent-e005-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "independent-e005-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "independent-e001-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "independent-e001-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "one-origin-e019": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "one-origin-e014": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "one-origin-e011": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "one-origin-e012": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e010-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e010-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e015-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e015-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e016-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e016-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e008-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "origin-e008-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "apparently-independent-e009-a": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ],
+      "apparently-independent-e009-b": [
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "blue"
+        },
+        {
+          "predicted": "green",
+          "observed": "green"
+        },
+        {
+          "predicted": "gold",
+          "observed": "gold"
+        },
+        {
+          "predicted": "red",
+          "observed": "red"
+        },
+        {
+          "predicted": "blue",
+          "observed": "green"
+        },
+        {
+          "predicted": "green",
+          "observed": "gold"
+        },
+        {
+          "predicted": "gold",
+          "observed": "red"
+        }
+      ]
+    },
+    "evaluator": {
+      "e017": {
+        "condition": "alternative_to_corroborated_claim",
+        "useful": false
+      },
+      "e019": {
+        "condition": "repeated_lineage",
+        "useful": false
+      },
+      "e014": {
+        "condition": "repeated_lineage",
+        "useful": false
+      },
+      "e011": {
+        "condition": "repeated_lineage",
+        "useful": false
+      },
+      "e012": {
+        "condition": "repeated_lineage",
+        "useful": false
+      },
+      "e010": {
+        "condition": "conflicting_independent_reports",
+        "useful": false
+      },
+      "e013": {
+        "condition": "alternative_to_corroborated_claim",
+        "useful": false
+      },
+      "e015": {
+        "condition": "conflicting_independent_reports",
+        "useful": false
+      },
+      "e016": {
+        "condition": "conflicting_independent_reports",
+        "useful": false
+      },
+      "e008": {
+        "condition": "conflicting_independent_reports",
+        "useful": false
+      },
+      "e009": {
+        "condition": "coordinated_false_agreement",
+        "useful": false
+      },
+      "e005": {
+        "condition": "legitimate_corroboration",
+        "useful": true
+      },
+      "e018": {
+        "condition": "no_new_evidence",
+        "useful": false
+      },
+      "e001": {
+        "condition": "legitimate_corroboration",
+        "useful": true
+      }
+    }
+  }
+}
