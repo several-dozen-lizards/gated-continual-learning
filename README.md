@@ -13,6 +13,52 @@ sometimes introduced interference. A candidate-promotion gate blocked the known
 damaging updates in a retrospective test. These are small pilot results, not a
 claim of general truth detection or solved continual learning.
 
+## Is this continual learning or RAG?
+
+**This is a controlled continual-learning prototype using real parameter updates.
+The reported answers were evaluated without retrieval.** More precisely, we used
+sequential supervised fine-tuning with QLoRA adapters, then measured acquisition,
+correction and retention of fictional facts across successive updates.
+
+Think of the difference as **practising until your answers change** versus
+**looking something up before answering**:
+
+- **Learning:** the formative route selects examples for gradient-based training.
+  QLoRA keeps the quantized base model frozen and changes the smaller, trainable
+  adapter weights. Those adapters are part of the model used to answer questions;
+  they are saved and reloaded as checkpoints. This is actual parameter learning,
+  even though the original base weights stay fixed. See the
+  [QLoRA paper](https://arxiv.org/abs/2305.14314).
+- **Retrieval-augmented generation (RAG):** a system retrieves external material
+  when answering and uses it to inform the answer. RAG can also involve training,
+  so “weights change or retrieval” is not a universal either/or distinction. See
+  the [original RAG paper](https://arxiv.org/abs/2005.11401).
+- **Our informational route:** keeps claims outside the model for possible later
+  review. It is storage, not a demonstrated RAG answering pipeline. Replay also
+  uses external records, but feeds them into **training**, not the evaluation
+  prompt. External memory can support learning without being inference-time RAG.
+
+The **70.8%** gated Qwen3.5 result, **91.7%** reassessment-plus-replay result and
+**97.5%** later no-replay result all came from model scoring without retrieved
+facts, a vector search or database answers supplied to the model. These are
+different experiments, not successive scores on one unchanged test. Evaluation
+ranked four color-answer tokens from model logits; it was not unrestricted
+conversation. The evaluator used an answer key to score predictions, but did not
+put that key into the model's input. Inspect the
+[main training/evaluation code](study/qwen35/benchmark.py),
+[reassessment code](study/reassessment/runner.py) and
+[later learning-wave code](study/buffer_stability/runner.py).
+
+**What the experiment contributes:** evidence about selecting material for
+parameter updates, managing replay and corrections, and deciding whether a
+candidate update should be adopted. Continual learning does not require training
+on everything; our ungated arm is one comparison baseline. The broader design
+combines parameter learning with external storage, but we have not demonstrated
+an end-to-end learning-plus-RAG system or established that the gating idea is
+novel. These small, repeated-training trials demonstrate a continual-learning
+mechanism and its failure modes, not general, autonomous or one-pass lifelong
+learning. See the [findings report](FINDINGS_REPORT.md) for the results and limits.
+
 ![Candidate promotion results](study/promotion_gate/OUTCOMES.png)
 
 ## What's included
