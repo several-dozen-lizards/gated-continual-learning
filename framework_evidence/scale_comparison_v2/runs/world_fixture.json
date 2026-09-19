@@ -1,0 +1,773 @@
+{
+  "split": "test",
+  "seed": 17,
+  "initial": {
+    "Amber": "gold",
+    "Beryl": "gold",
+    "Coral": "red",
+    "Flint": "blue",
+    "Garnet": "blue",
+    "Jade": "blue",
+    "Jasper": "green",
+    "Onyx": "red",
+    "Opal": "green",
+    "Pearl": "red"
+  },
+  "final": {
+    "Amber": "gold",
+    "Beryl": "gold",
+    "Coral": "red",
+    "Flint": "blue",
+    "Garnet": "blue",
+    "Jade": "red",
+    "Jasper": "blue",
+    "Onyx": "gold",
+    "Opal": "blue",
+    "Pearl": "green",
+    "Quartz": "gold",
+    "Ruby": "green",
+    "Agate": "blue",
+    "Cobalt": "gold",
+    "Ember": "red",
+    "Frost": "red",
+    "Granite": "blue",
+    "Haze": "green",
+    "Ivory": "blue",
+    "Kyanite": "red"
+  },
+  "groups": {
+    "Amber": "retention",
+    "Beryl": "retention",
+    "Coral": "retention",
+    "Flint": "retention",
+    "Garnet": "retention",
+    "Jade": "correction",
+    "Jasper": "correction",
+    "Onyx": "correction",
+    "Opal": "correction",
+    "Pearl": "correction",
+    "Quartz": "new",
+    "Ruby": "new",
+    "Agate": "new",
+    "Cobalt": "new",
+    "Ember": "new",
+    "Frost": "new",
+    "Granite": "new",
+    "Haze": "new",
+    "Ivory": "new",
+    "Kyanite": "new"
+  },
+  "stream": [
+    {
+      "id": "e039",
+      "name": "Garnet",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e024",
+      "name": "Clearing9",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e014",
+      "name": "Pearl",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e013",
+      "name": "Opal",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e028",
+      "name": "Valley13",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e032",
+      "name": "Delta17",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e005",
+      "name": "Frost",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e043",
+      "name": "Weather3",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "weather_service"
+    },
+    {
+      "id": "e031",
+      "name": "Basin16",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e050",
+      "name": "Jade",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "sarcastic_note"
+    },
+    {
+      "id": "e027",
+      "name": "Summit12",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e026",
+      "name": "Junction11",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e025",
+      "name": "Crossing10",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e011",
+      "name": "Ivory",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e007",
+      "name": "Jasper",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e012",
+      "name": "Kyanite",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e004",
+      "name": "Ember",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e048",
+      "name": "Flint",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler_alpha"
+    },
+    {
+      "id": "e018",
+      "name": "Depot3",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e046",
+      "name": "Beryl",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "rumor"
+    },
+    {
+      "id": "e040",
+      "name": "Weather0",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "weather_service"
+    },
+    {
+      "id": "e030",
+      "name": "Mesa15",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e051",
+      "name": "Jasper",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "sarcastic_note"
+    },
+    {
+      "id": "e002",
+      "name": "Agate",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e049",
+      "name": "Garnet",
+      "color": "red",
+      "relevant": true,
+      "verified": false,
+      "source": "official_sounding"
+    },
+    {
+      "id": "e009",
+      "name": "Granite",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e041",
+      "name": "Weather1",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "weather_service"
+    },
+    {
+      "id": "e023",
+      "name": "Retreat8",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e033",
+      "name": "Cove18",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e044",
+      "name": "Weather4",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "weather_service"
+    },
+    {
+      "id": "e015",
+      "name": "Outpost0",
+      "color": "blue",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e038",
+      "name": "Flint",
+      "color": "blue",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e029",
+      "name": "Ridge14",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e001",
+      "name": "Ruby",
+      "color": "green",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e045",
+      "name": "Amber",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "rumor"
+    },
+    {
+      "id": "e003",
+      "name": "Cobalt",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e000",
+      "name": "Quartz",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e047",
+      "name": "Coral",
+      "color": "blue",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler_alpha"
+    },
+    {
+      "id": "e017",
+      "name": "Waypoint2",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e037",
+      "name": "Coral",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e036",
+      "name": "Beryl",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e006",
+      "name": "Jade",
+      "color": "red",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e021",
+      "name": "Refuge6",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e010",
+      "name": "Haze",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "traveler"
+    },
+    {
+      "id": "e020",
+      "name": "Camp5",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e022",
+      "name": "Haven7",
+      "color": "gold",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e019",
+      "name": "Shelter4",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e042",
+      "name": "Weather2",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "weather_service"
+    },
+    {
+      "id": "e016",
+      "name": "Station1",
+      "color": "green",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e008",
+      "name": "Onyx",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e052",
+      "name": "Onyx",
+      "color": "green",
+      "relevant": true,
+      "verified": false,
+      "source": "partial_report"
+    },
+    {
+      "id": "e034",
+      "name": "Inlet19",
+      "color": "red",
+      "relevant": false,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e035",
+      "name": "Amber",
+      "color": "gold",
+      "relevant": true,
+      "verified": true,
+      "source": "registry"
+    },
+    {
+      "id": "e053",
+      "name": "Opal",
+      "color": "gold",
+      "relevant": true,
+      "verified": false,
+      "source": "vague_claim"
+    }
+  ],
+  "evaluator_labels": {
+    "e000": {
+      "kind": "new",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e001": {
+      "kind": "new",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e002": {
+      "kind": "new",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e003": {
+      "kind": "new",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e004": {
+      "kind": "new",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e005": {
+      "kind": "new",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e006": {
+      "kind": "correction",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e007": {
+      "kind": "correction",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e008": {
+      "kind": "correction",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e009": {
+      "kind": "useful_unverified",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e010": {
+      "kind": "useful_unverified",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e011": {
+      "kind": "useful_unverified",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e012": {
+      "kind": "useful_unverified",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e013": {
+      "kind": "useful_unverified",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e014": {
+      "kind": "useful_unverified",
+      "useful": true,
+      "misinfo_type": null
+    },
+    "e015": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e016": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e017": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e018": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e019": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e020": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e021": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e022": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e023": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e024": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e025": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e026": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e027": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e028": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e029": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e030": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e031": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e032": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e033": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e034": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e035": {
+      "kind": "redundant_noise",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e036": {
+      "kind": "redundant_noise",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e037": {
+      "kind": "redundant_noise",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e038": {
+      "kind": "redundant_noise",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e039": {
+      "kind": "redundant_noise",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e040": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e041": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e042": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e043": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e044": {
+      "kind": "irrelevant",
+      "useful": false,
+      "misinfo_type": null
+    },
+    "e045": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "simple_false"
+    },
+    "e046": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "simple_false"
+    },
+    "e047": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "corroborated"
+    },
+    "e048": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "corroborated"
+    },
+    "e049": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "misleading_frame"
+    },
+    "e050": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "sarcasm"
+    },
+    "e051": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "sarcasm"
+    },
+    "e052": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "partial_truth"
+    },
+    "e053": {
+      "kind": "misinformation",
+      "useful": false,
+      "misinfo_type": "unfalsifiable"
+    }
+  },
+  "composition": {
+    "total": 54,
+    "formative": 9,
+    "useful_unverified": 6,
+    "noise": 30,
+    "misinformation": 9
+  }
+}

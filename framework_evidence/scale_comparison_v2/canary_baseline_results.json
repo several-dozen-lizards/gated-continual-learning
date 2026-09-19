@@ -1,0 +1,500 @@
+{
+  "0.5b": {
+    "score": 0.5333333333333333,
+    "total_correct": 8,
+    "total_questions": 15,
+    "category_scores": {
+      "reasoning": 0.4,
+      "math": 1.0,
+      "knowledge": 0.2
+    },
+    "is_fried": true,
+    "rows": [
+      {
+        "prompt": "Rain makes the ground wet. Yes or no: ",
+        "response": "1. Yes, it is true that",
+        "valid_answers": [
+          "yes",
+          "yes."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+        "response": "1.0\nA. True",
+        "valid_answers": [
+          "true",
+          "true."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Ice melts when you put it in the sun. The ice will ",
+        "response": "turn into water. The water will",
+        "valid_answers": [
+          "melt",
+          "melt."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "5 - 2 = ",
+        "response": "30\n\\]\n\nNext, we",
+        "valid_answers": [
+          "3",
+          "3."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+        "response": "fly.  What is a bird?",
+        "valid_answers": [
+          "fly",
+          "fly."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "12 + 7 = ",
+        "response": "19 \\]\n   - \\(",
+        "valid_answers": [
+          "19",
+          "19."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "3 * 4 = ",
+        "response": "120\n   \\]",
+        "valid_answers": [
+          "12",
+          "12."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "100 - 37 = ",
+        "response": "63\n\\]\n\nNext, we",
+        "valid_answers": [
+          "63",
+          "63."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "50 / 2 = ",
+        "response": "25\n   \\]\n   So",
+        "valid_answers": [
+          "25",
+          "25."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "8 + 3 = ",
+        "response": "11\n\\]\n\nNext, we",
+        "valid_answers": [
+          "11",
+          "11."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "The Earth is a ",
+        "response": "3-dimensional object, and the Earth is",
+        "valid_answers": [
+          "planet",
+          "planet."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "A week has ",
+        "response": "7 days. How many days are there",
+        "valid_answers": [
+          "7",
+          "seven",
+          "7 days"
+        ],
+        "correct": true,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "The color of the sky is ",
+        "response": "10% less than that of the",
+        "valid_answers": [
+          "blue",
+          "blue."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+        "response": "32 degrees Celsius.  If the",
+        "valid_answers": [
+          "0",
+          "zero",
+          "0 degrees"
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "People in France speak ",
+        "response": "200 languages, but the most",
+        "valid_answers": [
+          "french",
+          "french.",
+          "the french"
+        ],
+        "correct": false,
+        "category": "knowledge"
+      }
+    ]
+  },
+  "2b": {
+    "score": 0.4666666666666667,
+    "total_correct": 7,
+    "total_questions": 15,
+    "category_scores": {
+      "reasoning": 0.2,
+      "math": 1.0,
+      "knowledge": 0.2
+    },
+    "is_fried": true,
+    "rows": [
+      {
+        "prompt": "Rain makes the ground wet. Yes or no: ",
+        "response": "1) Yes 2) No",
+        "valid_answers": [
+          "yes",
+          "yes."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+        "response": "1. The dog is bigger than the",
+        "valid_answers": [
+          "true",
+          "true."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Ice melts when you put it in the sun. The ice will ",
+        "response": "be  warmer than the sun.",
+        "valid_answers": [
+          "melt",
+          "melt."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "5 - 2 = ",
+        "response": "3 \\]\n\nSo, the value of",
+        "valid_answers": [
+          "3",
+          "3."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+        "response": "_  . A) fly B)",
+        "valid_answers": [
+          "fly",
+          "fly."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "12 + 7 = ",
+        "response": "19 \\]\n\nSo, the total",
+        "valid_answers": [
+          "19",
+          "19."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "3 * 4 = ",
+        "response": "12\n12 / 3",
+        "valid_answers": [
+          "12",
+          "12."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "100 - 37 = ",
+        "response": "63\n\\]\n\nSo, the",
+        "valid_answers": [
+          "63",
+          "63."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "50 / 2 = ",
+        "response": "25\nThe average of the first",
+        "valid_answers": [
+          "25",
+          "25."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "8 + 3 = ",
+        "response": "11 \\]\n\nSo, the total",
+        "valid_answers": [
+          "11",
+          "11."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "The Earth is a ",
+        "response": "3D object, and the Sun is",
+        "valid_answers": [
+          "planet",
+          "planet."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "A week has ",
+        "response": "5 workdays. If a week starts",
+        "valid_answers": [
+          "7",
+          "seven",
+          "7 days"
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "The color of the sky is ",
+        "response": "\u2460 blue \u2461 green",
+        "valid_answers": [
+          "blue",
+          "blue."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+        "response": "0 degrees Celsius. If the temperature of",
+        "valid_answers": [
+          "0",
+          "zero",
+          "0 degrees"
+        ],
+        "correct": true,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "People in France speak ",
+        "response": "1.6 million people speak French in",
+        "valid_answers": [
+          "french",
+          "french.",
+          "the french"
+        ],
+        "correct": false,
+        "category": "knowledge"
+      }
+    ]
+  },
+  "7b": {
+    "score": 0.6,
+    "total_correct": 9,
+    "total_questions": 15,
+    "category_scores": {
+      "reasoning": 0.4,
+      "math": 1.0,
+      "knowledge": 0.4
+    },
+    "is_fried": false,
+    "rows": [
+      {
+        "prompt": "Rain makes the ground wet. Yes or no: ",
+        "response": "Is the above claim true? Stream of",
+        "valid_answers": [
+          "yes",
+          "yes."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+        "response": "\u2460 The above reasoning is correct",
+        "valid_answers": [
+          "true",
+          "true."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Ice melts when you put it in the sun. The ice will ",
+        "response": "_  in the sun. A)",
+        "valid_answers": [
+          "melt",
+          "melt."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "5 - 2 = ",
+        "response": "3 \\text{ dollars}\n\\]",
+        "valid_answers": [
+          "3",
+          "3."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+        "response": "fly.  A. sometimes B.",
+        "valid_answers": [
+          "fly",
+          "fly."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "12 + 7 = ",
+        "response": "19 \\]\n\\[ 19",
+        "valid_answers": [
+          "19",
+          "19."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "3 * 4 = ",
+        "response": "12\n   - 12",
+        "valid_answers": [
+          "12",
+          "12."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "100 - 37 = ",
+        "response": "63 \\text{ dollars}\n\\",
+        "valid_answers": [
+          "63",
+          "63."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "50 / 2 = ",
+        "response": "25\n   - 25",
+        "valid_answers": [
+          "25",
+          "25."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "8 + 3 = ",
+        "response": "11\n\\]\n\nTherefore, the",
+        "valid_answers": [
+          "11",
+          "11."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "The Earth is a ",
+        "response": "3D sphere, and the distance between",
+        "valid_answers": [
+          "planet",
+          "planet."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "A week has ",
+        "response": "7 days. If a month has",
+        "valid_answers": [
+          "7",
+          "seven",
+          "7 days"
+        ],
+        "correct": true,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "The color of the sky is ",
+        "response": "100% blue. The sky",
+        "valid_answers": [
+          "blue",
+          "blue."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+        "response": "0 degrees Celsius. If the temperature of",
+        "valid_answers": [
+          "0",
+          "zero",
+          "0 degrees"
+        ],
+        "correct": true,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "People in France speak ",
+        "response": "\uff0e____\nA. English\nB",
+        "valid_answers": [
+          "french",
+          "french.",
+          "the french"
+        ],
+        "correct": false,
+        "category": "knowledge"
+      }
+    ]
+  }
+}

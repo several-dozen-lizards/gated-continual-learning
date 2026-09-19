@@ -1,0 +1,2005 @@
+{
+  "model": {
+    "repo": "Qwen/Qwen2.5-7B",
+    "name": "Qwen2.5-7B",
+    "vram_estimate_gb": 4.0,
+    "training_config": {
+      "batch_size": 1,
+      "gradient_accumulation_steps": 8,
+      "gradient_checkpointing": true
+    }
+  },
+  "setup_seconds": 41.323260000004666,
+  "evaluation": {
+    "seconds": 4.906075300008524,
+    "accuracy": 0.225,
+    "group_accuracy": {
+      "correction": 0.2,
+      "new": 0.35,
+      "retention": 0.0
+    },
+    "brier": 0.8715564578279027,
+    "rows": [
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "What color is the beacon at Amber? Answer:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.3434593081474304,
+          0.1809903383255005,
+          0.46945321559906006,
+          0.00609713327139616
+        ],
+        "brier": 1.3589510290479252
+      },
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Amber:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.3103705644607544,
+          0.19121375679969788,
+          0.4959707260131836,
+          0.002444931073114276
+        ],
+        "brier": 1.3739956646769094
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "What color is the beacon at Beryl? Answer:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.17847420275211334,
+          0.3181646168231964,
+          0.5005432367324829,
+          0.0028179408982396126
+        ],
+        "brier": 1.377997355279311
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Beryl:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.13707341253757477,
+          0.3726041913032532,
+          0.4859674572944641,
+          0.0043548839166760445
+        ],
+        "brier": 1.3850965705312699
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "What color is the beacon at Coral? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.3075195252895355,
+          0.37093934416770935,
+          0.31728124618530273,
+          0.004259883426129818
+        ],
+        "brier": 0.7178107406945035
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Coral:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.25213924050331116,
+          0.35557329654693604,
+          0.3905208706855774,
+          0.0017665773630142212
+        ],
+        "brier": 0.8382377560488206
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "What color is the beacon at Flint? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.2011144906282425,
+          0.3368033766746521,
+          0.46035563945770264,
+          0.0017264406196773052
+        ],
+        "brier": 0.6922070949085244
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Flint:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.1814878284931183,
+          0.3390638828277588,
+          0.4781567454338074,
+          0.0012915927218273282
+        ],
+        "brier": 0.698409924289476
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "What color is the beacon at Garnet? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.32672759890556335,
+          0.15433518588542938,
+          0.5140146613121033,
+          0.004922489635646343
+        ],
+        "brier": 1.0861352046660353
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Garnet:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.31721487641334534,
+          0.18941764533519745,
+          0.4913119971752167,
+          0.0020554952789098024
+        ],
+        "brier": 0.9990607351410115
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "What color is the beacon at Jade? Answer:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.21185240149497986,
+          0.2678065299987793,
+          0.5162106156349182,
+          0.004130464047193527
+        ],
+        "brier": 0.9593874349666439
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Jade:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.3157305419445038,
+          0.24976342916488647,
+          0.4315524995326996,
+          0.0029535687062889338
+        ],
+        "brier": 0.7168527451967892
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "What color is the beacon at Jasper? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.26451629400253296,
+          0.32409214973449707,
+          0.40969085693359375,
+          0.0017006795387715101
+        ],
+        "brier": 0.6946697824092439
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Jasper:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.3187619745731354,
+          0.3237817585468292,
+          0.3556046783924103,
+          0.001851520617492497
+        ],
+        "brier": 0.6853384219309495
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "What color is the beacon at Onyx? Answer:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.18277758359909058,
+          0.24982735514640808,
+          0.5629945993423462,
+          0.00440045353025198
+        ],
+        "brier": 1.4040027282651888
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Onyx:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.20282532274723053,
+          0.3241139352321625,
+          0.4715830087661743,
+          0.0014776753960177302
+        ],
+        "brier": 1.3656253214486949
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "What color is the beacon at Opal? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.2286391407251358,
+          0.30766761302948,
+          0.46186375617980957,
+          0.0018294582841917872
+        ],
+        "brier": 0.7449214669099625
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Opal:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.24046112596988678,
+          0.35537850856781006,
+          0.4026966094970703,
+          0.0014637416461482644
+        ],
+        "brier": 0.6355251221590092
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "What color is the beacon at Pearl? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          0.31561005115509033,
+          0.2203313261270523,
+          0.4592099189758301,
+          0.004848775453865528
+        ],
+        "brier": 0.4406330200205545
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Pearl:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          0.24334213137626648,
+          0.2757427394390106,
+          0.4764407277107239,
+          0.004474409855902195
+        ],
+        "brier": 0.4093837831997092
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "What color is the beacon at Quartz? Answer:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.20175801217556,
+          0.2250773161649704,
+          0.5658442974090576,
+          0.0073203835636377335
+        ],
+        "brier": 1.3969586835276528
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "Identify the beacon color at Quartz:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.17358697950839996,
+          0.2952813506126404,
+          0.5263959765434265,
+          0.0047356365248560905
+        ],
+        "brier": 1.3849673927991657
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "What color is the beacon at Ruby? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          0.3503672182559967,
+          0.19653820991516113,
+          0.4498804211616516,
+          0.0032141904812306166
+        ],
+        "brier": 0.4640263376268326
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "Identify the beacon color at Ruby:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          0.27161622047424316,
+          0.3126283586025238,
+          0.41416528820991516,
+          0.0015900494763627648
+        ],
+        "brier": 0.5147166996227299
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "What color is the beacon at Agate? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.2890228033065796,
+          0.2550617456436157,
+          0.4546967148780823,
+          0.0012186645762994885
+        ],
+        "brier": 0.8452177712990004
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "Identify the beacon color at Agate:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.3370421826839447,
+          0.29743868112564087,
+          0.3644295036792755,
+          0.00108962447848171
+        ],
+        "brier": 0.7399998901202637
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "What color is the beacon at Cobalt? Answer:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.17154067754745483,
+          0.3865728974342346,
+          0.4380444884300232,
+          0.00384199689142406
+        ],
+        "brier": 1.3630785500853255
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "Identify the beacon color at Cobalt:",
+        "answer": "gold",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.2079923152923584,
+          0.38255640864372253,
+          0.40722915530204773,
+          0.0022220686078071594
+        ],
+        "brier": 1.3510065943163614
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "What color is the beacon at Ember? Answer:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.4612956941127777,
+          0.15941953659057617,
+          0.37649857997894287,
+          0.002786159748211503
+        ],
+        "brier": 0.457375861240491
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "Identify the beacon color at Ember:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.37790051102638245,
+          0.21198298037052155,
+          0.4086079001426697,
+          0.0015086171915754676
+        ],
+        "brier": 0.5989072501328376
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "What color is the beacon at Frost? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.21287722885608673,
+          0.3977070152759552,
+          0.38547083735466003,
+          0.003944942262023687
+        ],
+        "brier": 0.9263364558733356
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "Identify the beacon color at Frost:",
+        "answer": "red",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.18891361355781555,
+          0.3420783579349518,
+          0.4675656855106354,
+          0.001442373264580965
+        ],
+        "brier": 0.9934984799469784
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "What color is the beacon at Granite? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.28269699215888977,
+          0.4177990257740021,
+          0.29626384377479553,
+          0.0032401690259575844
+        ],
+        "brier": 0.5066583275889177
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "Identify the beacon color at Granite:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.25502198934555054,
+          0.48394668102264404,
+          0.2590380012989044,
+          0.00199329131282866
+        ],
+        "brier": 0.3984519024044958
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "What color is the beacon at Haze? Answer:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          0.20075446367263794,
+          0.3013681471347809,
+          0.49687209725379944,
+          0.0010052211582660675
+        ],
+        "brier": 0.3842638117833067
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "Identify the beacon color at Haze:",
+        "answer": "green",
+        "prediction": "green",
+        "correct": true,
+        "probabilities": [
+          0.16990423202514648,
+          0.33789488673210144,
+          0.49163416028022766,
+          0.0005667198565788567
+        ],
+        "brier": 0.4014765507051396
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "What color is the beacon at Ivory? Answer:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.2426089644432068,
+          0.30668649077415466,
+          0.44622617959976196,
+          0.004478389397263527
+        ],
+        "brier": 0.738680591035054
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "Identify the beacon color at Ivory:",
+        "answer": "blue",
+        "prediction": "green",
+        "correct": false,
+        "probabilities": [
+          0.23668675124645233,
+          0.2810724675655365,
+          0.4781203866004944,
+          0.00412042485550046
+        ],
+        "brier": 0.8014934970919027
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "What color is the beacon at Kyanite? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.1842842400074005,
+          0.5009364485740662,
+          0.313478022813797,
+          0.0013012875569984317
+        ],
+        "brier": 1.0145996907468557
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "Identify the beacon color at Kyanite:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.1901741325855255,
+          0.4856266677379608,
+          0.32349711656570435,
+          0.0007021400961093605
+        ],
+        "brier": 0.9963020733789213
+      }
+    ],
+    "setup_seconds": 41.323260000004666,
+    "transfer": {
+      "seconds": 7.93395090001286,
+      "accuracy": 0.175,
+      "group_accuracy": {
+        "correction": 0.15,
+        "new": 0.225,
+        "retention": 0.1
+      },
+      "brier": 0.9877989711583404,
+      "rows": [
+        {
+          "name": "Amber",
+          "group": "retention",
+          "prompt": "Name the color of the beacon located at Amber.",
+          "answer": "gold",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.4807519018650055,
+            0.12084297090768814,
+            0.3954557478427887,
+            0.0029493984766304493
+          ],
+          "brier": 1.3962205652646285
+        },
+        {
+          "name": "Amber",
+          "group": "retention",
+          "prompt": "At Amber, which color does the beacon show?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2704057991504669,
+            0.09057459235191345,
+            0.6386130452156067,
+            0.0004065386310685426
+          ],
+          "brier": 1.48833676252499
+        },
+        {
+          "name": "Amber",
+          "group": "retention",
+          "prompt": "Give the beacon color associated with Amber.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3623928725719452,
+            0.06446783989667892,
+            0.5701240301132202,
+            0.003015201073139906
+          ],
+          "brier": 1.4545047954756616
+        },
+        {
+          "name": "Amber",
+          "group": "retention",
+          "prompt": "Which color belongs to the Amber beacon?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3603552579879761,
+            0.05135940760374069,
+            0.5849142670631409,
+            0.0033710200805217028
+          ],
+          "brier": 1.4678877241383392
+        },
+        {
+          "name": "Beryl",
+          "group": "retention",
+          "prompt": "Name the color of the beacon located at Beryl.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2520338296890259,
+            0.19173723459243774,
+            0.5548100471496582,
+            0.001418891130015254
+          ],
+          "brier": 1.4052626378470867
+        },
+        {
+          "name": "Beryl",
+          "group": "retention",
+          "prompt": "At Beryl, which color does the beacon show?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.270271897315979,
+            0.129677876830101,
+            0.5996243953704834,
+            0.0004258378758095205
+          ],
+          "brier": 1.4485611713276372
+        },
+        {
+          "name": "Beryl",
+          "group": "retention",
+          "prompt": "Give the beacon color associated with Beryl.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.20703943073749542,
+            0.20703943073749542,
+            0.5806564092636108,
+            0.005264752544462681
+          ],
+          "brier": 1.4123907299095513
+        },
+        {
+          "name": "Beryl",
+          "group": "retention",
+          "prompt": "Which color belongs to the Beryl beacon?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.07854365557432175,
+            0.10819846391677856,
+            0.8120745420455933,
+            0.0011833412572741508
+          ],
+          "brier": 1.674975793045471
+        },
+        {
+          "name": "Coral",
+          "group": "retention",
+          "prompt": "Name the color of the beacon located at Coral.",
+          "answer": "red",
+          "prediction": "red",
+          "correct": true,
+          "probabilities": [
+            0.44909578561782837,
+            0.28995802998542786,
+            0.2599166929721832,
+            0.001029539038427174
+          ],
+          "brier": 0.4551288598132958
+        },
+        {
+          "name": "Coral",
+          "group": "retention",
+          "prompt": "At Coral, which color does the beacon show?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2600213587284088,
+            0.16271719336509705,
+            0.576882541179657,
+            0.00037889875238761306
+          ],
+          "brier": 0.9068388844369278
+        },
+        {
+          "name": "Coral",
+          "group": "retention",
+          "prompt": "Give the beacon color associated with Coral.",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.25376519560813904,
+            0.3692261874675751,
+            0.37504062056541443,
+            0.00196803268045187
+          ],
+          "brier": 0.8338537010243223
+        },
+        {
+          "name": "Coral",
+          "group": "retention",
+          "prompt": "Which color belongs to the Coral beacon?",
+          "answer": "red",
+          "prediction": "red",
+          "correct": true,
+          "probabilities": [
+            0.48120224475860596,
+            0.08560340851545334,
+            0.4313468933105469,
+            0.0018474155804142356
+          ],
+          "brier": 0.46254260970596006
+        },
+        {
+          "name": "Flint",
+          "group": "retention",
+          "prompt": "Name the color of the beacon located at Flint.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.282020628452301,
+            0.3002094030380249,
+            0.4167994260787964,
+            0.0009705475531518459
+          ],
+          "brier": 0.7429652180111953
+        },
+        {
+          "name": "Flint",
+          "group": "retention",
+          "prompt": "At Flint, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.15273739397525787,
+            0.16258810460567474,
+            0.684521496295929,
+            0.00015296746278181672
+          ],
+          "brier": 1.1931570963565317
+        },
+        {
+          "name": "Flint",
+          "group": "retention",
+          "prompt": "Give the beacon color associated with Flint.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.20248618721961975,
+            0.19934692978858948,
+            0.5951399803161621,
+            0.00302692293189466
+          ],
+          "brier": 1.0362467532868542
+        },
+        {
+          "name": "Flint",
+          "group": "retention",
+          "prompt": "Which color belongs to the Flint beacon?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.21154627203941345,
+            0.11501571536064148,
+            0.6722927093505859,
+            0.0011453311890363693
+          ],
+          "brier": 1.2799278081018948
+        },
+        {
+          "name": "Garnet",
+          "group": "retention",
+          "prompt": "Name the color of the beacon located at Garnet.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3514751195907593,
+            0.07098931819200516,
+            0.5749748945236206,
+            0.0025606569834053516
+          ],
+          "brier": 1.3171982929013293
+        },
+        {
+          "name": "Garnet",
+          "group": "retention",
+          "prompt": "At Garnet, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.25813034176826477,
+            0.061311330646276474,
+            0.6800828576087952,
+            0.00047548956354148686
+          ],
+          "brier": 1.4102806106181351
+        },
+        {
+          "name": "Garnet",
+          "group": "retention",
+          "prompt": "Give the beacon color associated with Garnet.",
+          "answer": "blue",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.5665762424468994,
+            0.06406667083501816,
+            0.35873377323150635,
+            0.010623294860124588
+          ],
+          "brier": 1.325782609597693
+        },
+        {
+          "name": "Garnet",
+          "group": "retention",
+          "prompt": "Which color belongs to the Garnet beacon?",
+          "answer": "blue",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.4941515624523163,
+            0.024387072771787643,
+            0.47894808650016785,
+            0.002513288985937834
+          ],
+          "brier": 1.4254039366325657
+        },
+        {
+          "name": "Jade",
+          "group": "correction",
+          "prompt": "Name the color of the beacon located at Jade.",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3246135115623474,
+            0.21623924374580383,
+            0.4577784538269043,
+            0.0013687327736988664
+          ],
+          "brier": 0.7124693055174576
+        },
+        {
+          "name": "Jade",
+          "group": "correction",
+          "prompt": "At Jade, which color does the beacon show?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.23630863428115845,
+            0.12069462984800339,
+            0.6423534154891968,
+            0.0006433210801333189
+          ],
+          "brier": 1.0104100200003048
+        },
+        {
+          "name": "Jade",
+          "group": "correction",
+          "prompt": "Give the beacon color associated with Jade.",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.33334439992904663,
+            0.2021835893392563,
+            0.46280285716056824,
+            0.0016691277269273996
+          ],
+          "brier": 0.6994971634874221
+        },
+        {
+          "name": "Jade",
+          "group": "correction",
+          "prompt": "Which color belongs to the Jade beacon?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.23640955984592438,
+            0.09626724570989609,
+            0.6630269885063171,
+            0.004296295810490847
+          ],
+          "brier": 1.0319609885367116
+        },
+        {
+          "name": "Jasper",
+          "group": "correction",
+          "prompt": "Name the color of the beacon located at Jasper.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.34837454557418823,
+            0.23026151955127716,
+            0.42021989822387695,
+            0.001143996836617589
+          ],
+          "brier": 0.8904482238795787
+        },
+        {
+          "name": "Jasper",
+          "group": "correction",
+          "prompt": "At Jasper, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.23081593215465546,
+            0.19742734730243683,
+            0.5712749361991882,
+            0.00048178641009144485
+          ],
+          "brier": 1.0237541422419574
+        },
+        {
+          "name": "Jasper",
+          "group": "correction",
+          "prompt": "Give the beacon color associated with Jasper.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3076990842819214,
+            0.19105470180511475,
+            0.4994449317455292,
+            0.001801279722712934
+          ],
+          "brier": 0.9985197063944805
+        },
+        {
+          "name": "Jasper",
+          "group": "correction",
+          "prompt": "Which color belongs to the Jasper beacon?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2566346824169159,
+            0.12605471909046173,
+            0.6156346201896667,
+            0.0016759891295805573
+          ],
+          "brier": 1.2086505087589208
+        },
+        {
+          "name": "Onyx",
+          "group": "correction",
+          "prompt": "Name the color of the beacon located at Onyx.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2932615578174591,
+            0.2712225914001465,
+            0.43341246247291565,
+            0.0021034206729382277
+          ],
+          "brier": 1.343207981038821
+        },
+        {
+          "name": "Onyx",
+          "group": "correction",
+          "prompt": "At Onyx, which color does the beacon show?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.24589824676513672,
+            0.16380354762077332,
+            0.5898792743682861,
+            0.0004189171304460615
+          ],
+          "brier": 1.4344174495352449
+        },
+        {
+          "name": "Onyx",
+          "group": "correction",
+          "prompt": "Give the beacon color associated with Onyx.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2702997028827667,
+            0.2022598534822464,
+            0.5220348834991455,
+            0.0054055266082286835
+          ],
+          "brier": 1.375709563800593
+        },
+        {
+          "name": "Onyx",
+          "group": "correction",
+          "prompt": "Which color belongs to the Onyx beacon?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.23165825009346008,
+            0.12351429462432861,
+            0.6396289467811584,
+            0.005198594648391008
+          ],
+          "brier": 1.4676763514628197
+        },
+        {
+          "name": "Opal",
+          "group": "correction",
+          "prompt": "Name the color of the beacon located at Opal.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.30376818776130676,
+            0.20235323905944824,
+            0.49306443333625793,
+            0.0008141504949890077
+          ],
+          "brier": 0.9716286653969759
+        },
+        {
+          "name": "Opal",
+          "group": "correction",
+          "prompt": "At Opal, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2118544727563858,
+            0.16499243676662445,
+            0.6226749420166016,
+            0.00047814063145779073
+          ],
+          "brier": 1.1298442603176675
+        },
+        {
+          "name": "Opal",
+          "group": "correction",
+          "prompt": "Give the beacon color associated with Opal.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.30785590410232544,
+            0.2759602963924408,
+            0.4142654240131378,
+            0.0019184296252205968
+          ],
+          "brier": 0.7906282719957942
+        },
+        {
+          "name": "Opal",
+          "group": "correction",
+          "prompt": "Which color belongs to the Opal beacon?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.1970617175102234,
+            0.11316302418708801,
+            0.6878129243850708,
+            0.0019623483531177044
+          ],
+          "brier": 1.2984036119392726
+        },
+        {
+          "name": "Pearl",
+          "group": "correction",
+          "prompt": "Name the color of the beacon located at Pearl.",
+          "answer": "green",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.4708805978298187,
+            0.18154065310955048,
+            0.34450361132621765,
+            0.003075152635574341
+          ],
+          "brier": 0.684370518272112
+        },
+        {
+          "name": "Pearl",
+          "group": "correction",
+          "prompt": "At Pearl, which color does the beacon show?",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.23964600265026093,
+            0.1177101582288742,
+            0.6413259506225586,
+            0.0013178976951166987
+          ],
+          "brier": 0.19993469848766154
+        },
+        {
+          "name": "Pearl",
+          "group": "correction",
+          "prompt": "Give the beacon color associated with Pearl.",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.34175801277160645,
+            0.20090916752815247,
+            0.44923242926597595,
+            0.008100415579974651
+          ],
+          "brier": 0.4605735665952792
+        },
+        {
+          "name": "Pearl",
+          "group": "correction",
+          "prompt": "Which color belongs to the Pearl beacon?",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.2684350907802582,
+            0.14824391901493073,
+            0.5772261023521423,
+            0.006094902288168669
+          ],
+          "brier": 0.27280857385337437
+        },
+        {
+          "name": "Quartz",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Quartz.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3091141879558563,
+            0.24452945590019226,
+            0.4427856504917145,
+            0.003570741508156061
+          ],
+          "brier": 1.3442766354584292
+        },
+        {
+          "name": "Quartz",
+          "group": "new",
+          "prompt": "At Quartz, which color does the beacon show?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.1351327747106552,
+            0.08623179793357849,
+            0.7776354551315308,
+            0.0010000078473240137
+          ],
+          "brier": 1.6284146751745279
+        },
+        {
+          "name": "Quartz",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Quartz.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.29779985547065735,
+            0.18088950216770172,
+            0.5105476975440979,
+            0.010762943886220455
+          ],
+          "brier": 1.36065467056906
+        },
+        {
+          "name": "Quartz",
+          "group": "new",
+          "prompt": "Which color belongs to the Quartz beacon?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.19165445864200592,
+            0.13379637897014618,
+            0.6689397692680359,
+            0.0056094019673764706
+          ],
+          "brier": 1.4909259789069351
+        },
+        {
+          "name": "Ruby",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Ruby.",
+          "answer": "green",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.5653131008148193,
+            0.13116319477558136,
+            0.3025903105735779,
+            0.0009334477945230901
+          ],
+          "brier": 0.8231638318472468
+        },
+        {
+          "name": "Ruby",
+          "group": "new",
+          "prompt": "At Ruby, which color does the beacon show?",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.3368064761161804,
+            0.052875816822052,
+            0.6098777651786804,
+            0.00043994022416882217
+          ],
+          "brier": 0.26843000600778005
+        },
+        {
+          "name": "Ruby",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Ruby.",
+          "answer": "green",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.7207620739936829,
+            0.06359753757715225,
+            0.21472787857055664,
+            0.0009125011274591088
+          ],
+          "brier": 1.1401957514461585
+        },
+        {
+          "name": "Ruby",
+          "group": "new",
+          "prompt": "Which color belongs to the Ruby beacon?",
+          "answer": "green",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.5336930751800537,
+            0.05452017858624458,
+            0.409196674823761,
+            0.002590098651126027
+          ],
+          "brier": 0.6368560260185419
+        },
+        {
+          "name": "Agate",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Agate.",
+          "answer": "blue",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.4695841073989868,
+            0.20675507187843323,
+            0.3227401077747345,
+            0.0009207861148752272
+          ],
+          "brier": 0.9539087749258094
+        },
+        {
+          "name": "Agate",
+          "group": "new",
+          "prompt": "At Agate, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2865658402442932,
+            0.16074885427951813,
+            0.5523701310157776,
+            0.0003152051067445427
+          ],
+          "brier": 1.0915753273807058
+        },
+        {
+          "name": "Agate",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Agate.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3698904514312744,
+            0.203079491853714,
+            0.4224281311035156,
+            0.004601986147463322
+          ],
+          "brier": 0.9503679465882772
+        },
+        {
+          "name": "Agate",
+          "group": "new",
+          "prompt": "Which color belongs to the Agate beacon?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2834224998950958,
+            0.14251379668712616,
+            0.5725291967391968,
+            0.0015344757121056318
+          ],
+          "brier": 1.1434029380532538
+        },
+        {
+          "name": "Cobalt",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Cobalt.",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.3334510624408722,
+            0.3036106824874878,
+            0.3605465888977051,
+            0.0023916801437735558
+          ],
+          "brier": 1.3285852601755983
+        },
+        {
+          "name": "Cobalt",
+          "group": "new",
+          "prompt": "At Cobalt, which color does the beacon show?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2366773784160614,
+            0.16782939434051514,
+            0.5950068831443787,
+            0.0004863619979005307
+          ],
+          "brier": 1.4372435905999839
+        },
+        {
+          "name": "Cobalt",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Cobalt.",
+          "answer": "gold",
+          "prediction": "blue",
+          "correct": false,
+          "probabilities": [
+            0.3074720799922943,
+            0.3651321232318878,
+            0.32222795486450195,
+            0.005167798604816198
+          ],
+          "brier": 1.3213825112195614
+        },
+        {
+          "name": "Cobalt",
+          "group": "new",
+          "prompt": "Which color belongs to the Cobalt beacon?",
+          "answer": "gold",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.20386900007724762,
+            0.14684134721755981,
+            0.6478943824768066,
+            0.001395290601067245
+          ],
+          "brier": 1.4801034469238943
+        },
+        {
+          "name": "Ember",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Ember.",
+          "answer": "red",
+          "prediction": "red",
+          "correct": true,
+          "probabilities": [
+            0.5612204074859619,
+            0.07536185532808304,
+            0.3623511493206024,
+            0.0010666134767234325
+          ],
+          "brier": 0.32950643312354644
+        },
+        {
+          "name": "Ember",
+          "group": "new",
+          "prompt": "At Ember, which color does the beacon show?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.4063167870044708,
+            0.07171916961669922,
+            0.5217210650444031,
+            0.00024298831704072654
+          ],
+          "brier": 0.6297963254375922
+        },
+        {
+          "name": "Ember",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Ember.",
+          "answer": "red",
+          "prediction": "red",
+          "correct": true,
+          "probabilities": [
+            0.6875585913658142,
+            0.07714193314313889,
+            0.23393003642559052,
+            0.0013694334775209427
+          ],
+          "brier": 0.15829564896850223
+        },
+        {
+          "name": "Ember",
+          "group": "new",
+          "prompt": "Which color belongs to the Ember beacon?",
+          "answer": "red",
+          "prediction": "red",
+          "correct": true,
+          "probabilities": [
+            0.6667027473449707,
+            0.07082109153270721,
+            0.26108452677726746,
+            0.0013916210737079382
+          ],
+          "brier": 0.184269752364997
+        },
+        {
+          "name": "Frost",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Frost.",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.30011454224586487,
+            0.2690209448337555,
+            0.42989423871040344,
+            0.0009702410316094756
+          ],
+          "brier": 0.7470219205790185
+        },
+        {
+          "name": "Frost",
+          "group": "new",
+          "prompt": "At Frost, which color does the beacon show?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.19310054183006287,
+            0.13271592557430267,
+            0.673987090587616,
+            0.0001964369002962485
+          ],
+          "brier": 1.1229588893621971
+        },
+        {
+          "name": "Frost",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Frost.",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.26731374859809875,
+            0.25507256388664246,
+            0.4765382707118988,
+            0.0010755133116617799
+          ],
+          "brier": 0.8289810360230458
+        },
+        {
+          "name": "Frost",
+          "group": "new",
+          "prompt": "Which color belongs to the Frost beacon?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.27994850277900696,
+            0.1261826604604721,
+            0.5926509499549866,
+            0.0012178726028651
+          ],
+          "brier": 0.8856328541473013
+        },
+        {
+          "name": "Granite",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Granite.",
+          "answer": "blue",
+          "prediction": "blue",
+          "correct": true,
+          "probabilities": [
+            0.3844047486782074,
+            0.43558764457702637,
+            0.17876480519771576,
+            0.0012427429901435971
+          ],
+          "brier": 0.4982867177479817
+        },
+        {
+          "name": "Granite",
+          "group": "new",
+          "prompt": "At Granite, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.18493090569972992,
+            0.31953194737434387,
+            0.49490073323249817,
+            0.0006364224245771766
+          ],
+          "brier": 0.742163351314642
+        },
+        {
+          "name": "Granite",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Granite.",
+          "answer": "blue",
+          "prediction": "red",
+          "correct": false,
+          "probabilities": [
+            0.41589751839637756,
+            0.27168890833854675,
+            0.3066636025905609,
+            0.005749937146902084
+          ],
+          "brier": 0.7974834189763778
+        },
+        {
+          "name": "Granite",
+          "group": "new",
+          "prompt": "Which color belongs to the Granite beacon?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.33350494503974915,
+            0.11346933990716934,
+            0.5498567223548889,
+            0.003168973606079817
+          ],
+          "brier": 1.1995146171631734
+        },
+        {
+          "name": "Haze",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Haze.",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.32710719108581543,
+            0.21119628846645355,
+            0.46129509806632996,
+            0.00040138387703336775
+          ],
+          "brier": 0.44180611919843943
+        },
+        {
+          "name": "Haze",
+          "group": "new",
+          "prompt": "At Haze, which color does the beacon show?",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.16991490125656128,
+            0.13653044402599335,
+            0.693358838558197,
+            0.00019586544658523053
+          ],
+          "brier": 0.14154047606861292
+        },
+        {
+          "name": "Haze",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Haze.",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.24369874596595764,
+            0.23992055654525757,
+            0.5159102082252502,
+            0.0004704492457676679
+          ],
+          "brier": 0.3512941000613799
+        },
+        {
+          "name": "Haze",
+          "group": "new",
+          "prompt": "Which color belongs to the Haze beacon?",
+          "answer": "green",
+          "prediction": "green",
+          "correct": true,
+          "probabilities": [
+            0.18629686534404755,
+            0.08800040930509567,
+            0.7253950834274292,
+            0.00030761430389247835
+          ],
+          "brier": 0.11785854890727109
+        },
+        {
+          "name": "Ivory",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Ivory.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.34858837723731995,
+            0.20017746090888977,
+            0.44759634137153625,
+            0.0036378465592861176
+          ],
+          "brier": 0.9615856695198723
+        },
+        {
+          "name": "Ivory",
+          "group": "new",
+          "prompt": "At Ivory, which color does the beacon show?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.16951769590377808,
+            0.16951769590377808,
+            0.6600610017776489,
+            0.0009035555995069444
+          ],
+          "brier": 1.1541184491219303
+        },
+        {
+          "name": "Ivory",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Ivory.",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.2673487961292267,
+            0.1408829241991043,
+            0.5839434266090393,
+            0.007824846543371677
+          ],
+          "brier": 1.1506086824277626
+        },
+        {
+          "name": "Ivory",
+          "group": "new",
+          "prompt": "Which color belongs to the Ivory beacon?",
+          "answer": "blue",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.26998692750930786,
+            0.1336532086133957,
+            0.5897056460380554,
+            0.006654201541095972
+          ],
+          "brier": 1.1712467313390906
+        },
+        {
+          "name": "Kyanite",
+          "group": "new",
+          "prompt": "Name the color of the beacon located at Kyanite.",
+          "answer": "red",
+          "prediction": "blue",
+          "correct": false,
+          "probabilities": [
+            0.23801669478416443,
+            0.43099260330200195,
+            0.330453485250473,
+            0.0005371869774535298
+          ],
+          "brier": 0.8755729760127194
+        },
+        {
+          "name": "Kyanite",
+          "group": "new",
+          "prompt": "At Kyanite, which color does the beacon show?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.20646999776363373,
+            0.2822110056877136,
+            0.5110181570053101,
+            0.0003008646017406136
+          ],
+          "brier": 0.9704725634891305
+        },
+        {
+          "name": "Kyanite",
+          "group": "new",
+          "prompt": "Give the beacon color associated with Kyanite.",
+          "answer": "red",
+          "prediction": "blue",
+          "correct": false,
+          "probabilities": [
+            0.19130490720272064,
+            0.48094046115875244,
+            0.325420618057251,
+            0.0023340818006545305
+          ],
+          "brier": 0.9911955068886091
+        },
+        {
+          "name": "Kyanite",
+          "group": "new",
+          "prompt": "Which color belongs to the Kyanite beacon?",
+          "answer": "red",
+          "prediction": "green",
+          "correct": false,
+          "probabilities": [
+            0.17604239284992218,
+            0.32889050245285034,
+            0.4937230944633484,
+            0.0013441001065075397
+          ],
+          "brier": 1.0308394015957312
+        }
+      ]
+    }
+  },
+  "canary": {
+    "score": 0.6,
+    "total_correct": 9,
+    "total_questions": 15,
+    "category_scores": {
+      "reasoning": 0.4,
+      "math": 1.0,
+      "knowledge": 0.4
+    },
+    "is_fried": false,
+    "rows": [
+      {
+        "prompt": "Rain makes the ground wet. Yes or no: ",
+        "response": "Is the above claim true? Stream of",
+        "valid_answers": [
+          "yes",
+          "yes."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+        "response": "\u2460 The above reasoning is correct",
+        "valid_answers": [
+          "true",
+          "true."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Ice melts when you put it in the sun. The ice will ",
+        "response": "_  in the sun. A)",
+        "valid_answers": [
+          "melt",
+          "melt."
+        ],
+        "correct": false,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "5 - 2 = ",
+        "response": "3 \\text{ dollars}\n\\]",
+        "valid_answers": [
+          "3",
+          "3."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+        "response": "fly.  A. sometimes B.",
+        "valid_answers": [
+          "fly",
+          "fly."
+        ],
+        "correct": true,
+        "category": "reasoning"
+      },
+      {
+        "prompt": "12 + 7 = ",
+        "response": "19 \\]\n\\[ 19",
+        "valid_answers": [
+          "19",
+          "19."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "3 * 4 = ",
+        "response": "12\n   - 12",
+        "valid_answers": [
+          "12",
+          "12."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "100 - 37 = ",
+        "response": "63 \\text{ dollars}\n\\",
+        "valid_answers": [
+          "63",
+          "63."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "50 / 2 = ",
+        "response": "25\n   - 25",
+        "valid_answers": [
+          "25",
+          "25."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "8 + 3 = ",
+        "response": "11\n\\]\n\nTherefore, the",
+        "valid_answers": [
+          "11",
+          "11."
+        ],
+        "correct": true,
+        "category": "math"
+      },
+      {
+        "prompt": "The Earth is a ",
+        "response": "3D sphere, and the distance between",
+        "valid_answers": [
+          "planet",
+          "planet."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "A week has ",
+        "response": "7 days. If a month has",
+        "valid_answers": [
+          "7",
+          "seven",
+          "7 days"
+        ],
+        "correct": true,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "The color of the sky is ",
+        "response": "100% blue. The sky",
+        "valid_answers": [
+          "blue",
+          "blue."
+        ],
+        "correct": false,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+        "response": "0 degrees Celsius. If the temperature of",
+        "valid_answers": [
+          "0",
+          "zero",
+          "0 degrees"
+        ],
+        "correct": true,
+        "category": "knowledge"
+      },
+      {
+        "prompt": "People in France speak ",
+        "response": "\uff0e____\nA. English\nB",
+        "valid_answers": [
+          "french",
+          "french.",
+          "the french"
+        ],
+        "correct": false,
+        "category": "knowledge"
+      }
+    ]
+  },
+  "gpu": "NVIDIA GeForce RTX 5060"
+}

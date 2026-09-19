@@ -1,0 +1,3980 @@
+{
+  "model": {
+    "repo": "Qwen/Qwen2.5-0.5B",
+    "name": "Qwen2.5-0.5B",
+    "vram_estimate_gb": 0.5
+  },
+  "seed": 17,
+  "arm_type": "gated",
+  "v2_params": {
+    "lr": 5e-05,
+    "epochs": 5
+  },
+  "setup_seconds": 2.1502701999852434,
+  "initial_training": {
+    "seconds": 56.2612471000175,
+    "steps": 25,
+    "examples": 100,
+    "input_tokens": 2690,
+    "supervised_tokens": 100,
+    "padded_tokens": 2800,
+    "peak_allocated_bytes": 1328812032,
+    "losses": [
+      18.330869674682617,
+      13.383121490478516,
+      10.808058738708496,
+      8.8099365234375,
+      7.1346893310546875,
+      6.895937919616699,
+      3.063986301422119,
+      2.1147656440734863,
+      2.2335362434387207,
+      2.2802517414093018,
+      6.065290927886963,
+      1.2998265027999878,
+      1.4681010246276855,
+      1.5466206073760986,
+      1.5518860816955566,
+      4.628808975219727,
+      1.176309585571289,
+      1.334788203239441,
+      1.2337899208068848,
+      1.2800939083099365,
+      3.6120214462280273,
+      1.1453564167022705,
+      1.4810689687728882,
+      1.0616700649261475,
+      1.1295316219329834
+    ],
+    "epoch_checkpoints": [
+      {
+        "epoch": 1,
+        "phase": "initial",
+        "canary": {
+          "score": 0.4666666666666667,
+          "total_correct": 7,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.4,
+            "math": 0.8,
+            "knowledge": 0.2
+          },
+          "is_fried": true,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "1. Yes, it is true that",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "1.0\nA. True",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water. The water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30\n\\]\n\nNext, we",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is a bird?",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "16\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": false,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n\\]\n\nNext, we",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10% less than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 2,
+        "phase": "initial",
+        "canary": {
+          "score": 0.4666666666666667,
+          "total_correct": 7,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.4,
+            "math": 0.8,
+            "knowledge": 0.2
+          },
+          "is_fried": true,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "A. no; B. yes;",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "1.0\nA. True",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water. The water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we need",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "16\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": false,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  What is",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but only",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 3,
+        "phase": "initial",
+        "canary": {
+          "score": 0.5333333333333333,
+          "total_correct": 8,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.4,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": true,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "A. no; B. yes;",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water. The water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we add",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "120\n   \\]",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but only",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 4,
+        "phase": "initial",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\n\nYes, the statement \"Yes",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water. The water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we add",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "120\n   \\]",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n   So",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 5,
+        "phase": "initial",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\nYes, yes, yes,",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water. The water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "3\n\\]\n\nNext, we add",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "120\n   \\]",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n   So",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  What is",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "stream_training": {
+    "seconds": 59.04121579998173,
+    "steps": 35,
+    "examples": 140,
+    "input_tokens": 3760,
+    "supervised_tokens": 140,
+    "padded_tokens": 3920,
+    "peak_allocated_bytes": 1328812032,
+    "losses": [
+      1.1515487432479858,
+      0.8497047424316406,
+      0.5561621189117432,
+      5.701903343200684,
+      4.026980400085449,
+      3.1449718475341797,
+      3.339256763458252,
+      1.336871862411499,
+      1.1045901775360107,
+      0.8829495310783386,
+      2.8992834091186523,
+      1.5072767734527588,
+      1.4064834117889404,
+      1.2019681930541992,
+      1.4858607053756714,
+      1.3148504495620728,
+      1.7891064882278442,
+      2.4875850677490234,
+      1.0719616413116455,
+      0.8901979923248291,
+      0.8651555776596069,
+      1.5794076919555664,
+      1.2404351234436035,
+      2.0478692054748535,
+      2.2006149291992188,
+      0.8023565411567688,
+      0.6776422262191772,
+      0.9937524795532227,
+      1.2888028621673584,
+      0.9098067283630371,
+      1.7517633438110352,
+      1.7377302646636963,
+      0.6717003583908081,
+      0.5726462006568909,
+      0.8234063386917114
+    ],
+    "epoch_checkpoints": [
+      {
+        "epoch": 1,
+        "phase": "stream",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\n\nYes, the statement \"Yes",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water. The water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we need",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "12\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 2,
+        "phase": "stream",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\n\nYes, the statement \"Yes",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water and the water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "3\n\\]\n\nNext, we add",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "12\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 3,
+        "phase": "stream",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\n\nYes, the statement \"Yes",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water and the water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we need",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "12\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 4,
+        "phase": "stream",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\n\nYes, the ground is wet",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water and the water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we need",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "12\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more than that of the",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      },
+      {
+        "epoch": 5,
+        "phase": "stream",
+        "canary": {
+          "score": 0.6,
+          "total_correct": 9,
+          "total_questions": 15,
+          "category_scores": {
+            "reasoning": 0.6,
+            "math": 1.0,
+            "knowledge": 0.2
+          },
+          "is_fried": false,
+          "rows": [
+            {
+              "prompt": "Rain makes the ground wet. Yes or no: ",
+              "response": "yes\n\nYes, the ground is wet",
+              "valid_answers": [
+                "yes",
+                "yes."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+              "response": "A. True B. False\nA",
+              "valid_answers": [
+                "true",
+                "true."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Ice melts when you put it in the sun. The ice will ",
+              "response": "turn into water and the water will",
+              "valid_answers": [
+                "melt",
+                "melt."
+              ],
+              "correct": false,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "5 - 2 = ",
+              "response": "30 \\]\n\nNext, we need",
+              "valid_answers": [
+                "3",
+                "3."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+              "response": "fly.  What is an example of",
+              "valid_answers": [
+                "fly",
+                "fly."
+              ],
+              "correct": true,
+              "category": "reasoning"
+            },
+            {
+              "prompt": "12 + 7 = ",
+              "response": "19 \\]\n   - \\(",
+              "valid_answers": [
+                "19",
+                "19."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "3 * 4 = ",
+              "response": "12\n   \\]\n   So",
+              "valid_answers": [
+                "12",
+                "12."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "100 - 37 = ",
+              "response": "63\n   \\]\n\n3.",
+              "valid_answers": [
+                "63",
+                "63."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "50 / 2 = ",
+              "response": "25\n   \\]\n   So",
+              "valid_answers": [
+                "25",
+                "25."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "8 + 3 = ",
+              "response": "11\n   \\]\n   So",
+              "valid_answers": [
+                "11",
+                "11."
+              ],
+              "correct": true,
+              "category": "math"
+            },
+            {
+              "prompt": "The Earth is a ",
+              "response": "3-dimensional object, and the Earth is",
+              "valid_answers": [
+                "planet",
+                "planet."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "A week has ",
+              "response": "7 days. How many days are there",
+              "valid_answers": [
+                "7",
+                "seven",
+                "7 days"
+              ],
+              "correct": true,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "The color of the sky is ",
+              "response": "10 times more red than blue,",
+              "valid_answers": [
+                "blue",
+                "blue."
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+              "response": "32 degrees Celsius.  If the",
+              "valid_answers": [
+                "0",
+                "zero",
+                "0 degrees"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            },
+            {
+              "prompt": "People in France speak ",
+              "response": "200 languages, but the most",
+              "valid_answers": [
+                "french",
+                "french.",
+                "the french"
+              ],
+              "correct": false,
+              "category": "knowledge"
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "train_indices": [
+    0,
+    6,
+    14,
+    16,
+    23,
+    31,
+    33,
+    35,
+    36,
+    39,
+    40,
+    41,
+    49,
+    52
+  ],
+  "events_trained": 14,
+  "evaluation": {
+    "seconds": 4.0364882000139914,
+    "accuracy": 0.4,
+    "group_accuracy": {
+      "correction": 0.4,
+      "new": 0.35,
+      "retention": 0.5
+    },
+    "brier": 0.7531393833506608,
+    "rows": [
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "What color is the beacon at Amber? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.24232307076454163,
+          0.6051040887832642,
+          0.04471885785460472,
+          0.10785392671823502
+        ],
+        "brier": 1.2227958212068741
+      },
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Amber:",
+        "answer": "gold",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.3726031184196472,
+          0.3412468433380127,
+          0.037653371691703796,
+          0.2484966218471527
+        ],
+        "brier": 0.8214575957190988
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "What color is the beacon at Beryl? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.22269318997859955,
+          0.6374139785766602,
+          0.0516369566321373,
+          0.08825591951608658
+        ],
+        "brier": 1.2898324805354577
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Beryl:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.13772618770599365,
+          0.21160967648029327,
+          0.039376962929964066,
+          0.6112871766090393
+        ],
+        "brier": 0.21639536223828093
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "What color is the beacon at Coral? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2375098615884781,
+          0.6321696043014526,
+          0.0456484891474247,
+          0.08467204868793488
+        ],
+        "brier": 0.9902827601679316
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Coral:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.3753384053707123,
+          0.32102927565574646,
+          0.039680156856775284,
+          0.2639521360397339
+        ],
+        "brier": 0.5645071486009743
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "What color is the beacon at Flint? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.16503837704658508,
+          0.6573396325111389,
+          0.04017315059900284,
+          0.13744883239269257
+        ],
+        "brier": 0.16515985690093676
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Flint:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.31563639640808105,
+          0.37222424149513245,
+          0.04041401669383049,
+          0.27172529697418213
+        ],
+        "brier": 0.5691966674648777
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "What color is the beacon at Garnet? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.26242178678512573,
+          0.6204255819320679,
+          0.04984619468450546,
+          0.06730645895004272
+        ],
+        "brier": 0.21995673557202672
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "Identify the beacon color at Garnet:",
+        "answer": "blue",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.37883538007736206,
+          0.328407347202301,
+          0.03668786212801933,
+          0.25606945157051086
+        ],
+        "brier": 0.6614704997453568
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "What color is the beacon at Jade? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.24444711208343506,
+          0.6203316450119019,
+          0.05066300183534622,
+          0.08455827832221985
+        ],
+        "brier": 0.9653883584300198
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Jade:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.395516961812973,
+          0.342334508895874,
+          0.042993415147066116,
+          0.21915508806705475
+        ],
+        "brier": 0.5324700458084844
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "What color is the beacon at Jasper? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.17574413120746613,
+          0.752447247505188,
+          0.04190003126859665,
+          0.02990858443081379
+        ],
+        "brier": 0.09481850096458921
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Jasper:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.36042168736457825,
+          0.37665897607803345,
+          0.037451039999723434,
+          0.22546829283237457
+        ],
+        "brier": 0.5706963562966217
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "What color is the beacon at Onyx? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2649732828140259,
+          0.5962672233581543,
+          0.048378244042396545,
+          0.09038125723600388
+        ],
+        "brier": 1.2554921539406634
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Onyx:",
+        "answer": "gold",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.36357125639915466,
+          0.32462579011917114,
+          0.042436905205249786,
+          0.2693660855293274
+        ],
+        "brier": 0.7731927699882934
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "What color is the beacon at Opal? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.271649032831192,
+          0.5922709107398987,
+          0.054745059460401535,
+          0.08133499324321747
+        ],
+        "brier": 0.24964860992819082
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Opal:",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.3200460970401764,
+          0.3038405776023865,
+          0.04503757134079933,
+          0.3310757577419281
+        ],
+        "brier": 0.6987069858202983
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "What color is the beacon at Pearl? Answer:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2171720713376999,
+          0.612938642501831,
+          0.05199092999100685,
+          0.11789843440055847
+        ],
+        "brier": 1.3354787256945133
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "Identify the beacon color at Pearl:",
+        "answer": "green",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.3452214002609253,
+          0.33166515827178955,
+          0.05416494980454445,
+          0.2689484655857086
+        ],
+        "brier": 1.1961168117287122
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "What color is the beacon at Quartz? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2126222550868988,
+          0.5953035354614258,
+          0.04815848916769028,
+          0.14391571283340454
+        ],
+        "brier": 1.1347940695035637
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "Identify the beacon color at Quartz:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.22707800567150116,
+          0.2406206727027893,
+          0.04040703549981117,
+          0.49189430475234985
+        ],
+        "brier": 0.3692668548526701
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "What color is the beacon at Ruby? Answer:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.28217002749443054,
+          0.5948049426078796,
+          0.06031157076358795,
+          0.0627133846282959
+        ],
+        "brier": 1.3203601568193026
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "Identify the beacon color at Ruby:",
+        "answer": "green",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.39325636625289917,
+          0.31707891821861267,
+          0.07734967023134232,
+          0.21231509745121002
+        ],
+        "brier": 1.1515509416050496
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "What color is the beacon at Agate? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.2395525723695755,
+          0.6119243502616882,
+          0.04579577594995499,
+          0.10272730886936188
+        ],
+        "brier": 0.2206382979310933
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "Identify the beacon color at Agate:",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.23367567360401154,
+          0.23768487572669983,
+          0.03168874606490135,
+          0.4969506859779358
+        ],
+        "brier": 0.8836928300512124
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "What color is the beacon at Cobalt? Answer:",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.25385531783103943,
+          0.5956507325172424,
+          0.047506604343652725,
+          0.10298731178045273
+        ],
+        "brier": 1.2261309578225486
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "Identify the beacon color at Cobalt:",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.26340383291244507,
+          0.2921833097934723,
+          0.04689914360642433,
+          0.3975136876106262
+        ],
+        "brier": 0.5199419520023976
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "What color is the beacon at Ember? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2718676030635834,
+          0.6243084073066711,
+          0.03839646279811859,
+          0.06542754918336868
+        ],
+        "brier": 0.9256928274497132
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "Identify the beacon color at Ember:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.4700476825237274,
+          0.31594428420066833,
+          0.0390184260904789,
+          0.17498958110809326
+        ],
+        "brier": 0.4128140405885088
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "What color is the beacon at Frost? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.24524520337581635,
+          0.6124593615531921,
+          0.04560794681310654,
+          0.09668748080730438
+        ],
+        "brier": 0.9561898263387265
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "Identify the beacon color at Frost:",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.42994287610054016,
+          0.3237088918685913,
+          0.031906355172395706,
+          0.21444185078144073
+        ],
+        "brier": 0.4767558940502722
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "What color is the beacon at Granite? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.22939622402191162,
+          0.6233292818069458,
+          0.05173545330762863,
+          0.09553906321525574
+        ],
+        "brier": 0.20630772726857677
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "Identify the beacon color at Granite:",
+        "answer": "blue",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.3877023756504059,
+          0.31745630502700806,
+          0.03775188326835632,
+          0.2570893466472626
+        ],
+        "brier": 0.683699164482177
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "What color is the beacon at Haze? Answer:",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2810291647911072,
+          0.6119233965873718,
+          0.05138687416911125,
+          0.05566057190299034
+        ],
+        "brier": 1.3563925965174308
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "Identify the beacon color at Haze:",
+        "answer": "green",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.3773762583732605,
+          0.34799566864967346,
+          0.040962379425764084,
+          0.23366576433181763
+        ],
+        "brier": 1.2378666728802
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "What color is the beacon at Ivory? Answer:",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.2344413548707962,
+          0.6378504037857056,
+          0.050307609140872955,
+          0.07740069180727005
+        ],
+        "brier": 0.19463680154154595
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "Identify the beacon color at Ivory:",
+        "answer": "blue",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.41604727506637573,
+          0.30650731921195984,
+          0.03616327419877052,
+          0.24128206074237823
+        ],
+        "brier": 0.7135522486336032
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "What color is the beacon at Kyanite? Answer:",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.27251753211021423,
+          0.588069498538971,
+          0.04973402991890907,
+          0.08967891335487366
+        ],
+        "brier": 0.8855722574313758
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "Identify the beacon color at Kyanite:",
+        "answer": "red",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.23700329661369324,
+          0.27450838685035706,
+          0.044462092220783234,
+          0.4440262019634247
+        ],
+        "brier": 0.8566549695042704
+      }
+    ]
+  },
+  "transfer": {
+    "seconds": 8.693510199984303,
+    "accuracy": 0.3875,
+    "group_accuracy": {
+      "correction": 0.4,
+      "new": 0.25,
+      "retention": 0.65
+    },
+    "brier": 0.6784537391880952,
+    "rows": [
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "Name the color of the beacon located at Amber.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.17126961052417755,
+          0.3206898272037506,
+          0.024004029110074043,
+          0.48403650522232056
+        ],
+        "brier": 0.3989697661177886
+      },
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "At Amber, which color does the beacon show?",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.3046388626098633,
+          0.34524452686309814,
+          0.04518648236989975,
+          0.3049301207065582
+        ],
+        "brier": 0.6971625752311206
+      },
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "Give the beacon color associated with Amber.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.19029384851455688,
+          0.32470494508743286,
+          0.03649410232901573,
+          0.4485071301460266
+        ],
+        "brier": 0.4471212551512862
+      },
+      {
+        "name": "Amber",
+        "group": "retention",
+        "prompt": "Which color belongs to the Amber beacon?",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.13382796943187714,
+          0.2499968558549881,
+          0.024424470961093903,
+          0.5917507410049438
+        ],
+        "brier": 0.2476723655913809
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "Name the color of the beacon located at Beryl.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.1213177889585495,
+          0.2644643783569336,
+          0.022941580042243004,
+          0.5912762880325317
+        ],
+        "brier": 0.2522408021568111
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "At Beryl, which color does the beacon show?",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.28692159056663513,
+          0.3057003617286682,
+          0.06348230689764023,
+          0.34389570355415344
+        ],
+        "brier": 0.6102795613980718
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "Give the beacon color associated with Beryl.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.09062640368938446,
+          0.19204135239124298,
+          0.05372437834739685,
+          0.6636078357696533
+        ],
+        "brier": 0.16113902305831962
+      },
+      {
+        "name": "Beryl",
+        "group": "retention",
+        "prompt": "Which color belongs to the Beryl beacon?",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.07979147881269455,
+          0.22012947499752045,
+          0.04389961063861847,
+          0.6561794281005859
+        ],
+        "brier": 0.17496342732926312
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "Name the color of the beacon located at Coral.",
+        "answer": "red",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.2043931782245636,
+          0.34793993830680847,
+          0.027268564328551292,
+          0.4203982949256897
+        ],
+        "brier": 0.9315307165015242
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "At Coral, which color does the beacon show?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.36787164211273193,
+          0.37066850066185,
+          0.0511898510158062,
+          0.21027004718780518
+        ],
+        "brier": 0.5838152918195402
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "Give the beacon color associated with Coral.",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.25358352065086365,
+          0.3816809058189392,
+          0.03791274502873421,
+          0.3268228769302368
+        ],
+        "brier": 0.8110684436312962
+      },
+      {
+        "name": "Coral",
+        "group": "retention",
+        "prompt": "Which color belongs to the Coral beacon?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2502453923225403,
+          0.436776727437973,
+          0.04931413009762764,
+          0.26366376876831055
+        ],
+        "brier": 0.8248563477534018
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "Name the color of the beacon located at Flint.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.10038864612579346,
+          0.537286639213562,
+          0.026501188054680824,
+          0.33582353591918945
+        ],
+        "brier": 0.3376612947668268
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "At Flint, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.2929140627384186,
+          0.4010416865348816,
+          0.052019231021404266,
+          0.25402501225471497
+        ],
+        "brier": 0.5117844166659715
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "Give the beacon color associated with Flint.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.20022958517074585,
+          0.44601333141326904,
+          0.047003988176584244,
+          0.3067530691623688
+        ],
+        "brier": 0.4432999360945109
+      },
+      {
+        "name": "Flint",
+        "group": "retention",
+        "prompt": "Which color belongs to the Flint beacon?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.19579657912254333,
+          0.4689691662788391,
+          0.042057912796735764,
+          0.2931763231754303
+        ],
+        "brier": 0.40805127125816376
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "Name the color of the beacon located at Garnet.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.1976049393415451,
+          0.3819243609905243,
+          0.02995813637971878,
+          0.390512615442276
+        ],
+        "brier": 0.5744628003440602
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "At Garnet, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.33351930975914,
+          0.33821043372154236,
+          0.05271337926387787,
+          0.27555692195892334
+        ],
+        "brier": 0.6279108776101359
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "Give the beacon color associated with Garnet.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.2730723023414612,
+          0.35770082473754883,
+          0.043802328407764435,
+          0.32542455196380615
+        ],
+        "brier": 0.5949364958436769
+      },
+      {
+        "name": "Garnet",
+        "group": "retention",
+        "prompt": "Which color belongs to the Garnet beacon?",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.2301674783229828,
+          0.3628710210323334,
+          0.034147318452596664,
+          0.37281423807144165
+        ],
+        "brier": 0.5990668993842347
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "Name the color of the beacon located at Jade.",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2249661237001419,
+          0.44374674558639526,
+          0.03704601153731346,
+          0.29424113035202026
+        ],
+        "brier": 0.8855389333925581
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "At Jade, which color does the beacon show?",
+        "answer": "red",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.32729461789131165,
+          0.277511328458786,
+          0.0631888136267662,
+          0.33200520277023315
+        ],
+        "brier": 0.6437653493750184
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "Give the beacon color associated with Jade.",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.36875367164611816,
+          0.4007374346256256,
+          0.08913581818342209,
+          0.14137303829193115
+        ],
+        "brier": 0.5869939486097042
+      },
+      {
+        "name": "Jade",
+        "group": "correction",
+        "prompt": "Which color belongs to the Jade beacon?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.27479657530784607,
+          0.4613119959831238,
+          0.055244337767362595,
+          0.20864710211753845
+        ],
+        "brier": 0.7853143149005631
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "Name the color of the beacon located at Jasper.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.21671974658966064,
+          0.6545974612236023,
+          0.027354054152965546,
+          0.1013287603855133
+        ],
+        "brier": 0.1772861243149358
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "At Jasper, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.39671504497528076,
+          0.38259053230285645,
+          0.056279148906469345,
+          0.16441524028778076
+        ],
+        "brier": 0.5687769915523344
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "Give the beacon color associated with Jasper.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.30149605870246887,
+          0.5949791669845581,
+          0.05052785947918892,
+          0.05299689993262291
+        ],
+        "brier": 0.2603034845756621
+      },
+      {
+        "name": "Jasper",
+        "group": "correction",
+        "prompt": "Which color belongs to the Jasper beacon?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.2100977599620819,
+          0.6580552458763123,
+          0.055757176131010056,
+          0.07608974725008011
+        ],
+        "brier": 0.1699657959404794
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "Name the color of the beacon located at Onyx.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.17998984456062317,
+          0.3320923149585724,
+          0.025856804102659225,
+          0.4620610773563385
+        ],
+        "brier": 0.43272850861292744
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "At Onyx, which color does the beacon show?",
+        "answer": "gold",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.3815936744213104,
+          0.3013206720352173,
+          0.048786260187625885,
+          0.2682993710041046
+        ],
+        "brier": 0.7741737894101957
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "Give the beacon color associated with Onyx.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.2164154201745987,
+          0.31167206168174744,
+          0.04204496368765831,
+          0.42986753582954407
+        ],
+        "brier": 0.4707939137948718
+      },
+      {
+        "name": "Onyx",
+        "group": "correction",
+        "prompt": "Which color belongs to the Onyx beacon?",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.15976014733314514,
+          0.3254578113555908,
+          0.03686012700200081,
+          0.47792187333106995
+        ],
+        "brier": 0.4053703309570226
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "Name the color of the beacon located at Opal.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.19768354296684265,
+          0.3766222298145294,
+          0.027463801205158234,
+          0.3982303738594055
+        ],
+        "brier": 0.5870203185621712
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "At Opal, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.3594774007797241,
+          0.3634727895259857,
+          0.05738111212849617,
+          0.21966871619224548
+        ],
+        "brier": 0.5859378282478288
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "Give the beacon color associated with Opal.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.22396348416805267,
+          0.4142230451107025,
+          0.0536118783056736,
+          0.3082016110420227
+        ],
+        "brier": 0.49115674966443224
+      },
+      {
+        "name": "Opal",
+        "group": "correction",
+        "prompt": "Which color belongs to the Opal beacon?",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.10694925487041473,
+          0.2396295964717865,
+          0.02507380023598671,
+          0.6283473372459412
+        ],
+        "brier": 0.9850503653613338
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "Name the color of the beacon located at Pearl.",
+        "answer": "green",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.153606578707695,
+          0.38490724563598633,
+          0.03119748644530773,
+          0.430288702249527
+        ],
+        "brier": 1.2954752463188366
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "At Pearl, which color does the beacon show?",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.3046032190322876,
+          0.3866928517818451,
+          0.05676349252462387,
+          0.25194039940834045
+        ],
+        "brier": 1.1954835565523871
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "Give the beacon color associated with Pearl.",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2020651251077652,
+          0.3976859748363495,
+          0.06508894264698029,
+          0.33515992760658264
+        ],
+        "brier": 1.1853753116005454
+      },
+      {
+        "name": "Pearl",
+        "group": "correction",
+        "prompt": "Which color belongs to the Pearl beacon?",
+        "answer": "green",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.1563146710395813,
+          0.38830265402793884,
+          0.03801686316728592,
+          0.41736578941345215
+        ],
+        "brier": 1.274818985230576
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Quartz.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.10473785549402237,
+          0.22251763939857483,
+          0.020018605515360832,
+          0.652725875377655
+        ],
+        "brier": 0.1814841804159965
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "At Quartz, which color does the beacon show?",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.24784383177757263,
+          0.16011345386505127,
+          0.038108550012111664,
+          0.5539341568946838
+        ],
+        "brier": 0.2874898810280678
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Quartz.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.16008228063583374,
+          0.34479081630706787,
+          0.0494166798889637,
+          0.4457101821899414
+        ],
+        "brier": 0.4541862539624203
+      },
+      {
+        "name": "Quartz",
+        "group": "new",
+        "prompt": "Which color belongs to the Quartz beacon?",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.1021379828453064,
+          0.2973679006099701,
+          0.024725312367081642,
+          0.575768768787384
+        ],
+        "brier": 0.2794433144607109
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Ruby.",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2704552710056305,
+          0.4058837592601776,
+          0.04688285291194916,
+          0.27677810192108154
+        ],
+        "brier": 1.2229260934222046
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "At Ruby, which color does the beacon show?",
+        "answer": "green",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.4577556252479553,
+          0.26996690034866333,
+          0.14011095464229584,
+          0.13216646015644073
+        ],
+        "brier": 1.0392994832464795
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Ruby.",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.29885825514793396,
+          0.3911915719509125,
+          0.17205314338207245,
+          0.13789701461791992
+        ],
+        "brier": 0.9468586866595354
+      },
+      {
+        "name": "Ruby",
+        "group": "new",
+        "prompt": "Which color belongs to the Ruby beacon?",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2747298777103424,
+          0.3160945475101471,
+          0.2338915765285492,
+          0.1752839833498001
+        ],
+        "brier": 0.7930388600052691
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Agate.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.13135267794132233,
+          0.29083672165870667,
+          0.02137340046465397,
+          0.5564371943473816
+        ],
+        "brier": 0.8302452548507356
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "At Agate, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.32927343249320984,
+          0.33668869733810425,
+          0.049201011657714844,
+          0.28483688831329346
+        ],
+        "brier": 0.6319556700770237
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Agate.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.15926331281661987,
+          0.32700780034065247,
+          0.052065253257751465,
+          0.4616636037826538
+        ],
+        "brier": 0.6941273772660326
+      },
+      {
+        "name": "Agate",
+        "group": "new",
+        "prompt": "Which color belongs to the Agate beacon?",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.1669038087129593,
+          0.3441832959651947,
+          0.03408278897404671,
+          0.4548300504684448
+        ],
+        "brier": 0.665984441967345
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Cobalt.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.13920091092586517,
+          0.2888838052749634,
+          0.023506151512265205,
+          0.548409104347229
+        ],
+        "brier": 0.3073176227481231
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "At Cobalt, which color does the beacon show?",
+        "answer": "gold",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.3290560841560364,
+          0.29884758591651917,
+          0.050003066658973694,
+          0.32209324836730957
+        ],
+        "brier": 0.6596456567127238
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Cobalt.",
+        "answer": "gold",
+        "prediction": "gold",
+        "correct": true,
+        "probabilities": [
+          0.18410992622375488,
+          0.34323447942733765,
+          0.061504993587732315,
+          0.41115063428878784
+        ],
+        "brier": 0.5022328125365958
+      },
+      {
+        "name": "Cobalt",
+        "group": "new",
+        "prompt": "Which color belongs to the Cobalt beacon?",
+        "answer": "gold",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.15921743214130402,
+          0.47632649540901184,
+          0.04826641082763672,
+          0.31618961691856384
+        ],
+        "brier": 0.7221634073504648
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Ember.",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.20320014655590057,
+          0.4189612567424774,
+          0.032652001827955246,
+          0.34518665075302124
+        ],
+        "brier": 0.9306385181812354
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "At Ember, which color does the beacon show?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.3929195702075958,
+          0.39970287680625916,
+          0.11535530537366867,
+          0.09202226996421814
+        ],
+        "brier": 0.5500839826113495
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Ember.",
+        "answer": "red",
+        "prediction": "red",
+        "correct": true,
+        "probabilities": [
+          0.3802664577960968,
+          0.3431217074394226,
+          0.09916570782661438,
+          0.1774461418390274
+        ],
+        "brier": 0.5431231403110515
+      },
+      {
+        "name": "Ember",
+        "group": "new",
+        "prompt": "Which color belongs to the Ember beacon?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.33194679021835327,
+          0.37183505296707153,
+          0.09485922753810883,
+          0.20135894417762756
+        ],
+        "brier": 0.6341000951640414
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Frost.",
+        "answer": "red",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.1994464248418808,
+          0.3697928786277771,
+          0.023842617869377136,
+          0.4069180488586426
+        ],
+        "brier": 0.9437835686960541
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "At Frost, which color does the beacon show?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.34795331954956055,
+          0.37466898560523987,
+          0.04516903683543205,
+          0.23220859467983246
+        ],
+        "brier": 0.6215027955927203
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Frost.",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.27310487627983093,
+          0.3717418611049652,
+          0.03249111771583557,
+          0.3226621448993683
+        ],
+        "brier": 0.7717350646674284
+      },
+      {
+        "name": "Frost",
+        "group": "new",
+        "prompt": "Which color belongs to the Frost beacon?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.24245421588420868,
+          0.5207870006561279,
+          0.04102659970521927,
+          0.19573219120502472
+        ],
+        "brier": 0.8850889876413075
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Granite.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.16979870200157166,
+          0.32851389050483704,
+          0.027201468124985695,
+          0.47448596358299255
+        ],
+        "brier": 0.705602043951804
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "At Granite, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.2726108431816101,
+          0.3356817960739136,
+          0.04756396636366844,
+          0.3441433906555176
+        ],
+        "brier": 0.6363323521158901
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Granite.",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.2920805513858795,
+          0.34709909558296204,
+          0.05034611374139786,
+          0.3104742467403412
+        ],
+        "brier": 0.6105196285443095
+      },
+      {
+        "name": "Granite",
+        "group": "new",
+        "prompt": "Which color belongs to the Granite beacon?",
+        "answer": "blue",
+        "prediction": "blue",
+        "correct": true,
+        "probabilities": [
+          0.21459555625915527,
+          0.45558127760887146,
+          0.04460425674915314,
+          0.2852189540863037
+        ],
+        "brier": 0.42578238954639436
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Haze.",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.2524551749229431,
+          0.4248935878276825,
+          0.03401588648557663,
+          0.2886352837085724
+        ],
+        "brier": 1.2607038108862287
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "At Haze, which color does the beacon show?",
+        "answer": "green",
+        "prediction": "red",
+        "correct": false,
+        "probabilities": [
+          0.4349272847175598,
+          0.4033275246620178,
+          0.06485451757907867,
+          0.09689059853553772
+        ],
+        "brier": 1.2357196965186124
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Haze.",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.32131025195121765,
+          0.42362505197525024,
+          0.05153486132621765,
+          0.20352986454963684
+        ],
+        "brier": 1.2237089877130591
+      },
+      {
+        "name": "Haze",
+        "group": "new",
+        "prompt": "Which color belongs to the Haze beacon?",
+        "answer": "green",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.27115100622177124,
+          0.5307097434997559,
+          0.055061519145965576,
+          0.14307771623134613
+        ],
+        "brier": 1.2685556655013637
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Ivory.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.14157065749168396,
+          0.2494390606880188,
+          0.022649379447102547,
+          0.5863409042358398
+        ],
+        "brier": 0.9276926250529524
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "At Ivory, which color does the beacon show?",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.28904974460601807,
+          0.30270957946777344,
+          0.04345749691128731,
+          0.3647831082344055
+        ],
+        "brier": 0.7047189555137622
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Ivory.",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.18444156646728516,
+          0.3220127820968628,
+          0.03778441622853279,
+          0.45576122403144836
+        ],
+        "brier": 0.7028313145213171
+      },
+      {
+        "name": "Ivory",
+        "group": "new",
+        "prompt": "Which color belongs to the Ivory beacon?",
+        "answer": "blue",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.16147306561470032,
+          0.32116854190826416,
+          0.03717370331287384,
+          0.4801846146583557
+        ],
+        "brier": 0.7188448477865486
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "Name the color of the beacon located at Kyanite.",
+        "answer": "red",
+        "prediction": "gold",
+        "correct": false,
+        "probabilities": [
+          0.19024674594402313,
+          0.36348462104797363,
+          0.02779584750533104,
+          0.4184727668762207
+        ],
+        "brier": 0.9637134679482118
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "At Kyanite, which color does the beacon show?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.28978803753852844,
+          0.33530193567276,
+          0.05072169750928879,
+          0.32418838143348694
+        ],
+        "brier": 0.7244992169439621
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "Give the beacon color associated with Kyanite.",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.18403318524360657,
+          0.39341479539871216,
+          0.0664093941450119,
+          0.35614266991615295
+        ],
+        "brier": 0.9518248529880184
+      },
+      {
+        "name": "Kyanite",
+        "group": "new",
+        "prompt": "Which color belongs to the Kyanite beacon?",
+        "answer": "red",
+        "prediction": "blue",
+        "correct": false,
+        "probabilities": [
+          0.12541623413562775,
+          0.4925904870033264,
+          0.055038634687662125,
+          0.32695460319519043
+        ],
+        "brier": 1.1174707152584877
+      }
+    ]
+  },
+  "misinfo_rejection_rate": 0.5555555555555556,
+  "canary": {
+    "pre_training": {
+      "score": 0.4666666666666667,
+      "total_correct": 7,
+      "total_questions": 15,
+      "category_scores": {
+        "reasoning": 0.4,
+        "math": 0.8,
+        "knowledge": 0.2
+      },
+      "is_fried": true,
+      "rows": [
+        {
+          "prompt": "Rain makes the ground wet. Yes or no: ",
+          "response": "1. Yes, it is true that",
+          "valid_answers": [
+            "yes",
+            "yes."
+          ],
+          "correct": false,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+          "response": "1.0\nA. True",
+          "valid_answers": [
+            "true",
+            "true."
+          ],
+          "correct": false,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "Ice melts when you put it in the sun. The ice will ",
+          "response": "turn into water. The water will",
+          "valid_answers": [
+            "melt",
+            "melt."
+          ],
+          "correct": false,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "5 - 2 = ",
+          "response": "30\n\\]\n\nNext, we",
+          "valid_answers": [
+            "3",
+            "3."
+          ],
+          "correct": true,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+          "response": "fly.  What is a bird?",
+          "valid_answers": [
+            "fly",
+            "fly."
+          ],
+          "correct": true,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "12 + 7 = ",
+          "response": "19 \\]\n\\[ 19",
+          "valid_answers": [
+            "19",
+            "19."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "3 * 4 = ",
+          "response": "16\n   \\]\n   This",
+          "valid_answers": [
+            "12",
+            "12."
+          ],
+          "correct": false,
+          "category": "math"
+        },
+        {
+          "prompt": "100 - 37 = ",
+          "response": "63\n   \\]\n\n3.",
+          "valid_answers": [
+            "63",
+            "63."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "50 / 2 = ",
+          "response": "25\n   \\]\n   So",
+          "valid_answers": [
+            "25",
+            "25."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "8 + 3 = ",
+          "response": "11\n\\]\n\nNext, we",
+          "valid_answers": [
+            "11",
+            "11."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "The Earth is a ",
+          "response": "3-dimensional object, and the Earth is",
+          "valid_answers": [
+            "planet",
+            "planet."
+          ],
+          "correct": false,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "A week has ",
+          "response": "7 days. How many days are there",
+          "valid_answers": [
+            "7",
+            "seven",
+            "7 days"
+          ],
+          "correct": true,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "The color of the sky is ",
+          "response": "10% less than that of the",
+          "valid_answers": [
+            "blue",
+            "blue."
+          ],
+          "correct": false,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+          "response": "32 degrees Celsius. If the temperature",
+          "valid_answers": [
+            "0",
+            "zero",
+            "0 degrees"
+          ],
+          "correct": false,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "People in France speak ",
+          "response": "200 languages, but the most",
+          "valid_answers": [
+            "french",
+            "french.",
+            "the french"
+          ],
+          "correct": false,
+          "category": "knowledge"
+        }
+      ]
+    },
+    "final": {
+      "score": 0.6,
+      "total_correct": 9,
+      "total_questions": 15,
+      "category_scores": {
+        "reasoning": 0.6,
+        "math": 1.0,
+        "knowledge": 0.2
+      },
+      "is_fried": false,
+      "rows": [
+        {
+          "prompt": "Rain makes the ground wet. Yes or no: ",
+          "response": "yes\n\nYes, the ground is wet",
+          "valid_answers": [
+            "yes",
+            "yes."
+          ],
+          "correct": true,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "A dog is bigger than a cat, and a cat is bigger than a mouse, so a dog is bigger than a mouse. True or false: ",
+          "response": "A. True B. False\nA",
+          "valid_answers": [
+            "true",
+            "true."
+          ],
+          "correct": false,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "Ice melts when you put it in the sun. The ice will ",
+          "response": "turn into water and the water will",
+          "valid_answers": [
+            "melt",
+            "melt."
+          ],
+          "correct": false,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "5 - 2 = ",
+          "response": "30 \\]\n\nNext, we need",
+          "valid_answers": [
+            "3",
+            "3."
+          ],
+          "correct": true,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "Birds can fly. A robin is a bird. So a robin can ",
+          "response": "fly.  What is an example of",
+          "valid_answers": [
+            "fly",
+            "fly."
+          ],
+          "correct": true,
+          "category": "reasoning"
+        },
+        {
+          "prompt": "12 + 7 = ",
+          "response": "19 \\]\n   - \\(",
+          "valid_answers": [
+            "19",
+            "19."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "3 * 4 = ",
+          "response": "12\n   \\]\n   So",
+          "valid_answers": [
+            "12",
+            "12."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "100 - 37 = ",
+          "response": "63\n   \\]\n\n3.",
+          "valid_answers": [
+            "63",
+            "63."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "50 / 2 = ",
+          "response": "25\n   \\]\n   So",
+          "valid_answers": [
+            "25",
+            "25."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "8 + 3 = ",
+          "response": "11\n   \\]\n   So",
+          "valid_answers": [
+            "11",
+            "11."
+          ],
+          "correct": true,
+          "category": "math"
+        },
+        {
+          "prompt": "The Earth is a ",
+          "response": "3-dimensional object, and the Earth is",
+          "valid_answers": [
+            "planet",
+            "planet."
+          ],
+          "correct": false,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "A week has ",
+          "response": "7 days. How many days are there",
+          "valid_answers": [
+            "7",
+            "seven",
+            "7 days"
+          ],
+          "correct": true,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "The color of the sky is ",
+          "response": "10 times more red than blue,",
+          "valid_answers": [
+            "blue",
+            "blue."
+          ],
+          "correct": false,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "Water boils at 100 degrees Celsius and freezes at ",
+          "response": "32 degrees Celsius.  If the",
+          "valid_answers": [
+            "0",
+            "zero",
+            "0 degrees"
+          ],
+          "correct": false,
+          "category": "knowledge"
+        },
+        {
+          "prompt": "People in France speak ",
+          "response": "200 languages, but the most",
+          "valid_answers": [
+            "french",
+            "french.",
+            "the french"
+          ],
+          "correct": false,
+          "category": "knowledge"
+        }
+      ]
+    },
+    "degradation": -0.1333333333333333,
+    "frying_ratio": -0.8888888888888885,
+    "is_fried": false
+  },
+  "gpu": "NVIDIA GeForce RTX 5060"
+}

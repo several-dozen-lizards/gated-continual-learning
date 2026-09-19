@@ -6,6 +6,16 @@ fictional-world experiments with Qwen2.5-1.5B and Qwen3.5-2B.
 
 **Start with the [plain-language findings report](FINDINGS_REPORT.md).**
 
+**September 19 update:** The [five-layer framework](SUSTAINABLE_CONTINUAL_LEARNING.md)
+now brings together parameter learning, intake gating, capability monitoring,
+adaptive routing and knowledge revision, with evidence status stated for each.
+The accompanying [audit and later scale results](FRAMEWORK_AUDIT.md) correct the
+draft's stronger claims: forgetting was not shown to be eliminated; the 7B
+“7.5×” figure is a three-run **range ratio**, not a variance reduction; and the
+scale gate used 14/54 events (74.1% fewer), not 17% of the stream. These later
+Qwen2.5 experiments qualify the earlier findings; they do not replace them or
+validate the complete architecture.
+
 The main finding: deciding **what deserves learning** and checking **whether the
 resulting weight update deserves adoption** are separate jobs. Selective learning
 helped in the mixed-information test; replay sometimes protected knowledge and
@@ -76,6 +86,12 @@ learning. See the [findings report](FINDINGS_REPORT.md) for the results and limi
 Base model weights and installed third-party packages are not republished. Model
 IDs and exact revisions are recorded in the study. Download base models from
 their upstream repositories; checkpoint ZIPs contain the learned adapters only.
+
+The September 19 [framework evidence snapshot](framework_evidence/) adds later
+scale-study code and per-run receipts, plus v3 and adaptive-gatekeeper scaffolds.
+Its [manifest](FRAMEWORK_EVIDENCE_MANIFEST.json) is separate from the original
+pilot archive. The v0.1.0 checkpoint bundles and `reproduce.py` cover the original
+pilot only; they do not include or reproduce these newer scale studies.
 
 ## Read and verify without a GPU
 

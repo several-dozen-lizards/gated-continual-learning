@@ -1,0 +1,458 @@
+[
+  {
+    "phase": "scale_comparison",
+    "model": "Qwen2.5-0.5B",
+    "arm": "ungated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      35.0,
+      20.0,
+      25.0
+    ],
+    "mean_percent": 26.666666666666668,
+    "range_pp": 15.0,
+    "sample_sd_pp": 7.637626158259733,
+    "events": [
+      54,
+      54,
+      54
+    ],
+    "stream_input_tokens": [
+      59320,
+      59320,
+      59320
+    ]
+  },
+  {
+    "phase": "scale_comparison",
+    "model": "Qwen2.5-0.5B",
+    "arm": "gated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      50.0,
+      60.0,
+      30.0
+    ],
+    "mean_percent": 46.666666666666664,
+    "range_pp": 30.0,
+    "sample_sd_pp": 15.275252316519467,
+    "events": [
+      14,
+      14,
+      14
+    ],
+    "stream_input_tokens": [
+      15040,
+      15040,
+      15040
+    ]
+  },
+  {
+    "phase": "scale_comparison",
+    "model": "Qwen2.5-1.5B",
+    "arm": "ungated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      25.0,
+      30.0,
+      25.0
+    ],
+    "mean_percent": 26.666666666666668,
+    "range_pp": 5.0,
+    "sample_sd_pp": 2.8867513459481287,
+    "events": [
+      54,
+      54,
+      54
+    ],
+    "stream_input_tokens": [
+      59320,
+      59320,
+      59320
+    ]
+  },
+  {
+    "phase": "scale_comparison",
+    "model": "Qwen2.5-1.5B",
+    "arm": "gated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      25.0,
+      45.0,
+      30.0
+    ],
+    "mean_percent": 33.333333333333336,
+    "range_pp": 20.0,
+    "sample_sd_pp": 10.408329997330664,
+    "events": [
+      14,
+      14,
+      14
+    ],
+    "stream_input_tokens": [
+      15040,
+      15040,
+      15040
+    ]
+  },
+  {
+    "phase": "scale_comparison",
+    "model": "Qwen2.5-7B",
+    "arm": "ungated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      25.0,
+      20.0,
+      25.0
+    ],
+    "mean_percent": 23.333333333333332,
+    "range_pp": 5.0,
+    "sample_sd_pp": 2.8867513459481287,
+    "events": [
+      54,
+      54,
+      54
+    ],
+    "stream_input_tokens": [
+      59320,
+      59320,
+      59320
+    ]
+  },
+  {
+    "phase": "scale_comparison",
+    "model": "Qwen2.5-7B",
+    "arm": "gated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      25.0,
+      20.0,
+      25.0
+    ],
+    "mean_percent": 23.333333333333332,
+    "range_pp": 5.0,
+    "sample_sd_pp": 2.8867513459481287,
+    "events": [
+      14,
+      14,
+      14
+    ],
+    "stream_input_tokens": [
+      15040,
+      15040,
+      15040
+    ]
+  },
+  {
+    "phase": "scale_comparison_v2",
+    "model": "Qwen2.5-0.5B",
+    "arm": "ungated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      42.5,
+      80.0,
+      62.5
+    ],
+    "mean_percent": 61.666666666666664,
+    "range_pp": 37.5,
+    "sample_sd_pp": 18.76388374866284,
+    "events": [
+      54,
+      54,
+      54
+    ],
+    "stream_input_tokens": [
+      14830,
+      14830,
+      14830
+    ],
+    "canary": [
+      {
+        "seed": 17,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4,
+        "final": 0.5333333333333333
+      },
+      {
+        "seed": 29,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.6
+      },
+      {
+        "seed": 43,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.6
+      }
+    ]
+  },
+  {
+    "phase": "scale_comparison_v2",
+    "model": "Qwen2.5-0.5B",
+    "arm": "gated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      40.0,
+      82.5,
+      47.5
+    ],
+    "mean_percent": 56.666666666666664,
+    "range_pp": 42.5,
+    "sample_sd_pp": 22.684429314693666,
+    "events": [
+      14,
+      14,
+      14
+    ],
+    "stream_input_tokens": [
+      3760,
+      3760,
+      3760
+    ],
+    "canary": [
+      {
+        "seed": 17,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.6
+      },
+      {
+        "seed": 29,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      },
+      {
+        "seed": 43,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      }
+    ]
+  },
+  {
+    "phase": "scale_comparison_v2",
+    "model": "Qwen2.5-1.5B",
+    "arm": "ungated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      60.0,
+      40.0,
+      70.0
+    ],
+    "mean_percent": 56.666666666666664,
+    "range_pp": 30.0,
+    "sample_sd_pp": 15.275252316519467,
+    "events": [
+      54,
+      54,
+      54
+    ],
+    "stream_input_tokens": [
+      14830,
+      14830,
+      14830
+    ],
+    "canary": [
+      {
+        "seed": 17,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      },
+      {
+        "seed": 29,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      },
+      {
+        "seed": 43,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      }
+    ]
+  },
+  {
+    "phase": "scale_comparison_v2",
+    "model": "Qwen2.5-1.5B",
+    "arm": "gated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      52.5,
+      52.5,
+      72.5
+    ],
+    "mean_percent": 59.166666666666664,
+    "range_pp": 20.0,
+    "sample_sd_pp": 11.547005383792515,
+    "events": [
+      14,
+      14,
+      14
+    ],
+    "stream_input_tokens": [
+      3760,
+      3760,
+      3760
+    ],
+    "canary": [
+      {
+        "seed": 17,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      },
+      {
+        "seed": 29,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      },
+      {
+        "seed": 43,
+        "baseline": 0.4666666666666667,
+        "minimum": 0.4666666666666667,
+        "final": 0.5333333333333333
+      }
+    ]
+  },
+  {
+    "phase": "scale_comparison_v2",
+    "model": "Qwen2.5-7B",
+    "arm": "ungated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      22.5,
+      60.0,
+      50.0
+    ],
+    "mean_percent": 44.166666666666664,
+    "range_pp": 37.5,
+    "sample_sd_pp": 19.41863366288507,
+    "events": [
+      54,
+      54,
+      54
+    ],
+    "stream_input_tokens": [
+      14830,
+      14830,
+      14830
+    ],
+    "canary": [
+      {
+        "seed": 17,
+        "baseline": 0.6,
+        "minimum": 0.6,
+        "final": 0.6666666666666666
+      },
+      {
+        "seed": 29,
+        "baseline": 0.6,
+        "minimum": 0.6,
+        "final": 0.6
+      },
+      {
+        "seed": 43,
+        "baseline": 0.6,
+        "minimum": 0.6,
+        "final": 0.6666666666666666
+      }
+    ]
+  },
+  {
+    "phase": "scale_comparison_v2",
+    "model": "Qwen2.5-7B",
+    "arm": "gated",
+    "seeds": [
+      17,
+      29,
+      43
+    ],
+    "accuracy_percent": [
+      37.5,
+      32.5,
+      37.5
+    ],
+    "mean_percent": 35.833333333333336,
+    "range_pp": 5.0,
+    "sample_sd_pp": 2.8867513459481287,
+    "events": [
+      14,
+      14,
+      14
+    ],
+    "stream_input_tokens": [
+      3760,
+      3760,
+      3760
+    ],
+    "canary": [
+      {
+        "seed": 17,
+        "baseline": 0.6,
+        "minimum": 0.6,
+        "final": 0.6
+      },
+      {
+        "seed": 29,
+        "baseline": 0.6,
+        "minimum": 0.6,
+        "final": 0.6
+      },
+      {
+        "seed": 43,
+        "baseline": 0.6,
+        "minimum": 0.6,
+        "final": 0.6
+      }
+    ]
+  }
+]
