@@ -1,27 +1,81 @@
 # Gated continual learning
 
-Can a small local language model learn useful new facts, reject bad information,
-and avoid damaging what it already knows? This repository contains our controlled
-fictional-world experiments with Qwen2.5-1.5B and Qwen3.5-2B.
+Can a local language model keep learning useful facts, revise mistakes, and
+preserve what it already knows? This project investigates that question through
+controlled fictional-world experiments and a proposed five-layer architecture.
 
-**Start with the [plain-language findings report](FINDINGS_REPORT.md).**
+**Current status — September 19, 2026:** Real adapter training has been run on
+Qwen2.5 models from 0.5B to 7B and Qwen3.5-2B. The experiments show useful effects
+and important tradeoffs in training settings, intake selection, replay and
+candidate acceptance. The complete architecture remains a research proposal;
+reliable autonomous lifelong learning has not been demonstrated.
 
-**September 19 update:** The [five-layer framework](SUSTAINABLE_CONTINUAL_LEARNING.md)
-now brings together parameter learning, intake gating, capability monitoring,
-adaptive routing and knowledge revision, with evidence status stated for each.
-The accompanying [audit and later scale results](FRAMEWORK_AUDIT.md) correct the
-draft's stronger claims: forgetting was not shown to be eliminated; the 7B
-“7.5×” figure is a three-run **range ratio**, not a variance reduction; and the
-scale gate used 14/54 events (74.1% fewer), not 17% of the stream. These later
-Qwen2.5 experiments qualify the earlier findings; they do not replace them or
-validate the complete architecture.
+| Start here | What it covers |
+|---|---|
+| [Five-layer framework](SUSTAINABLE_CONTINUAL_LEARNING.md) | The current design, with implemented, observed and proposed components distinguished |
+| [Evidence audit and scale results](FRAMEWORK_AUDIT.md) | Newer measurements, corrected claims and measurement limitations |
+| [Original plain-language findings](FINDINGS_REPORT.md) | The earlier pilot sequence: intake, reassessment, repair, replay and promotion |
 
-The main finding: deciding **what deserves learning** and checking **whether the
-resulting weight update deserves adoption** are separate jobs. Selective learning
-helped in the mixed-information test; replay sometimes protected knowledge and
-sometimes introduced interference. A candidate-promotion gate blocked the known
-damaging updates in a retrospective test. These are small pilot results, not a
-claim of general truth detection or solved continual learning.
+## What we have learned
+
+**Choosing training material and deciding whether to adopt the resulting update
+are separate decisions.** Selective intake helped in the original mixed-stream
+tests. Replay sometimes preserved knowledge and sometimes introduced interference.
+A retrospective promotion gate rejected known damaging candidate updates.
+
+The later scale studies add an important qualification: **the benefit depends on
+the training settings, model and outcome being measured.** Lower learning rates
+and fewer epochs accompanied substantially better task scores, but those changes
+were not isolated experimentally. They did not establish that forgetting was
+eliminated. Gating also did not consistently improve both accuracy and variability.
+
+### Later Qwen2.5 scale results
+
+These are mean final fictional-task scores at learning rate `5e-5`, five epochs,
+and three seeds. Range means the highest score minus the lowest, in percentage
+points (pp). Each seed also changes the fictional world. These are descriptive
+pilot results, not estimates of deployment reliability.
+
+| Model | Ungated mean | Gated mean | Ungated range | Gated range |
+|---|---:|---:|---:|---:|
+| 0.5B | 61.7% | 56.7% | 37.5 pp | 42.5 pp |
+| 1.5B | 56.7% | 59.2% | 30.0 pp | 20.0 pp |
+| 7B | 44.2% | 35.8% | 37.5 pp | 5.0 pp |
+
+At 7B, gating produced a smaller observed range but lower average accuracy. The
+often-quoted **7.5×** is the ratio of those ranges, not a variance reduction.
+At 0.5B the gated range was larger. A stable score alone is not enough: usefulness,
+retention and capability changes also matter.
+
+The scale gate selected **14 of 54 stream events**, including repeated facts:
+**74.1% fewer events and 74.6% fewer recorded stream input tokens**. These are
+stream-training reductions, not measured total compute or energy savings.
+The small capability canary recorded one 0.5B run falling from 7/15 to 6/15
+correct answers before recovering; that does not establish general capability
+collapse or protection against it. See the [audit](FRAMEWORK_AUDIT.md) for the
+receipts, baseline corrections and runner limitations.
+
+## The five-layer architecture
+
+| Layer | Purpose | Evidence status |
+|---|---|---|
+| 1. Calibrated parameter learning | Acquire new information while measuring retention | Implemented; training-setting sensitivity observed |
+| 2. Intake gating | Select material for training or external storage | Implemented using supplied provenance; benefits depend on the experiment |
+| 3. Capability monitoring and candidate acceptance | Check task gains and collateral changes before adopting updates | Small canary observations and earlier retrospective promotion tests; integrated protection unproven |
+| 4. Adaptive gatekeeper | Improve routing using outcome feedback and independent checks | Code scaffold and protocol; no validated outcome results |
+| 5. Knowledge lifecycle management | Track disputes, revise errors and manage outdated claims | Earlier partial reassessment/repair evidence; integrated lifecycle proposed |
+
+The proposed flow is: **assess incoming evidence → store or admit it → train a
+candidate → evaluate gains and regressions → accept, retain the prior model, or
+investigate**. Gatekeeper feedback and resolved corrections return through that
+same evaluation path. Relabeling a fact in an external ledger does not erase its
+influence from trained weights; changing model behavior needs a tested update.
+
+Next comes the prespecified v3 confirmation study, stronger retention and
+capability measurements, and prospective tests of adaptation and acceptance.
+The snapshot contains a post-fix v3 smoke run, not a completed confirmation
+campaign. Read the [full framework](SUSTAINABLE_CONTINUAL_LEARNING.md) for the
+design and remaining questions.
 
 ## Is this continual learning or RAG?
 
@@ -73,7 +127,7 @@ learning. See the [findings report](FINDINGS_REPORT.md) for the results and limi
 
 ## What's included
 
-- Every experiment's source code, fixed protocol, fictional data, development
+- The original pilot's source code, protocols, fictional data, development
   failures, numerical reports, summaries and charts under [`study/`](study/).
 - The original 0.5B execution canary, both main model comparisons, evidence
   reassessment, repair, replay-buffer stability, measured-forgetting replay and
@@ -100,15 +154,18 @@ Use Python 3.10 or newer:
 ```console
 python verify_publication.py
 python run_cpu_tests.py
+python audit_framework_evidence.py
 ```
 
-The first command verifies the published evidence files. The second runs routing,
-selection and activation tests. Neither trains a model or downloads weights.
+The first command verifies the original and newer evidence snapshots. The second
+runs original-pilot routing, selection and activation tests. The third recomputes
+the scale-study statistics from individual receipts. None trains a model or
+downloads weights.
 All 27 CPU tests and fresh-workspace preparation passed on the publication copy.
 The original GPU runs are recorded; the full GPU sequence has not been rerun from
 this newly packaged checkout.
 
-## Reproduce with a GPU
+## Reproduce the original pilot with a GPU
 
 The original runs used an RTX 5060 with 8GB VRAM, CUDA-capable PyTorch,
 Transformers 5.13.1, PEFT 0.19.1, Accelerate 1.15.0 and bitsandbytes 0.49.2.
@@ -171,6 +228,13 @@ deliberate limitations. Later stages branch from earlier checkpoints, including
 damaged ones. The candidate gate was tested on previously known candidates.
 No resident model, general conversational performance, energy savings, or
 autonomous fact-checking capability was established.
+
+The later scale studies also have only three seeds, no matched-random arm in
+v1/v2, and a small capability probe with baseline, parsing and training-mode
+limitations. Their source snapshot includes stale protocol comments; consult the
+[audit](FRAMEWORK_AUDIT.md) before interpreting or reusing it. We have not
+established architecture novelty, eliminated catastrophic forgetting, or validated
+the complete five-layer system for deployment.
 
 Project license: not yet specified. Upstream models and dependencies retain their
 own licenses; see their model cards and package repositories.
